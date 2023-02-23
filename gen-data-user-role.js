@@ -2,9 +2,6 @@ const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 var json = require('./usersCognito.json');
 
-// Get data from cognito:: aws cognito-idp list-users --user-pool-id us-east-1_VOSHOY7Am > usersCognito.json
-
-//Users
 function generateUserRoles() {
 const schemaUsers = {
     'first_name': {

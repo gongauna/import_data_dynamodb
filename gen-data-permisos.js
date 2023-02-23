@@ -65,8 +65,6 @@ readXlsxFile('./data-user.xlsx', {schema: schemaPermissions, sheet: 'permissions
       console.log("Permission JSON file saved");
   })
 });
-
-//Para importar: aws dynamodb batch-write-item --request-items file://permissions_dev.json
 }
 
 module.exports.generatePermissions = generatePermissions;

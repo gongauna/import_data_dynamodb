@@ -71,5 +71,4 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
 })
 
 }
-//Para importar: aws dynamodb batch-write-item --request-items file://roles_dev.json
 module.exports.generateRoles = generateRoles;

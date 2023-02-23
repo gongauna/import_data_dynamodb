@@ -2,8 +2,6 @@ const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 var json = require('./usersCognito.json');
 
-// Get data from cognito:: aws cognito-idp list-users --user-pool-id us-east-1_VOSHOY7Am > usersCognito.json
-
 function generateUsers() {
 //Users
 const schemaUsers = {
@@ -128,5 +126,5 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
     }
 })
 }
-//Para importar: aws dynamodb batch-write-item --request-items file://users_dev_0.json
+
 module.exports.generateUsers = generateUsers;
