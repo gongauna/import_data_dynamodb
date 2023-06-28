@@ -1,5 +1,4 @@
 usersCognito.json
-data-user.xlsx
-data-annotation-types.xlsx
+*.xlsx
 
 node_modules/
