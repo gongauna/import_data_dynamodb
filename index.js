@@ -3,7 +3,9 @@
 const roles = require('./user-role-permission/gen-data-roles');
 const users = require('./user-role-permission/gen-data-users');
 const userRoles =  require('./user-role-permission/gen-data-user-role');*/
-const collectionHouseRecords = require('./collection-houses-data/gen-data-loans-collection-house');
+const collectionHouseRecords = require('./annotations-issue-promissory/gen-data-loans-collection-house');
+const collectionHouseRecordsAnnotations = require('./collection-houses-data/gen-data-loans-collection-house-annotations');
+const promissoryNoteAnnotations = require('./annotations-issue-promissory/gen-annotations-loan-promissory');
 
 /*permissions.generatePermissions();
 roles.generateRoles();
@@ -18,6 +20,15 @@ collection_annotation_types.generateAnnotationTypes();*/
 
 //Collection houses records
 collectionHouseRecords.generateCollectionHouseRecords();
+
+
+//Collection houses records annotations
+//collectionHouseRecordsAnnotations.generateCollectionHouseRecordsAnnotations();
+
+
+//Issue promissory
+//promissoryNoteAnnotations.promissoryNoteAnnotations();
+
 
 //Docu:
 

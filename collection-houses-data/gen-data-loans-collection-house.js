@@ -52,10 +52,11 @@ const schemaLoans = {
 }
 
 const bucketsToId = {
-  "91-180": "bucket_gt_1"
+  "91-180": "bucket_gt_1",
+  "181-210": "bucket_gt_2"
 }
 
-readXlsxFile('./data-collection-houses_1_credito.xlsx', { schema: schemaLoans, sheet: 'loans'}).then(async (rows) => {
+readXlsxFile('./data-collection-houses_xdmasters.xlsx', { schema: schemaLoans, sheet: 'Hoja1'}).then(async (rows) => {
   const arrayBuckets = rows.rows;
   
   const now = new Date();
