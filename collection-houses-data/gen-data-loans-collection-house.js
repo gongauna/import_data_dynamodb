@@ -8,7 +8,7 @@ const getUserLoan = async (loanId) => {
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
     sessionToken: process.env.AWS_SESSION_TOKEN,
-    region: 'us-east-1' // Replace with your desired AWS region
+    region: 'us-east-1' 
   });
 
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
@@ -48,23 +48,72 @@ const schemaLoans = {
     'assigned_end_at': {
       prop: 'assigned_end_at',
       type: Date
-    },
+    }
 }
+
+const country = "gt"
 
 const bucketsToId = {
-  "91-180": "bucket_gt_1",
-  "181-210": "bucket_gt_2"
+  "91-180": `bucket_${country}_1`,
+  "181-210": `bucket_${country}_2`,
+  "211-360": `bucket_${country}_3`,
+  "361+": `bucket_${country}_4`,
 }
 
-readXlsxFile('./data-collection-houses_xdmasters.xlsx', { schema: schemaLoans, sheet: 'Hoja1'}).then(async (rows) => {
-  const arrayBuckets = rows.rows;
+const bucketsNameToId = {
+  [`bucket_${country}_1`]: "91-180 días",
+  [`bucket_${country}_2`]: "181-210 días",
+  [`bucket_${country}_3`]: "211-360 días",
+  [`bucket_${country}_4`]: "Más de 361 días"
+}
+
+const houses = [
+  "lexcom","admicarter"
+  //"avantte","tecserfin","xdmasters"
+  //"admicarter"
+  //,"vlrservicios","recaguagt","recsa","contacto502","aserta","corpocredit","sederegua",
+  //"claudiaaguilar"
+]
+
+const getLoanState = async (loanId) => {
+  AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    sessionToken: process.env.AWS_SESSION_TOKEN,
+    region: 'us-east-1' // Replace with your desired AWS region
+  });
+
+  const dynamodbClient = new AWS.DynamoDB.DocumentClient();
+  const foundItem = await dynamodbClient.get({
+    TableName: 'loan_state',
+    Key: {
+      loan_id: loanId
+    }
+  }).promise();
+  return foundItem.Item;
+}
+
+readXlsxFile('./data-casas-de-cobranza.xlsx', { schema: schemaLoans, sheet: 'nuevas'}).then(async (rows) => {
+  houses.forEach(async (house) => {
+
+  const arrayBuckets = rows.rows.filter((item) => item.house_id === `HOUSE|${house}`);
   
   const now = new Date();
   const jsonLoansArray = await Promise.all(arrayBuckets.map(async (row) => {
+    
     const userId = await getUserLoan(row.loan_id);
-    const assignedAt = new Date(row.assigned_at);
-    const assignedEndAt = new Date(row.assigned_end_at);
+    const assignedAt = new Date(row.assigned_at );
+    const assignedEndAtString = row.assigned_end_at ? row.assigned_end_at : "2100-12-31T00:00:00.000Z";
+    let status = "active";
+    
+    const loanState = await getLoanState(row.loan_id);
+    if (loanState["settled"] > 0 && loanState["status"] === "released" ) {
+      status = "partial";
+    }
+
+    const assignedEndAt =new Date(assignedEndAtString);
     const bucketIdHandled = bucketsToId[row.bucket_id];
+    const bucketNameHandled = bucketsNameToId[bucketIdHandled];
     return {
         PutRequest: {
           Item: {
@@ -85,7 +134,7 @@ readXlsxFile('./data-collection-houses_xdmasters.xlsx', { schema: schemaLoans, s
                   S: userId
                 },
                 bucket_name: {
-                  S: `Bucket ${row.bucket_id}`
+                  S: bucketNameHandled
                 },
                 bucket_id: {
                   S: bucketIdHandled
@@ -105,7 +154,7 @@ readXlsxFile('./data-collection-houses_xdmasters.xlsx', { schema: schemaLoans, s
               S: "LOAN|HOUSE"
             },
             status:{
-              S: "active"
+              S: status
             }
           }
         }
@@ -122,13 +171,14 @@ readXlsxFile('./data-collection-houses_xdmasters.xlsx', { schema: schemaLoans, s
     let collectionHousesRecordsJson = {
       collection_house_records: filtered
     };
-    fs.writeFile(`./files_to_import/collection_houses_loans_${r}.json`,JSON.stringify(collectionHousesRecordsJson),"utf8", function (err) {
+    fs.writeFile(`./files_to_import/TODAS/${house}/collection_houses_loans_todas_${r}.json`,JSON.stringify(collectionHousesRecordsJson),"utf8", function (err) {
         if (err) {
           console.log("Error"+err);
         }
         console.log(`Collection houses loans ${r} JSON file saved`);
     })
   }
+  })
 });
 }
 
