@@ -28,6 +28,33 @@ const getUserLoan = async (loanId) => {
   return Item["user_id"] ?? "to_be_defined";
 }
 
+const getLoanAssignments = async (loanId) => {
+  AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    sessionToken: process.env.AWS_SESSION_TOKEN,
+    region: 'us-east-1' 
+  });
+
+  const dynamodbClient = new AWS.DynamoDB.DocumentClient();
+  const findParams = {
+      TableName: "collection_house_records",
+      ExpressionAttributeNames: {
+        "#pk": "pk"
+      },
+      ExpressionAttributeValues: {
+        ":pk": `LOAN|`+loanId
+      },
+      KeyConditionExpression: "#pk = :pk",
+  };
+  
+
+  //const command = new QueryCommand(findParams);
+  let foundItems = await dynamodbClient.query(findParams).promise();
+  
+  return foundItems.Items;
+}
+
 function generateCollectionHouseRecordsAnnotations() {
 const schemaLoans = {
     'bucket_id': {
@@ -83,20 +110,34 @@ const bucketsNameToId = {
 }
 
 const houses = [
-  "lexcom","admicarter"
-  /*"avantte",
-  "tecserfin","xdmasters","admicarter"
-  ,"vlrservicios","recaguagt","recsa","contacto502","aserta","corpocredit","sederegua",
-  "claudiaaguilar",
-  "optima","recaguado","coreval"*/
+  "lexcom","admicarter","claudiaaguilar",
+  "avantte1","tecserfin","xdmasters",
+  "admicarter","vlrservicios","recaguagt","recsa","contacto502",
+  "aserta","corpocredit","sederegua"
 ]
 
-readXlsxFile('./data-casas-de-cobranza.xlsx', { schema: schemaLoans, sheet: 'nuevas'}).then(async (rows) => {
+readXlsxFile('./data-casas-de-cobranza.xlsx', { schema: schemaLoans, sheet: 'Hoja1'}).then(async (rows) => {
   houses.forEach(async (house) => {
     const arrayBuckets = rows.rows.filter((item) => item.house_id === `HOUSE|${house}`);
   
     const now = new Date();
+    const loansActivesSameHouse = [];
     const jsonLoansArray = await Promise.all(arrayBuckets.map(async (row) => {
+        const loanAssignment = await getLoanAssignments(row.loan_id);
+        if (loanAssignment) {
+          const loanFulfilled = loanAssignment.filter((item) => item["status"] === "fulfilled");
+          if (loanFulfilled && loanFulfilled.length > 0) {
+            return null;
+          }
+      
+          const loanActive = loanAssignment.filter((item) => item["status"] === "active" && item?.["sk"].split("|")[1] !== house);
+          const loanActiveSameHouse = loanAssignment.filter((item) => item["status"] === "active" && item?.["sk"].split("|")[1] === house);
+          if (loanActiveSameHouse && loanActiveSameHouse.length > 0) {
+            loansActivesSameHouse.push(loanActive);
+            return null;
+          }
+        }
+
         const userId = await getUserLoan(row.loan_id);
         const assignedAt = new Date(row.assigned_at);
         const assignedEndAtString = row.assigned_end_at ? row.assigned_end_at : "2100-12-31T00:00:00.000Z";
@@ -104,6 +145,7 @@ readXlsxFile('./data-casas-de-cobranza.xlsx', { schema: schemaLoans, sheet: 'nue
 
         const bucketIdHandled = bucketsToId[row.bucket_id];
         const bucketNameHandled = bucketsNameToId[bucketIdHandled];
+        const createdAt = "2023-08-04T12:00:00.395Z"
         return {
             PutRequest: {
               Item: {
@@ -111,7 +153,7 @@ readXlsxFile('./data-casas-de-cobranza.xlsx', { schema: schemaLoans, sheet: 'nue
                   "S": uuidv4()
                 },
                 "created_at": {
-                  "S": "2023-07-11T00:00:00.395Z"
+                  "S": createdAt
                 },
                 "data": {
                   "M": {
@@ -124,7 +166,7 @@ readXlsxFile('./data-casas-de-cobranza.xlsx', { schema: schemaLoans, sheet: 'nue
                   "S": row.loan_id
                 },
                 "order_by": {
-                  "S": "2023-07-11T00:00:00.395Z"
+                  "S": createdAt
                 },
                 "type": {
                   "S": "collection_house_assignment"
@@ -138,12 +180,13 @@ readXlsxFile('./data-casas-de-cobranza.xlsx', { schema: schemaLoans, sheet: 'nue
     }));
 
     const cantRequest = 24;
-    const cantFiles = Math.ceil(jsonLoansArray.length / cantRequest);
+    const filteredNotNull = jsonLoansArray.filter((item) => item);
+    const cantFiles = Math.ceil(filteredNotNull.length / cantRequest);
 
     for (let r=0; r< cantFiles; r++) {
       const startRow = r*cantRequest;  
       const endRow = (r+1)*cantRequest;
-      const filtered = jsonLoansArray.filter((row) => jsonLoansArray.indexOf(row) >= startRow && jsonLoansArray.indexOf(row) < endRow);
+      const filtered = filteredNotNull.filter((row) => filteredNotNull.indexOf(row) >= startRow && filteredNotNull.indexOf(row) < endRow);
       let collectionHousesRecordsJson = {
         collection_annotation: filtered
       };
