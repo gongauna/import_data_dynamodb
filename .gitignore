@@ -1,5 +1,5 @@
 usersCognito.json
 *.xlsx
 
-files_to_import/
+files_to_import/*.json
 node_modules/

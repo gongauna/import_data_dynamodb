@@ -270,7 +270,7 @@ function generateCollectionHouseRecords() {
           PutRequest: {
             Item: {
               pk: {S:`LOAN|${row.loan_id}`},
-              sk: {S:`${row.house_id}|BUCKET|${bucketIdHandled}`},
+              sk: {S:`HOUSE|${row.house_id}|BUCKET|${bucketIdHandled}`},
               props: {
                 M: {
                   assigned_at: {
@@ -334,7 +334,7 @@ function generateCollectionHouseRecords() {
     }
 
     
-    const cantFilesAnnotations = Math.ceil(annotationsArray.length / cantRequest);
+    /*const cantFilesAnnotations = Math.ceil(annotationsArray.length / cantRequest);
     for (let r=0; r< cantFilesAnnotations; r++) {
       const startRow = r*cantRequest;  
       const endRow = (r+1)*cantRequest;
@@ -348,7 +348,7 @@ function generateCollectionHouseRecords() {
           }
           console.log(`Collection houses annotations ${r} JSON file saved`);
       })
-    }
+    }*/
     })
   })
 }

@@ -21,16 +21,15 @@ const getLoans = async () => {
   };
   const { Items } = await dynamodbClient.query({
     TableName: 'collection_house_records',
-    IndexName: 'type_index',
+    IndexName: 'sk_index',
     ExpressionAttributeNames: {
-      "#type": "type"
+      "#sk": "sk"
     },
     ExpressionAttributeValues: {
-      ":type": `LOAN|HOUSE`,
+      ":sk": `admicarter|BUCKET|bucket_gt_1`,
     },
-    KeyConditionExpression: "#type = :type"
+    KeyConditionExpression: "#sk = :sk"
   }).promise();
-  console.log("CANTIDAD A BORRAR:"+Items.length);
   return Items;
 }
 
@@ -55,13 +54,14 @@ const deleteLoan = async (pkParam, skParam) => {
 
 
 async function deleteCollectionHouseRecords() {
-  console.log("111");
+  console.log("Empezo");
   const items = await getLoans();
 
+  console.log("Cantidad: "+items.length)
   await Promise.all(items.map((item) => {
     deleteLoan(item["pk"], item["sk"]);
   }));
-  console.log("2222")
+  console.log("Fin")
 }
 
 module.exports.deleteCollectionHouseRecords = deleteCollectionHouseRecords;
