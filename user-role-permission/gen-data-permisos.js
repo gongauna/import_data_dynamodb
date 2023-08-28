@@ -11,7 +11,10 @@ const schemaPermissions = {
   },
   'name': {
     prop: 'name',
-    type: String
+    type: (value) => {
+      const splitPipe = value.split('|');
+      return splitPipe[1].trim()
+    }
   }
 }
 
@@ -58,7 +61,7 @@ readXlsxFile('./data-user.xlsx', {schema: schemaPermissions, sheet: 'permissions
     internal_users_dev: jsonPermissionArray
   };
 
-  fs.writeFile("./files_to_import/permissions_dev.json",JSON.stringify(internalUserJson),"utf8", function (err) {
+  fs.writeFile("./files_to_import/varias/permissions_dev.json",JSON.stringify(internalUserJson),"utf8", function (err) {
       if (err) {
         console.log("Error"+err);
       }

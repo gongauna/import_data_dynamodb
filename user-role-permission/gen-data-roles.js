@@ -62,7 +62,7 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
       internal_users_dev: jsonRolesArray
     };
 
-    fs.writeFile("./files_to_import/roles_dev.json",JSON.stringify(internalUserJson),"utf8", function (err) {
+    fs.writeFile("./files_to_import/varias/roles_dev.json",JSON.stringify(internalUserJson),"utf8", function (err) {
         if (err) {
           console.log("Error"+err);
         }

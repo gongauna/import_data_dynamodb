@@ -1,6 +1,6 @@
 const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
-var json = require('./usersCognito.json');
+var json = require('./../usersCognito.json');
 
 function generateUsers() {
 //Users
@@ -17,6 +17,14 @@ const schemaUsers = {
       prop: 'email',
       type: String
     },
+    'position': {
+      prop: 'position',
+      type: String
+    },
+    'department': {
+      prop: 'department',
+      type: String
+    },
     'rol': {
       prop: 'rol',
       type: (value) => {
@@ -26,12 +34,21 @@ const schemaUsers = {
         }
 
         const arrayObjectRoles = arrayRoles.map((rol) => {
+          const splitPipe = rol.split('|');
           return {
-            S: rol.trim()
+            S: splitPipe[1].trim()
           }
         })
         return arrayObjectRoles;
       }
+    },
+    'created_at': {
+      prop: 'created_at',
+      type: String
+    },
+    'deleted_at': {
+      prop: 'deleted_at',
+      type: String
     }
 }
 
@@ -50,9 +67,11 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
     });
 
     const jsonUsersArray = arrayUsers.map((row) => {
-      const userId = cognitoUserMap.get(row.email) ?? row.email;
+      const createdAt = getDateFormatted(row.created_at).toISOString();
+      const deletedAt = row.deleted_at ? getDateFormatted(row.deleted_at).toISOString() : null;
+      const userId = row.deleted_at ? (`${row.first_name}-${row.last_name}`).replace(new RegExp(' ', 'g'), '').toLowerCase() : (cognitoUserMap.get(row.email) ?? row.email);
       if (userId) {
-          return {
+          const rowResponse = {
             PutRequest: {
               Item: {
                 pk: {S:`USER|${userId}`},
@@ -60,16 +79,16 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
                 props: {
                     M: {
                       created_at: {
-                        S: new Date().toISOString()
+                        S: createdAt
                       },
                       updated_at: {
-                        S: new Date().toISOString()
+                        S: createdAt
                       },
                       id: {
                         S: userId
                       },
                       email: {
-                        S: row.email
+                        S: row.email && row.email.length > 0 ? row.email : "deleted@vana.gt"
                       },
                       first_name: {
                         S: row.first_name
@@ -78,15 +97,20 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
                         S: row.last_name
                       },
                       roles: {
-                        L: row.rol
+                        L: row.rol?.length > 0 ? row.rol : [{
+                          S: "deleted"
+                        }]
                       },
                       status: {
-                        S: "enabled"
+                        S: row.deleted_at ? "disabled" : "enabled"
+                      },
+                      department: {
+                        S: row.department
                       }
                     }
                 },
                 email: {
-                  S: row.email
+                  S: row.email && row.email.length > 0 ? row.email : "deleted@vana.gt"
                 },
                 shown_id: {
                   S: userId
@@ -96,7 +120,21 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
                 }
               }
             }
-        }
+          }
+
+          if (deletedAt) {
+            rowResponse.PutRequest.Item.props.M["deleted_at"] = {
+              S: deletedAt
+            }
+          }
+
+          if (row.position) {
+            rowResponse.PutRequest.Item.props.M["deleted_at"] = {
+              S: row.position
+            }
+          }
+
+          return rowResponse;
       } else {
         return row.email;
       }
@@ -113,11 +151,11 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
     for (let r=0; r< cantFiles; r++) {
       const startRow = r*cantRequest;  
       const endRow = (r+1)*cantRequest;
-      const filtered = jsonUsersArray.filter((row) => jsonUsersArray.indexOf(row) >= startRow && jsonUsersArray.indexOf(row) < endRow);
+      const filtered = jsonUsersArray.filter((item) => item).filter((row) => jsonUsersArray.indexOf(row) >= startRow && jsonUsersArray.indexOf(row) < endRow);
       let internalUserJson = {
         internal_users_dev: filtered
       };
-      fs.writeFile(`./files_to_import/users_dev_${r}.json`,JSON.stringify(internalUserJson),"utf8", function (err) {
+      fs.writeFile(`./files_to_import/varias/users_dev_${r}.json`,JSON.stringify(internalUserJson),"utf8", function (err) {
           if (err) {
             console.log("Error"+err);
           }
@@ -125,6 +163,18 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
       })
     }
 })
+}
+
+function getDateFormatted(dateString) {
+  if (dateString) {
+    const inputDate = dateString;
+    const [day, month, year] = inputDate.split('/');
+    const formattedDate = new Date(`20${year}-${month}-${day}`);
+    
+    return formattedDate;
+  } else {
+    return new Date();
+  }
 }
 
 module.exports.generateUsers = generateUsers;

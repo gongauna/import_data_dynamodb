@@ -1,37 +1,54 @@
 const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
-var json = require('./usersCognito.json');
+var json = require('../usersCognito.json');
 
 function generateUserRoles() {
 const schemaUsers = {
-    'first_name': {
-      prop: 'first_name',
-      type: String
-    },
-    'last_name': {
-      prop: 'last_name',
-      type: String
-    },
-    'email': {
-      prop: 'email',
-      type: String
-    },
-    'rol': {
-      prop: 'rol',
-      type: (value) => {
-        const arrayRoles = value.split(',');
-        if (!arrayRoles) {
-          return null;
-        }
-
-        const arrayObjectRoles = arrayRoles.map((rol) => {
-          return {
-            S: rol.trim()
-          }
-        })
-        return arrayObjectRoles;
+  'first_name': {
+    prop: 'first_name',
+    type: String
+  },
+  'last_name': {
+    prop: 'last_name',
+    type: String
+  },
+  'email': {
+    prop: 'email',
+    type: String
+  },
+  'position': {
+    prop: 'position',
+    type: String
+  },
+  'department': {
+    prop: 'department',
+    type: String
+  },
+  'rol': {
+    prop: 'rol',
+    type: (value) => {
+      const arrayRoles = value.split(',');
+      if (!arrayRoles) {
+        return null;
       }
+
+      const arrayObjectRoles = arrayRoles.map((rol) => {
+        const splitPipe = rol.split('|');
+        return {
+          S: splitPipe[1].trim()
+        }
+      })
+      return arrayObjectRoles;
     }
+  },
+  'created_at': {
+    prop: 'created_at',
+    type: String
+  },
+  'deleted_at': {
+    prop: 'deleted_at',
+    type: String
+  }
 }
 
 const arraysRolesPermissions = [];
@@ -69,10 +86,13 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
     const jsonUsersArray = []
     arrayUsers.forEach((row) => {
       const userId = cognitoUserMap.get(row.email) ?? row.email;
-      const rowsToInsert = row.rol.forEach((rol) => {
+      const rowsToInsert = row.rol?.forEach((rol) => {
 
         const [permissionsFiltered] = arraysRolesPermissions.filter((rpe) => rpe.role === rol.S);
 
+        if (!permissionsFiltered) {
+          console.log("ERROR:"+JSON.stringify(rol))
+        }
         const permissionsRol = permissionsFiltered.permissions;
 
           jsonUsersArray.push({
@@ -88,7 +108,7 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
                 },
                 },
                 email: {
-                  S: row.email
+                  S: row.email && row.email.length > 0 ? row.email : "deleted@vana.gt"
                 },
                 shown_id: {
                   S: rol.S
@@ -113,7 +133,7 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
       let internalUserJson = {
         internal_users_dev: filtered
       };
-      fs.writeFile(`./files_to_import/users_roles_dev_${r}.json`,JSON.stringify(internalUserJson),"utf8", function (err) {
+      fs.writeFile(`./files_to_import/varias/users_roles_dev_${r}.json`,JSON.stringify(internalUserJson),"utf8", function (err) {
           if (err) {
             console.log("Error"+err);
           }
