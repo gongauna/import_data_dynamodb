@@ -129,7 +129,7 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
           }
 
           if (row.position) {
-            rowResponse.PutRequest.Item.props.M["deleted_at"] = {
+            rowResponse.PutRequest.Item.props.M["position"] = {
               S: row.position
             }
           }

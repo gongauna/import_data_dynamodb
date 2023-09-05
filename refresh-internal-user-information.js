@@ -6,11 +6,11 @@ const userRoles =  require('./user-role-permission/gen-data-user-role')
 const deleteInternalUsersRecords = require('./user-role-permission/delete-data-internal-users');
 
 // Limpio toda la tabla
-deleteInternalUsersRecords.deleteInternalUsersRecords();
+//deleteInternalUsersRecords.deleteInternalUsersRecords();
 
 // Genero data
-/*users.generateUsers();
-roles.generateRoles();
+users.generateUsers();
+/*roles.generateRoles();
 permissions.generatePermissions();
 userRoles.generateUserRoles();*/
 

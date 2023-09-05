@@ -124,23 +124,26 @@ function generateCollectionHouseRecords() {
 
   const bucketsToId = {
     "91-180": `bucket_${country}_1`,
+    "91-210": `bucket_${country}_1`,
     "181-210": `bucket_${country}_2`,
     "211-360": `bucket_${country}_3`,
     "361+": `bucket_${country}_4`,
+    "361-540": `bucket_${country}_4`,
   }
 
   const bucketsNameToId = {
     [`bucket_${country}_1`]: "91-180 días",
     [`bucket_${country}_2`]: "181-210 días",
     [`bucket_${country}_3`]: "211-360 días",
-    [`bucket_${country}_4`]: "Más de 361 días"
+    [`bucket_${country}_4`]: "Más de 361 días",
   }
 
   const houses = [
     "lexcom","admicarter","claudiaaguilar",
     "avantte","tecserfin","xdmasters",
-    "admicarter","vlrservicios","recaguagt","recsa","contacto502",
-    "aserta","corpocredit","sederegua"
+    "vlrservicios","recaguagt","recsa","contacto502",
+    "aserta","corpocredit","sederegua",
+    "serviciosestrategicos","activagroup"
   ]
 
   const getLoanState = async (loanId) => {
@@ -182,7 +185,7 @@ function generateCollectionHouseRecords() {
 
     const annotationsArray = [];
     const arrayBuckets = rows.rows.filter((item) => item.house_id === house);
-    
+
     const now = new Date();
     const loansActivesDifferentHouse = [];
     const loansActivesSameHouse = [];
@@ -233,7 +236,7 @@ function generateCollectionHouseRecords() {
       const bucketNameHandled = bucketsNameToId[bucketIdHandled];
 
       //Annotation
-      const createdAt = "2023-08-04T12:00:00.395Z"
+      const createdAt = "2023-09-05T12:00:00.395Z"
       annotationsArray.push({
           PutRequest: {
             Item: {
@@ -329,12 +332,12 @@ function generateCollectionHouseRecords() {
           if (err) {
             console.log("Error"+err);
           }
-          console.log(`Collection houses loans ${r} JSON file saved`);
+          //console.log(`Collection houses loans ${r} JSON file saved`);
       })
     }
 
     
-    /*const cantFilesAnnotations = Math.ceil(annotationsArray.length / cantRequest);
+    const cantFilesAnnotations = Math.ceil(annotationsArray.length / cantRequest);
     for (let r=0; r< cantFilesAnnotations; r++) {
       const startRow = r*cantRequest;  
       const endRow = (r+1)*cantRequest;
@@ -346,9 +349,9 @@ function generateCollectionHouseRecords() {
           if (err) {
             console.log("Error"+err);
           }
-          console.log(`Collection houses annotations ${r} JSON file saved`);
+          //console.log(`Collection houses annotations ${r} JSON file saved`);
       })
-    }*/
+    }
     })
   })
 }
