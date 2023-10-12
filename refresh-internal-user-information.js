@@ -10,8 +10,9 @@ const deleteInternalUsersRecords = require('./user-role-permission/delete-data-i
 
 // Genero data
 users.generateUsers();
-/*roles.generateRoles();
+roles.generateRoles();
 permissions.generatePermissions();
-userRoles.generateUserRoles();*/
+userRoles.generateUserRoles();
 
 //aws dynamodb batch-write-item --request-items file://files_to_import/varias/users_dev_0.json
+

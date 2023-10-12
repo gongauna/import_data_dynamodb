@@ -44,11 +44,31 @@ const schemaUsers = {
     },
     'created_at': {
       prop: 'created_at',
-      type: String
+      type: (value) => {
+        if (typeof value === "string") {
+          const [day, month, year] = value.split('/');
+          return `${day}/${month}/${year.length > 2 ? year.substring(2,4) : year}`
+        } else {
+          const [year, month, day] = value.toISOString().substring(0,10).split('-');
+
+          return `${day}/${month}/${year.substring(2,4)}`
+        }
+      }
     },
     'deleted_at': {
       prop: 'deleted_at',
-      type: String
+      type: (value) => {
+        if (typeof value === "string") {
+          const [day, month, year] = value.split('/');
+          return `${day}/${month}/${year.length > 2 ? year.substring(2,4) : year}`
+        } else {
+          const day = value.getUTCDate();
+          const month = value.getMonth()+1;
+          const year = value.getUTCFullYear();
+
+          return `${day}/${month}/${year.toString().substring(2,4)}`
+        }
+      }
     }
 }
 
@@ -62,11 +82,11 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
       const id = element.Username
       if (email.Value) {
         cognitoUserMap.set(email.Value, id);
-
       }
     });
 
     const jsonUsersArray = arrayUsers.map((row) => {
+      console.log(`${row.last_name}-${row.created_at}`);
       const createdAt = getDateFormatted(row.created_at).toISOString();
       const deletedAt = row.deleted_at ? getDateFormatted(row.deleted_at).toISOString() : null;
       const userId = row.deleted_at ? (`${row.first_name}-${row.last_name}`).replace(new RegExp(' ', 'g'), '').toLowerCase() : (cognitoUserMap.get(row.email) ?? row.email);
@@ -88,7 +108,7 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
                         S: userId
                       },
                       email: {
-                        S: row.email && row.email.length > 0 ? row.email : "deleted@vana.gt"
+                        S: row.email && row.email.length > 0 ? row.email : `deleted-${userId}@vana.gt`
                       },
                       first_name: {
                         S: row.first_name
@@ -136,13 +156,13 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
 
           return rowResponse;
       } else {
-        return row.email;
+        return `${row.first_name}-${row.last_name}-${row.deleted_at}`;//row.email;
       }
       
     });
 
     let internalUserJson = {
-      internal_users_dev: jsonUsersArray
+      internal_users_qa: jsonUsersArray
     };
 
     const cantRequest = 24;
@@ -152,10 +172,11 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
       const startRow = r*cantRequest;  
       const endRow = (r+1)*cantRequest;
       const filtered = jsonUsersArray.filter((item) => item).filter((row) => jsonUsersArray.indexOf(row) >= startRow && jsonUsersArray.indexOf(row) < endRow);
+      const ambiente = "";
       let internalUserJson = {
-        internal_users_dev: filtered
+        [`internal_users${ambiente}`]: filtered
       };
-      fs.writeFile(`./files_to_import/varias/users_dev_${r}.json`,JSON.stringify(internalUserJson),"utf8", function (err) {
+      fs.writeFile(`./files_to_import/varias/users_prod_${r}.json`,JSON.stringify(internalUserJson),"utf8", function (err) {
           if (err) {
             console.log("Error"+err);
           }
@@ -167,11 +188,22 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
 
 function getDateFormatted(dateString) {
   if (dateString) {
-    const inputDate = dateString;
-    const [day, month, year] = inputDate.split('/');
-    const formattedDate = new Date(`20${year}-${month}-${day}`);
-    
-    return formattedDate;
+    if (typeof dateString === "string") {
+      const inputDate = dateString;
+      const [day, month, year] = inputDate.split('/');
+      const formattedDate = new Date(`20${year}-${month}-${day}`);
+
+      return formattedDate;
+    } else {
+      /*const date2 = new Date(dateString)
+      const day = date2.getUTCDate();
+      const month = date2.getUTCMonth();
+      const year = date2.getUTCFullYear();
+      console.log(`${year}-${month}-${day}`);
+      const formattedDate = new Date(`${year}-${month}-${day}`);*/
+
+      return dateString;
+    }
   } else {
     return new Date();
   }

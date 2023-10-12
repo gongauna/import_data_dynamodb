@@ -2,7 +2,7 @@ const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 const AWS = require('aws-sdk');
 
-
+const ambiente = ""
 const getItemsToDelete = async () => {
   AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
@@ -12,11 +12,8 @@ const getItemsToDelete = async () => {
   });
 
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
-  const params = {
-    TableName: 'internal_users',
-  };
   const { Items } = await dynamodbClient.scan({
-    TableName: 'internal_users'
+    TableName: 'internal_users'+ambiente
   }).promise();
   return Items;
 }
@@ -31,7 +28,7 @@ const deleteItem = async (pkParam, skParam) => {
 
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
   const response = await dynamodbClient.delete({
-    TableName: 'internal_users',
+    TableName: 'internal_users'+ambiente,
     Key: {
       pk: pkParam,
       sk: skParam

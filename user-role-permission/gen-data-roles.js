@@ -58,8 +58,9 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
       }
     });
 
+    const ambiente = "";
     let internalUserJson = {
-      internal_users_dev: jsonRolesArray
+      [`internal_users${ambiente}`]: jsonRolesArray
     };
 
     fs.writeFile("./files_to_import/varias/roles_dev.json",JSON.stringify(internalUserJson),"utf8", function (err) {

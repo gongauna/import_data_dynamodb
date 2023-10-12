@@ -43,11 +43,27 @@ const schemaUsers = {
   },
   'created_at': {
     prop: 'created_at',
-    type: String
+    type: (value) => {
+      if (typeof value === "string") {
+        return value;
+      } else {
+        const [year, day, month] = value.toISOString().substring(0,10).split('-');
+
+        return `${day}/${month}/${year.substring(2,4)}`
+      }
+    }
   },
   'deleted_at': {
     prop: 'deleted_at',
-    type: String
+    type: (value) => {
+      if (typeof value === "string") {
+        return value;
+      } else {
+        const [year, day, month] = value.toISOString().substring(0,10).split('-');
+
+        return `${day}/${month}/${year.substring(2,4)}`
+      }
+    }
   }
 }
 
@@ -85,7 +101,7 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
 
     const jsonUsersArray = []
     arrayUsers.forEach((row) => {
-      const userId = cognitoUserMap.get(row.email) ?? row.email;
+      const userId = row.deleted_at ? (`${row.first_name}-${row.last_name}`).replace(new RegExp(' ', 'g'), '').toLowerCase() : (cognitoUserMap.get(row.email) ?? row.email);
       const rowsToInsert = row.rol?.forEach((rol) => {
 
         const [permissionsFiltered] = arraysRolesPermissions.filter((rpe) => rpe.role === rol.S);
@@ -108,7 +124,7 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
                 },
                 },
                 email: {
-                  S: row.email && row.email.length > 0 ? row.email : "deleted@vana.gt"
+                  S: row.email && row.email.length > 0 ? row.email : `deleted-${userId}@vana.gt`
                 },
                 shown_id: {
                   S: rol.S
@@ -130,8 +146,9 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
       const startRow = r*cantRequest;  
       const endRow = (r+1)*cantRequest;
       const filtered = jsonUsersArray.filter((row) => jsonUsersArray.indexOf(row) >= startRow && jsonUsersArray.indexOf(row) < endRow);
+      const ambiente = "";
       let internalUserJson = {
-        internal_users_dev: filtered
+        [`internal_users${ambiente}`]: filtered
       };
       fs.writeFile(`./files_to_import/varias/users_roles_dev_${r}.json`,JSON.stringify(internalUserJson),"utf8", function (err) {
           if (err) {

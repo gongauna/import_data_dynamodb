@@ -1,6 +1,7 @@
 const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 
+const ambiente = "";
 
 function generatePermissions() {
   //PERMISOS
@@ -57,8 +58,28 @@ readXlsxFile('./data-user.xlsx', {schema: schemaPermissions, sheet: 'permissions
       }
   });
 
-  let internalUserJson = {
-    internal_users_dev: jsonPermissionArray
+  const cantRequest = 24;
+  const cantFiles = Math.ceil(jsonPermissionArray.length / cantRequest);
+
+  for (let r=0; r< cantFiles; r++) {
+    const startRow = r*cantRequest;  
+    const endRow = (r+1)*cantRequest;
+    const filtered = jsonPermissionArray.filter((row) => jsonPermissionArray.indexOf(row) >= startRow && jsonPermissionArray.indexOf(row) < endRow);
+    const ambiente = "";
+    let internalUserJson = {
+      [`internal_users${ambiente}`]: filtered
+    };
+    fs.writeFile(`./files_to_import/varias/permissions_dev_${r}.json`,JSON.stringify(internalUserJson),"utf8", function (err) {
+        if (err) {
+          console.log("Error"+err);
+        }
+        console.log(`Users-roles ${r} JSON file saved`);
+    })
+  }
+
+
+  /*let internalUserJson = {
+    [`internal_users${ambiente}`]: jsonPermissionArray
   };
 
   fs.writeFile("./files_to_import/varias/permissions_dev.json",JSON.stringify(internalUserJson),"utf8", function (err) {
@@ -66,7 +87,7 @@ readXlsxFile('./data-user.xlsx', {schema: schemaPermissions, sheet: 'permissions
         console.log("Error"+err);
       }
       console.log("Permission JSON file saved");
-  })
+  })*/
 });
 }
 

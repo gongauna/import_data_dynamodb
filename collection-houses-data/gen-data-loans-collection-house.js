@@ -25,7 +25,7 @@ const getUserLoan = async (loanId) => {
       'loan_id': loanId
     },
   }).promise();
-  return Item["user_id"] ?? "to_be_defined";
+  return Item?.["user_id"] ?? "to_be_defined";
 }
 
 const getLoanAssignments = async (loanId) => {
@@ -127,7 +127,9 @@ function generateCollectionHouseRecords() {
     "91-210": `bucket_${country}_1`,
     "181-210": `bucket_${country}_2`,
     "211-360": `bucket_${country}_3`,
+    "210-360": `bucket_${country}_3`,
     "361+": `bucket_${country}_4`,
+    "360+": `bucket_${country}_4`,
     "361-540": `bucket_${country}_4`,
   }
 
@@ -139,11 +141,13 @@ function generateCollectionHouseRecords() {
   }
 
   const houses = [
-    "lexcom","admicarter","claudiaaguilar",
-    "avantte","tecserfin","xdmasters",
-    "vlrservicios","recaguagt","recsa","contacto502",
-    "aserta","corpocredit","sederegua",
-    "serviciosestrategicos","activagroup"
+    "itlumina"
+    //"lexcom","admicarter","claudiaaguilar",
+    //"avantte","tecserfin","xdmasters",
+    //"vlrservicios","recaguagt","recsa","contacto502",
+    //"aserta","corpocredit1","sederegua",
+    //"serviciosestrategicos","activagroup",
+    //"coreval","vertia1","optima1","recaguado1"
   ]
 
   const getLoanState = async (loanId) => {
@@ -184,23 +188,36 @@ function generateCollectionHouseRecords() {
       });
 
     const annotationsArray = [];
-    const arrayBuckets = rows.rows.filter((item) => item.house_id === house);
+    const arrayBucketsWithDuplicates = rows.rows.filter((item) => item.house_id === house);
+    const arrayBuckets = arrayBucketsWithDuplicates.filter((obj, index, self) => {
+      return (
+        index ===
+        self.findIndex((o) => o.loan_id === obj.loan_id)
+      );
+    });
 
     const now = new Date();
     const loansActivesDifferentHouse = [];
     const loansActivesSameHouse = [];
     const jsonLoansArray = await Promise.all(arrayBuckets.map(async (row) => {
-      
+      if (!row.loan_id) {
+        return;
+      }
       const userId = await getUserLoan(row.loan_id);
       const assignedAt = new Date(row.assigned_at );
       const assignedEndAtString = row.assigned_end_at ? row.assigned_end_at : "2100-12-31T00:00:00.000Z";
       let status = "active";
       
-
       const loanState = await getLoanState(row.loan_id);
+      if (!loanState) {
+        console.log("NOT EXISTS"+row.loan_id);
+        return;
+      }
       if (loanState["settled"] > 0 && loanState["status"] === "released" ) {
         status = "partial";
       }
+      const bucketIdHandled = bucketsToId[row.bucket_id];
+      const bucketNameHandled = bucketsNameToId[bucketIdHandled];
 
       const loanAssignment = await getLoanAssignments(row.loan_id);
       if (loanAssignment) {
@@ -208,35 +225,36 @@ function generateCollectionHouseRecords() {
         if (loanFulfilled && loanFulfilled.length > 0) {
           return null;
         }
-    
-        const loanActive = loanAssignment.filter((item) => item["status"] === "active" && item?.["sk"].split("|")[1] !== house);
-        const loanActiveSameHouse = loanAssignment.filter((item) => item["status"] === "active" && item?.["sk"].split("|")[1] === house);
+        
+        const ARRAY_STATUS_ACTIVE = ["active", "partial"];
+
+        const loanActive = loanAssignment.filter((item) => ARRAY_STATUS_ACTIVE.includes(item["status"]) && item?.["sk"].split("|")[1] !== house);
+        const loanActiveSameHouse = loanAssignment.filter((item) => item["status"] === "active" && item?.["sk"].split("|")[1] === house && item?.["sk"].split("|")[3] === bucketIdHandled);
         if (loanActiveSameHouse && loanActiveSameHouse.length > 0) {
           loansActivesSameHouse.push(loanActive);
           return null;
-        }
-        if (loanActive && loanActive.length > 0) {
-          loansActivesDifferentHouse.push(loanActive);
-          await Promise.all(
-            loanActive.map((item) => {
-                // Desasignar loan actual
-                const updated = {
-                  ...item
-                };
-                updated["props"]["status"] = "inactive";
-                updated["status"] = "inactive";
-                return updateLoanAssignments(updated)
-            })
-          );
+        } else {
+          if (loanActive && loanActive.length > 0) {
+            loansActivesDifferentHouse.push(loanActive);
+            await Promise.all(
+              loanActive.map((item) => {
+                  // Desasignar loan actual
+                  const updated = {
+                    ...item
+                  };
+                  updated["props"]["status"] = "inactive";
+                  updated["status"] = "inactive";
+                  return updateLoanAssignments(updated);
+              })
+            );
+          }
         }
       }
 
       const assignedEndAt =new Date(assignedEndAtString);
-      const bucketIdHandled = bucketsToId[row.bucket_id];
-      const bucketNameHandled = bucketsNameToId[bucketIdHandled];
 
       //Annotation
-      const createdAt = "2023-09-05T12:00:00.395Z"
+      const createdAt = now.toISOString();
       annotationsArray.push({
           PutRequest: {
             Item: {
@@ -332,7 +350,6 @@ function generateCollectionHouseRecords() {
           if (err) {
             console.log("Error"+err);
           }
-          //console.log(`Collection houses loans ${r} JSON file saved`);
       })
     }
 
