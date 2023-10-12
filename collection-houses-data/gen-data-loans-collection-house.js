@@ -120,7 +120,7 @@ function generateCollectionHouseRecords() {
       }
   }
 
-  const country = "gt"
+  const country = "do"
 
   const bucketsToId = {
     "91-180": `bucket_${country}_1`,
@@ -141,7 +141,7 @@ function generateCollectionHouseRecords() {
   }
 
   const houses = [
-    "itlumina"
+    "optima"
     //"lexcom","admicarter","claudiaaguilar",
     //"avantte","tecserfin","xdmasters",
     //"vlrservicios","recaguagt","recsa","contacto502",
@@ -236,7 +236,7 @@ function generateCollectionHouseRecords() {
         } else {
           if (loanActive && loanActive.length > 0) {
             loansActivesDifferentHouse.push(loanActive);
-            await Promise.all(
+            /*await Promise.all(
               loanActive.map((item) => {
                   // Desasignar loan actual
                   const updated = {
@@ -246,7 +246,7 @@ function generateCollectionHouseRecords() {
                   updated["status"] = "inactive";
                   return updateLoanAssignments(updated);
               })
-            );
+            );*/
           }
         }
       }

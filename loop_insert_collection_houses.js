@@ -1,8 +1,8 @@
 const { exec } = require('child_process');
 
-const house = "itlumina";
-// Replace `ls` with your desired terminal command
-for (let i=1; i<120; i++) {
+const house = "optima";
+
+for (let i=0; i<11; i++) {
     const command = `aws dynamodb batch-write-item --request-items file://files_to_import/loans/${house}/collection_houses_loans_todas_${i}.json`;
     
     console.log("EXECUTING: "+ command);
