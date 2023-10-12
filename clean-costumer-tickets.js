@@ -3,5 +3,4 @@ const deleteCostumer = require('./costumer-tickets-records/delete-tickets-journa
 
 //deleteCostumer.deleteJournalsPending();
 deleteCostumer.deleteTickets();
-//eleteCostumer.updateDataProps();
 

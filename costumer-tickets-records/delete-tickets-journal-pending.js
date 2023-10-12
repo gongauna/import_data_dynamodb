@@ -24,7 +24,7 @@ const getTicketsPending = async () => {
     ExpressionAttributeValues: {
       ":status": "pending",
       ":type": "TICKET_REQUEST",
-      ":updated_at": "2023-10-11T13:00:38.081Z",
+      ":updated_at": "2023-10-12T13:00:38.081Z",
       ":sk": "TYPE|TICKET_REQUEST|QUEUE|review|COUNTRY"
     },
     KeyConditionExpression: "#status = :status AND #updated_at < :updated_at",
