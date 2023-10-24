@@ -89,6 +89,41 @@ const updateLoanAssignments = async (assignment) => {
   return true;
 }
 
+const updateLoanAssignmentsAssignendEndAt = async (assignment) => {
+  AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    sessionToken: process.env.AWS_SESSION_TOKEN,
+    region: 'us-east-1' 
+  });
+
+  const dynamodbClient = new AWS.DynamoDB.DocumentClient();
+  const currentDateTime = new Date().toISOString();
+  const updateParams = {
+    TableName: "collection_house_records",
+    Key: {
+      pk: `${assignment["pk"]}`,
+      sk: `${assignment["sk"]}`,
+    },
+    ExpressionAttributeNames: {
+      "#updated_at": "updated_at",
+      "#props": "props",
+    },
+    ExpressionAttributeValues: {
+      ":updated_at": currentDateTime,
+      ":props": assignment["props"],
+    },
+    UpdateExpression: "set #updated_at = :updated_at, #props = :props"
+  };
+
+  if (!assignment["props"]) {
+    console.log("Este no tiene props:"+JSON.stringify(assignment));
+  }
+
+  await dynamodbClient.update(updateParams).promise();//new UpdateCommand(updateParams);
+  return true;
+}
+
 function generateCollectionHouseRecords() {
   const schemaLoans = {
       'bucket_id': {
@@ -120,7 +155,8 @@ function generateCollectionHouseRecords() {
       }
   }
 
-  const country = "do"
+  // PARAMETROS
+  const country = "do" // do o gt
 
   const bucketsToId = {
     "91-180": `bucket_${country}_1`,
@@ -141,7 +177,7 @@ function generateCollectionHouseRecords() {
   }
 
   const houses = [
-    "optima"
+    "vertia"
     //"lexcom","admicarter","claudiaaguilar",
     //"avantte","tecserfin","xdmasters",
     //"vlrservicios","recaguagt","recsa","contacto502",
@@ -170,7 +206,7 @@ function generateCollectionHouseRecords() {
 
   readXlsxFile('./data-casas-de-cobranza.xlsx', { schema: schemaLoans, sheet: 'Hoja1'}).then(async (rows) => {
     houses.forEach(async (house) => {
-      exec(`rm ./files_to_import/loans/${house}/*.json`, (error, stdout, stderr) => {
+      /*exec(`rm ./files_to_import/loans/${house}/*.json`, (error, stdout, stderr) => {
         if (error) {
           return;
         }
@@ -185,7 +221,7 @@ function generateCollectionHouseRecords() {
         if (stderr) {
           return;
         }
-      });
+      });*/
 
     const annotationsArray = [];
     const arrayBucketsWithDuplicates = rows.rows.filter((item) => item.house_id === house);
@@ -203,6 +239,7 @@ function generateCollectionHouseRecords() {
       if (!row.loan_id) {
         return;
       }
+
       const userId = await getUserLoan(row.loan_id);
       const assignedAt = new Date(row.assigned_at );
       const assignedEndAtString = row.assigned_end_at ? row.assigned_end_at : "2100-12-31T00:00:00.000Z";
@@ -230,12 +267,31 @@ function generateCollectionHouseRecords() {
 
         const loanActive = loanAssignment.filter((item) => ARRAY_STATUS_ACTIVE.includes(item["status"]) && item?.["sk"].split("|")[1] !== house);
         const loanActiveSameHouse = loanAssignment.filter((item) => item["status"] === "active" && item?.["sk"].split("|")[1] === house && item?.["sk"].split("|")[3] === bucketIdHandled);
+
+        if (loanActive.length > 1) {
+          console.log("ESTE"+JSON.stringify(loanActiveSameHouse));
+        }
         if (loanActiveSameHouse && loanActiveSameHouse.length > 0) {
           loansActivesSameHouse.push(loanActive);
+          const assignedEndAt = new Date(row.assigned_end_at).toISOString();
+
+          if (loanActiveSameHouse[0]["props"]["assigned_end_at"] !== assignedEndAt) {
+            /*await Promise.all(
+              loanActiveSameHouse.map((item) => {
+                  // Desasignar loan actual
+                  const updated = {
+                    ...item
+                  };
+                  updated["props"]["assigned_end_at"] = assignedEndAt;
+                  return updateLoanAssignmentsAssignendEndAt(updated);
+              })
+            );*/
+          }
           return null;
         } else {
           if (loanActive && loanActive.length > 0) {
             loansActivesDifferentHouse.push(loanActive);
+            console.log("loansActivesDifferentHouse"+JSON.stringify(loansActivesDifferentHouse));
             /*await Promise.all(
               loanActive.map((item) => {
                   // Desasignar loan actual
@@ -250,6 +306,7 @@ function generateCollectionHouseRecords() {
           }
         }
       }
+      return;
 
       const assignedEndAt =new Date(assignedEndAtString);
 

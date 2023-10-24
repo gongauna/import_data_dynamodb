@@ -51,9 +51,9 @@ const getLoansTypeIndex = async () => {
       "#created_at": "created_at"
     },
     ExpressionAttributeValues: {
-      ":sk": `HOUSE|contacto502|BUCKET|bucket_gt_4`,
+      ":sk": `HOUSE|lexcom|BUCKET|`,
       ":type": "LOAN|HOUSE",
-      ":created_at": "2023-10-08T19:00:15.024Z"
+      ":created_at": "2023-10-22T19:00:15.024Z"
     },
     KeyConditionExpression: "#type = :type AND begins_with(#sk, :sk)",
     FilterExpression: "#created_at >= :created_at"
@@ -94,15 +94,78 @@ const deleteLoan = async (pkParam, skParam) => {
   return response;
 }
 
+const updateLoanAssignments = async (assignment) => {
+  AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    sessionToken: process.env.AWS_SESSION_TOKEN,
+    region: 'us-east-1' 
+  });
+
+  const dynamodbClient = new AWS.DynamoDB.DocumentClient();
+  const currentDateTime = new Date().toISOString();
+  const updateParams = {
+    TableName: "collection_house_records",
+    Key: {
+      pk: `${assignment["pk"]}`,
+      sk: `${assignment["sk"]}`,
+    },
+    ExpressionAttributeNames: {
+      "#sk": "sk",
+      "#props": "props",
+    },
+    ExpressionAttributeValues: {
+      ":sk": assignment["sk"],
+      ":props": assignment["props"],
+    },
+    UpdateExpression: "set #sk = :sk, #props = :props"
+  };
+
+  await dynamodbClient.update(updateParams).promise();//new UpdateCommand(updateParams);
+  return true;
+}
+
+const createLoanAssignments = async (item) => {
+  const currentDateTime = new Date().toISOString();
+  const dynamodbClient = new AWS.DynamoDB.DocumentClient();
+  const putParams = {
+    TableName: "collection_house_records",
+    Item: item,
+  };
+  await dynamodbClient.put(putParams).promise();
+  return item;
+}
+
 
 async function deleteCollectionHouseRecords() {
-  console.log("Empezo44555");
+  console.log("Empezo este");
   const items = await getLoansTypeIndex();
 
   console.log("Cantidad: "+items.length)
   /*await Promise.all(items.map((item) => {
     deleteLoan(item["pk"], item["sk"]);
   }));*/
+  console.log("Fin")
+}
+
+async function updateCollectionHouseRecordWrongHouse() {
+  console.log("UPDATEEEEEEE");
+  const items1 = await getLoansTypeIndex();
+
+  console.log("Cantidad: "+items1.length)
+  const items = items1;
+  console.log("items: "+JSON.stringify(items))
+  await Promise.all(items.map((item) => {
+    if (item) {
+      const updated = {
+        ...item
+      };
+      updated["sk"] = item["sk"].replace("recagua","recaguagt");
+      updated["props"]["house_id"] = "recaguagt";
+      console.log("updatedupdated"+JSON.stringify(updated))
+      //return createLoanAssignments(updated);
+    }
+  }));
   console.log("Fin")
 }
 

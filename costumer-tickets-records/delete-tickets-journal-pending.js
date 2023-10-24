@@ -3,7 +3,7 @@ const fs = require('fs');
 const AWS = require('aws-sdk');
 const { v4: uuidv4 } = require("uuid");
 
-const getTicketsPending = async () => {
+const getTicketsPending = async (fecha) => {
   AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
@@ -24,8 +24,8 @@ const getTicketsPending = async () => {
     ExpressionAttributeValues: {
       ":status": "pending",
       ":type": "TICKET_REQUEST",
-      ":updated_at": "2023-10-12T13:00:38.081Z",
-      ":sk": "TYPE|TICKET_REQUEST|QUEUE|review|COUNTRY"
+      ":updated_at": fecha,
+      ":sk": "TYPE|TICKET_REQUEST|QUEUE|"
     },
     KeyConditionExpression: "#status = :status AND #updated_at < :updated_at",
     FilterExpression: "#type = :type AND begins_with(#sk, :sk)"
@@ -45,6 +45,25 @@ const getTicketsPending = async () => {
     }
   }
   return result;
+}
+
+const getTicket = async (ticketId) => {
+  AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    sessionToken: process.env.AWS_SESSION_TOKEN,
+    region: 'us-east-1' // Replace with your desired AWS region
+  });
+
+  const dynamodbClient = new AWS.DynamoDB.DocumentClient();
+  const params = {
+    TableName: 'costumer_tickets_records',
+    Key: {
+      pk: "TICKET_REQUEST|"+ticketId
+    }
+  };
+  const { Item } = await dynamodbClient.get(params).promise();
+  return Item;
 }
 
 const getTicketsJournal = async (ticket_id) => {
@@ -143,6 +162,62 @@ const getLoanRequestData = async (loanRequestId) => {
   return Item;
 }
 
+const getLoanRequestStateData = async (loanRequestId) => {
+  AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    sessionToken: process.env.AWS_SESSION_TOKEN,
+    region: 'us-east-1' // Replace with your desired AWS region
+  });
+
+  const dynamodbClient = new AWS.DynamoDB.DocumentClient();
+  const params = {
+    TableName: 'loan_request_state',
+    Key: {
+      loan_request_id: loanRequestId
+    }
+  };
+  const { Item } = await dynamodbClient.get(params).promise();
+  return Item;
+}
+
+const getLoanRequestByStatus = async (status) => {
+  AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    sessionToken: process.env.AWS_SESSION_TOKEN,
+    region: 'us-east-1' // Replace with your desired AWS region
+  });
+
+  const dynamodbClient = new AWS.DynamoDB.DocumentClient();
+  const findParams = {
+    TableName: 'loan_request_state',
+    IndexName: 'status_index',
+    ExpressionAttributeNames: {
+      "#status": "status",
+    },
+    ExpressionAttributeValues: {
+      ":status": status,
+    },
+    KeyConditionExpression: "#status = :status"
+  };
+
+  let result = [];
+  let moreItems = true;
+  while (moreItems) {
+    moreItems = false;
+    let foundItems = await dynamodbClient.query(findParams).promise();
+    if ((foundItems) && (foundItems.Items)) {
+      result = result.concat(foundItems.Items);
+    }
+    if (typeof foundItems.LastEvaluatedKey != "undefined") {
+      moreItems = true;
+      findParams["ExclusiveStartKey"] = foundItems.LastEvaluatedKey;
+    }
+  }
+  return result;
+}
+
 const updateTicket = async (ticketData) => {
   AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
@@ -171,14 +246,54 @@ const updateTicket = async (ticketData) => {
   return true;
 }
 
+const createTicket = async (item) => {
+  AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    sessionToken: process.env.AWS_SESSION_TOKEN,
+    region: 'us-east-1' 
+  });
 
-async function deleteJournalsPending() {
-  console.log("Empezo delete journals");
-  const items = await getTicketsPending();
+  const dynamodbClient = new AWS.DynamoDB.DocumentClient();
+  const currentDateTime = new Date().toISOString();
+  const typeHandled = "TICKET_REQUEST";
+  const dbItem = {
+    pk: `${typeHandled}|${item["ticket_id"]}`,
+    sk: `TYPE|${typeHandled}|QUEUE|review|COUNTRY|${item["props"]["country"]}`,
+    updated_at: item["updated_at"],
+    status: item["status"],
+    type: `${typeHandled}`,
+    props: item["props"],
+  };
 
-  console.log("Cantidad tickets: "+items.length)
+  const putParams = {
+    TableName: "costumer_tickets_records",
+    ConditionExpression: `attribute_not_exists(pk)`,
+    Item: dbItem,
+  };
 
-  const arrayJournalsToDelete = await Promise.all(items.map((item) => getTicketsJournal(item.props.value)));
+  await dynamodbClient.put(putParams).promise();
+  return true;
+}
+
+async function deleteTickets(fecha) {
+  console.log("Empezo delete tickets COMPLETO");
+  const arrayTicketsToDeleteAll = await getTicketsPending(fecha);
+  
+  
+  console.log("Cantidad arrayTicketsToDeleteAll: "+arrayTicketsToDeleteAll.length)
+  const arrayTicketsToDelete = []
+  await Promise.all(arrayTicketsToDeleteAll.map(async (item) => {
+    const loanRequestItem = await getLoanRequestStateData(item.props.value)
+
+    if (loanRequestItem["status"] !== "document_sent" && loanRequestItem["status"] !== "reviewing") {
+      arrayTicketsToDelete.push(item);
+    }
+  }));
+  console.log("Cantidad filtradas: "+arrayTicketsToDelete.length)
+
+  //Delete journals
+  const arrayJournalsToDelete = await Promise.all(arrayTicketsToDelete.map((item) => getTicketsJournal(item.props.value)));
   const journalsToDelete = [];
   arrayJournalsToDelete.map((item) => {
       item.forEach((i) => {
@@ -193,21 +308,16 @@ async function deleteJournalsPending() {
       deleteCostumerTicket(item["pk"]);
     }
   }));
-  console.log("Borrados: "+counter)
-  console.log("Fin")
-}
+  console.log("Journals Borrados: "+counter);
 
-async function deleteTickets() {
-  console.log("Empezo delete tickets");
-  const arrayTicketsToDelete = await getTicketsPending();
-
-  console.log("Cantidad: "+arrayTicketsToDelete.length)
+  //Delete tickets
   await Promise.all(arrayTicketsToDelete.map((item) => {
     if (item["pk"]) {
       deleteCostumerTicket(item["pk"]);
     }
   }));
-  console.log("Fin")
+  console.log("Tickets Borrados");
+  console.log("Fin");
 }
 
 async function updateDataProps() {
@@ -239,6 +349,60 @@ async function updateDataProps() {
   console.log("Fin")
 }
 
-module.exports.deleteJournalsPending = deleteJournalsPending;
+async function createTicketsPending(state) {
+  console.log("Empezo create tickets");
+  const loanRequestByStatusAll = await getLoanRequestByStatus(state);
+
+  console.log("loanRequestByStatusAll: "+loanRequestByStatusAll.length)
+  const loanRequestByStatus = [];
+  await Promise.all(
+    loanRequestByStatusAll.map(async (item) => {
+      const ticket = await getTicket(item.loan_request_id);
+
+      if (!ticket) {
+        loanRequestByStatus.push(item);
+      }
+    })
+  )
+  console.log("loanRequestByStatus: "+loanRequestByStatus.length)
+
+  const filtered = loanRequestByStatus;
+  await Promise.all(
+    filtered.map(async (item) => {
+      const [user, loanRequest] = await Promise.all([
+        getUser(item.user_id),
+        getLoanRequestData(item.loan_request_id)
+      ]);
+
+      if (user && loanRequest) {
+        const ticketItem = {
+          ticket_id: item.loan_request_id,
+          type: "request",
+          props: {
+            user_id: item.user_id,
+            type: "request",
+            value: item.loan_request_id,
+            queue: "review",
+            snooze_until: null,
+            country: user["personal"]["country"],
+            first_name: user["personal"]["first_name"] ?? "",
+            last_name: user["personal"]["last_name"] ?? "",
+            amount: loanRequest?.["amount"] ?? 0,
+            obs: "created_manually"
+          },
+          status: "pending",
+          updated_at: item["updated_at"]
+        };
+        //console.log("TICKET A CREAR" + JSON.stringify(ticketItem));
+        //return createTicket(ticketItem);
+      } else {
+        console.log("NO ENCONTRADO" + item.loan_request_id);
+      }
+    })
+  );
+  console.log("Fin")
+}
+
 module.exports.deleteTickets = deleteTickets;
 module.exports.updateDataProps = updateDataProps;
+module.exports.createTicketsPending = createTicketsPending;

@@ -74,9 +74,9 @@ async function deleteCollectionHouseRecordsAssignments() {
   console.log("Cantidad inactives: "+inactives.length)
 
   //itemsfil = [items[0]]
-  await Promise.all(items.map((item) => {
+  /*await Promise.all(items.map((item) => {
     deleteLoan(item["pk"], item["sk"]);
-  }));
+  }));*/
   console.log("Fin delete undefined")
 }
 

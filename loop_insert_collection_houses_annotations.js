@@ -1,8 +1,8 @@
 const { exec } = require('child_process');
 
-const house = "optima";
+const house = "vertia";
 
-for (let i=0; i<11; i++) {
+for (let i=0; i<3; i++) {
     const command = `aws dynamodb batch-write-item --request-items file://files_to_import/annotations/${house}/collection_houses_loans_annotations_${i}.json`;
     
     console.log("EXECUTING: "+ command);
