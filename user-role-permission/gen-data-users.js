@@ -2,7 +2,7 @@ const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 var json = require('./../usersCognito.json');
 
-function generateUsers() {
+function generateUsers(ambiente) {
 //Users
 const schemaUsers = {
     'first_name': {
@@ -172,7 +172,7 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
       const startRow = r*cantRequest;  
       const endRow = (r+1)*cantRequest;
       const filtered = jsonUsersArray.filter((item) => item).filter((row) => jsonUsersArray.indexOf(row) >= startRow && jsonUsersArray.indexOf(row) < endRow);
-      const ambiente = "";
+      //const ambiente = "_dev";
       let internalUserJson = {
         [`internal_users${ambiente}`]: filtered
       };

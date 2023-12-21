@@ -1,9 +1,7 @@
 const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 
-const ambiente = "";
-
-function generatePermissions() {
+function generatePermissions(ambiente) {
   //PERMISOS
 const schemaPermissions = {
   'description': {
@@ -65,7 +63,7 @@ readXlsxFile('./data-user.xlsx', {schema: schemaPermissions, sheet: 'permissions
     const startRow = r*cantRequest;  
     const endRow = (r+1)*cantRequest;
     const filtered = jsonPermissionArray.filter((row) => jsonPermissionArray.indexOf(row) >= startRow && jsonPermissionArray.indexOf(row) < endRow);
-    const ambiente = "";
+    //const ambiente = "_dev";
     let internalUserJson = {
       [`internal_users${ambiente}`]: filtered
     };

@@ -33,7 +33,7 @@ const getLoans = async () => {
   return Items;
 }
 
-const getLoansTypeIndex = async () => {
+const getLoansTypeIndex = async (house) => {
   AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
@@ -51,9 +51,9 @@ const getLoansTypeIndex = async () => {
       "#created_at": "created_at"
     },
     ExpressionAttributeValues: {
-      ":sk": `HOUSE|lexcom|BUCKET|`,
+      ":sk": `HOUSE|${house}|BUCKET|bucket_gt_5`,
       ":type": "LOAN|HOUSE",
-      ":created_at": "2023-10-22T19:00:15.024Z"
+      ":created_at": "2022-11-13T18:00:15.024Z"
     },
     KeyConditionExpression: "#type = :type AND begins_with(#sk, :sk)",
     FilterExpression: "#created_at >= :created_at"
@@ -111,14 +111,14 @@ const updateLoanAssignments = async (assignment) => {
       sk: `${assignment["sk"]}`,
     },
     ExpressionAttributeNames: {
-      "#sk": "sk",
+      "#status": "status",
       "#props": "props",
     },
     ExpressionAttributeValues: {
-      ":sk": assignment["sk"],
+      ":status": assignment["status"],
       ":props": assignment["props"],
     },
-    UpdateExpression: "set #sk = :sk, #props = :props"
+    UpdateExpression: "set #status = :status, #props = :props"
   };
 
   await dynamodbClient.update(updateParams).promise();//new UpdateCommand(updateParams);
@@ -138,10 +138,18 @@ const createLoanAssignments = async (item) => {
 
 
 async function deleteCollectionHouseRecords() {
-  console.log("Empezo este");
-  const items = await getLoansTypeIndex();
-
-  console.log("Cantidad: "+items.length)
+  console.log("Empezo este 11");
+  const houses = ["avantte", "recsa", "xdmasters", "itlumina", "contacto502", "recaguagt", "tecserfin", "activagroup", "lexcom"]
+  houses.forEach(async (house) => {
+    const items = await getLoansTypeIndex(house);
+  
+    /*if (house === "activagroup") {
+      await Promise.all(items.map((item) => {
+        deleteLoan(item["pk"], item["sk"]);
+      }))
+    }*/
+    console.log(`** ${house}: `+items.length)
+  })
   /*await Promise.all(items.map((item) => {
     deleteLoan(item["pk"], item["sk"]);
   }));*/
@@ -149,25 +157,24 @@ async function deleteCollectionHouseRecords() {
 }
 
 async function updateCollectionHouseRecordWrongHouse() {
-  console.log("UPDATEEEEEEE");
-  const items1 = await getLoansTypeIndex();
+  console.log("UPDATEEEEEEE222");
+  const items1 = await getLoansTypeIndex("avantte");
 
   console.log("Cantidad: "+items1.length)
   const items = items1;
-  console.log("items: "+JSON.stringify(items))
   await Promise.all(items.map((item) => {
     if (item) {
       const updated = {
         ...item
       };
-      updated["sk"] = item["sk"].replace("recagua","recaguagt");
-      updated["props"]["house_id"] = "recaguagt";
-      console.log("updatedupdated"+JSON.stringify(updated))
-      //return createLoanAssignments(updated);
+      updated["props"]["status"] = "inactive";
+      updated["status"] = "inactive";
+      //console.log("updatedupdated"+JSON.stringify(updated))
+      return updateLoanAssignments(updated);
     }
   }));
   console.log("Fin")
 }
 
-module.exports.deleteCollectionHouseRecords = deleteCollectionHouseRecords;
+module.exports.deleteCollectionHouseRecords = updateCollectionHouseRecordWrongHouse;
 

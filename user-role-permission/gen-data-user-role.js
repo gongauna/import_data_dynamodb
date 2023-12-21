@@ -2,7 +2,7 @@ const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 var json = require('../usersCognito.json');
 
-function generateUserRoles() {
+function generateUserRoles(ambiente) {
 const schemaUsers = {
   'first_name': {
     prop: 'first_name',
@@ -81,8 +81,8 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
     row.forEach((perm) => {
       if (perm) {
         arraysRolesPermissions[i].permissions.push({S:perm});
-        i++;
       }
+      i++;
     })
   });
 
@@ -146,7 +146,7 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
       const startRow = r*cantRequest;  
       const endRow = (r+1)*cantRequest;
       const filtered = jsonUsersArray.filter((row) => jsonUsersArray.indexOf(row) >= startRow && jsonUsersArray.indexOf(row) < endRow);
-      const ambiente = "";
+      //const ambiente = "_dev";
       let internalUserJson = {
         [`internal_users${ambiente}`]: filtered
       };

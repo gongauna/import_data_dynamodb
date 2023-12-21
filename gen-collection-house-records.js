@@ -1,17 +1,20 @@
 // Imports
-const users = require('./user-role-permission/gen-data-users');
-const roles = require('./user-role-permission/gen-data-roles');
-const permissions = require('./user-role-permission/gen-data-permisos');
-const userRoles =  require('./user-role-permission/gen-data-user-role')
-const deleteInternalUsersRecords = require('./user-role-permission/delete-data-internal-users');
-
+const country = "gt";
+const houses = ["avantte"
+    //"lexcom","admicarter","claudiaaguilar",
+    //"avantte","tecserfin","xdmasters",
+    //"vlrservicios","recaguagt","recsa","contacto502",
+    //"aserta","corpocredit1","sederegua",
+    //"serviciosestrategicos","activagroup",
+    //"coreval","vertia1","optima1","recaguado1", "avanttedo", "aserta_sold_accounts"
+];
 const collectionHouseRecords = require('./collection-houses-data/gen-data-loans-collection-house');
-const deleteCollectionHouseRecords = require('./collection-houses-data/delete-loans-collection-house');
-const deleteDuplicated = require('./collection-houses-data/delete-duplicados');
-const deleteAnnotations = require('./collection-houses-data/delete-annotations');
-const deleteAnnotationsBadAssignment = require('./collection-houses-data/delete-annotations-bad-assignment');
-const updateCollectionHouseRecordsAssignedEndAt = require('./collection-houses-data/update-assigned-end-date');
-const updateFulfilledCollectionHouseRecords = require('./collection-houses-data-update-status/update-status-to-fulfilled');
-const updateCollectionHouseRecordsBucketName = require('./collection-houses-data-update-status/update-bucket-name');
 
-collectionHouseRecords.generateCollectionHouseRecords();
+const execute = async () => {
+   console.log("Inicio generacion de archivos");
+   await collectionHouseRecords.generateCollectionHouseRecords(houses, country);
+   console.log("Fin generacion de archivos");
+}
+
+execute();
+

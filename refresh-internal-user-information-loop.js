@@ -1,7 +1,7 @@
 const { exec } = require('child_process');
 
 // Replace `ls` with your desired terminal command
-/*for (let i=0; i<6; i++) {
+for (let i=0; i<7; i++) {
     const command = `aws dynamodb batch-write-item --request-items file://files_to_import/varias/users_prod_${i}.json`;
     
     console.log("EXECUTING: "+ command);
@@ -14,9 +14,9 @@ const { exec } = require('child_process');
       // Command executed successfully
       console.log(`Command output: ${stdout}`);
     });
-}*/
+}
 
-for (let i=0; i<6; i++) {
+for (let i=0; i<7; i++) {
   const command = `aws dynamodb batch-write-item --request-items file://files_to_import/varias/users_roles_dev_${i}.json`;
   
   console.log("EXECUTING: "+ command);
@@ -31,7 +31,7 @@ for (let i=0; i<6; i++) {
   });
 }
 
-/*const command = `aws dynamodb batch-write-item --request-items file://files_to_import/varias/roles_dev.json`;
+const command = `aws dynamodb batch-write-item --request-items file://files_to_import/varias/roles_dev.json`;
 console.log("EXECUTING: "+ command);
 exec(command, (error, stdout, stderr) => {
   if (error) {
@@ -55,4 +55,4 @@ for (let i=0; i<2; i++) {
     // Command executed successfully
     console.log(`Command output: ${stdout}`);
   });
-}*/
+}

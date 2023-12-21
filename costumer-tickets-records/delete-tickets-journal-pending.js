@@ -22,7 +22,7 @@ const getTicketsPending = async (fecha) => {
       "#sk": "sk"
     },
     ExpressionAttributeValues: {
-      ":status": "pending",
+      ":status": "assigned",
       ":type": "TICKET_REQUEST",
       ":updated_at": fecha,
       ":sk": "TYPE|TICKET_REQUEST|QUEUE|"
@@ -286,11 +286,13 @@ async function deleteTickets(fecha) {
   await Promise.all(arrayTicketsToDeleteAll.map(async (item) => {
     const loanRequestItem = await getLoanRequestStateData(item.props.value)
 
-    if (loanRequestItem["status"] !== "document_sent" && loanRequestItem["status"] !== "reviewing") {
+    if (loanRequestItem["status"] !== "document_sent" /*&& loanRequestItem["status"] === "reviewing" /*&& loanRequestItem["status"] !== "document_rejected"*/) {
+      //console.log(loanRequestItem["loan_request_id"]+"--------------"+loanRequestItem["status"]);
       arrayTicketsToDelete.push(item);
     }
   }));
   console.log("Cantidad filtradas: "+arrayTicketsToDelete.length)
+  console.log("Estos: "+JSON.stringify(arrayTicketsToDelete));
 
   //Delete journals
   const arrayJournalsToDelete = await Promise.all(arrayTicketsToDelete.map((item) => getTicketsJournal(item.props.value)));
@@ -305,12 +307,13 @@ async function deleteTickets(fecha) {
   await Promise.all(journalsToDelete.map((item) => {
     if (item["pk"]) {
       counter = counter +1;
-      deleteCostumerTicket(item["pk"]);
+      //deleteCostumerTicket(item["pk"]);
     }
   }));
   console.log("Journals Borrados: "+counter);
 
   //Delete tickets
+  //console.log("ESTOS: "+JSON.stringify(arrayTicketsToDelete));
   await Promise.all(arrayTicketsToDelete.map((item) => {
     if (item["pk"]) {
       deleteCostumerTicket(item["pk"]);
@@ -360,11 +363,11 @@ async function createTicketsPending(state) {
       const ticket = await getTicket(item.loan_request_id);
 
       if (!ticket) {
-        loanRequestByStatus.push(item);
+          loanRequestByStatus.push(item);
       }
     })
   )
-  console.log("loanRequestByStatus: "+loanRequestByStatus.length)
+  console.log("loanRequestByStatusToCreate: "+loanRequestByStatus.length)
 
   const filtered = loanRequestByStatus;
   await Promise.all(

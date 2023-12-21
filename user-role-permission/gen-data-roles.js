@@ -1,7 +1,7 @@
 const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 
-function generateRoles() {
+function generateRoles(ambiente) {
 //ROLES
 readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => {
     const arraysRolesPermissions = [];
@@ -17,8 +17,8 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
       row.forEach((perm) => {
         if (perm) {
           arraysRolesPermissions[i].permissions.push({S:perm});
-          i++;
         }
+        i++;
       })
     });
 
@@ -58,7 +58,7 @@ readXlsxFile('./data-user.xlsx', { sheet: 'permissions by rol'}).then((rows) => 
       }
     });
 
-    const ambiente = "";
+    //const ambiente = "_dev";
     let internalUserJson = {
       [`internal_users${ambiente}`]: jsonRolesArray
     };

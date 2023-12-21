@@ -2,7 +2,7 @@ const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 const AWS = require('aws-sdk');
 
-const ambiente = ""
+const ambiente = "_dev"
 const getItemsToDelete = async () => {
   AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,

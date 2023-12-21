@@ -109,7 +109,7 @@ const schemaUpdate = {
 }
 
 async function updateCollectionHouseRecordsAssignedEndAt() {
-  readXlsxFile('./data-update-assigned.xlsx', { schema: schemaUpdate, sheet: 'Hoja1'}).then(async (rows) => {
+  readXlsxFile('./data-update-assigned.xlsx', { schema: schemaUpdate, sheet: 'template'}).then(async (rows) => {
     console.log("Inicio assigned_end_at")
     const filas = rows.rows;
 
@@ -120,11 +120,11 @@ async function updateCollectionHouseRecordsAssignedEndAt() {
 
     const assignments = await Promise.all(filas.map((item) => {
       console.log("item"+JSON.stringify(item))
-      return getLoanAssignments(item.loan_id, `HOUSE|${item.house_id}|BUCKET|bucket_gt_1`)
+      return getLoanAssignments(item.loan_id, `HOUSE|${item.house_id}`)
     }));
 
     //console.log("assignments"+JSON.stringify(assignments))
-    const updatedAt = "2023-10-05T12:00:00.395Z"
+    const updatedAt = "2023-11-03T15:00:00.395Z"
     
     let counter = 0;
     await Promise.all(
