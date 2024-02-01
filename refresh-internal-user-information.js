@@ -7,7 +7,7 @@ const deleteInternalUsersRecords = require('./user-role-permission/delete-data-i
 
 // Limpio toda la tabla
 //deleteInternalUsersRecords.deleteInternalUsersRecords();
-const ambiente = "";
+const ambiente = ""; // _dev, _qa, vacio (para prod)
 // Genero data
 users.generateUsers(ambiente);
 roles.generateRoles(ambiente);

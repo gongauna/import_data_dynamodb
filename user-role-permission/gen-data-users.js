@@ -86,10 +86,13 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
     });
 
     const jsonUsersArray = arrayUsers.map((row) => {
-      console.log(`${row.last_name}-${row.created_at}`);
+      //console.log(`${row.last_name}-${row.created_at}`);
       const createdAt = getDateFormatted(row.created_at).toISOString();
       const deletedAt = row.deleted_at ? getDateFormatted(row.deleted_at).toISOString() : null;
       const userId = row.deleted_at ? (`${row.first_name}-${row.last_name}`).replace(new RegExp(' ', 'g'), '').toLowerCase() : (cognitoUserMap.get(row.email) ?? row.email);
+      if (!row.email) {
+        return null;
+      }
       if (userId) {
           const rowResponse = {
             PutRequest: {
