@@ -2,7 +2,7 @@ const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 const AWS = require('aws-sdk');
 
-const getLoanAssignments = async (loanId, skParam) => {
+const getLoanAssignments = async (pkParam, skParam) => {
   AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
@@ -18,10 +18,10 @@ const getLoanAssignments = async (loanId, skParam) => {
         "#sk": "sk"
       },
       ExpressionAttributeValues: {
-        ":pk": `LOAN|`+loanId,
+        ":pk": pkParam,
         ":sk": skParam
       },
-      KeyConditionExpression: "#pk = :pk AND begins_with(#sk, :sk)",
+      KeyConditionExpression: "#pk = :pk AND #sk = :sk",
   };
   
   let foundItems = await dynamodbClient.query(findParams).promise();
@@ -47,12 +47,14 @@ const updateLoanAssignments = async (assignment) => {
     ExpressionAttributeNames: {
       "#updated_at": "updated_at",
       "#props": "props",
+      "#status": "status",
     },
     ExpressionAttributeValues: {
       ":updated_at": currentDateTime,
       ":props": assignment["props"],
+      ":status": assignment["status"],
     },
-    UpdateExpression: "set #updated_at = :updated_at, #props = :props"
+    UpdateExpression: "set #updated_at = :updated_at, #props = :props, #status = :status"
   };
 
   await dynamodbClient.update(updateParams).promise();//new UpdateCommand(updateParams);
@@ -78,7 +80,7 @@ const getLoanState = async (loanId) => {
   return foundItem.Item;
 }
 
-const schemaUpdate = {
+const schemaUpdate1 = {
   'bucket_id': {
     prop: 'bucket_id',
     type: String
@@ -108,8 +110,19 @@ const schemaUpdate = {
   }
 }
 
+const schemaUpdate = {
+  'pk': {
+    prop: 'pk',
+    type: String
+  },
+  'sk': {
+    prop: 'sk',
+    type: String
+  }
+}
+
 async function updateCollectionHouseRecordsAssignedEndAt() {
-  readXlsxFile('./data-update-assigned.xlsx', { schema: schemaUpdate, sheet: 'template'}).then(async (rows) => {
+  readXlsxFile('./data-update-assigned.xlsx', { schema: schemaUpdate }).then(async (rows) => {
     console.log("Inicio assigned_end_at")
     const filas = rows.rows;
 
@@ -118,25 +131,24 @@ async function updateCollectionHouseRecordsAssignedEndAt() {
     filas.map((i) => rowMap.set(i.loan_id, i)
     )
 
-    const assignments = await Promise.all(filas.map((item) => {
-      console.log("item"+JSON.stringify(item))
-      return getLoanAssignments(item.loan_id, `HOUSE|${item.house_id}`)
+    const assignments1 = await Promise.all(filas.map((item) => {
+      return getLoanAssignments(item.pk, item.sk)
     }));
 
-    //console.log("assignments"+JSON.stringify(assignments))
-    const updatedAt = "2023-11-03T15:00:00.395Z"
-    
+    console.log("assignments1"+assignments1.length);
     let counter = 0;
     await Promise.all(
-      assignments.map(async (item) => {
+      assignments1.map(async (item) => {
           const itemFirst = item[0];
           if (itemFirst) {
             const row = rowMap.get(itemFirst.shown_id)
             const updated = {
               ...itemFirst
             };
-            updated["props"]["assigned_end_at"] = new Date(row.assigned_end_at).toISOString();
-            updated["updated_at"] = updatedAt;
+            //updated["props"]["assigned_end_at"] = new Date(row.assigned_end_at).toISOString();
+            //updated["updated_at"] = updatedAt;
+            updated["props"]["status"] = "inactive";
+            updated["status"] = "inactive";
             counter = counter +1;
             //console.log("updatedupdated"+JSON.stringify(updated))
             return updateLoanAssignments(updated);

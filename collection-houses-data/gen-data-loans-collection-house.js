@@ -164,9 +164,9 @@ async function generateCollectionHouseRecords(houses, country) {
     "181-210": `bucket_${country}_2`,
     "211-360": `bucket_${country}_3`,
     "210-360": `bucket_${country}_3`,
-    "361+": `bucket_${country}_4`,
-    "360+": `bucket_${country}_4`,
-    "361-540": `bucket_${country}_4`,
+    "361-510": `bucket_${country}_4`,
+    "511-600": `bucket_${country}_7`,
+    "601+": `bucket_${country}_8`,
   }
 
   const bucketsNameToId = {
@@ -175,7 +175,9 @@ async function generateCollectionHouseRecords(houses, country) {
     [`bucket_${country}_1`]: "91-180 días",
     [`bucket_${country}_2`]: "181-210 días",
     [`bucket_${country}_3`]: "211-360 días",
-    [`bucket_${country}_4`]: "Más de 361 días",
+    [`bucket_${country}_4`]: "361-510 días",
+    [`bucket_${country}_7`]: "511-600 días",
+    [`bucket_${country}_8`]: "Más de 601 días",
   }
 
   const getLoanState = async (loanId) => {
@@ -196,7 +198,7 @@ async function generateCollectionHouseRecords(houses, country) {
     return foundItem.Item;
   }
 
-  readXlsxFile('./data-casas-de-cobranza.xlsx', { schema: schemaLoans, sheet: 'Hoja1'}).then(async (rows) => {
+  readXlsxFile('./data-casas-de-cobranza.xlsx', { schema: schemaLoans }).then(async (rows) => {
     houses.forEach(async (house) => {
     const annotationsArray = [];
     const arrayBucketsWithDuplicates = rows.rows.filter((item) => item.house_id === house);

@@ -1,7 +1,7 @@
 const { exec } = require('child_process');
 
 // Replace `ls` with your desired terminal command
-for (let i=0; i<7; i++) {
+for (let i=0; i<8; i++) {
     const command = `aws dynamodb batch-write-item --request-items file://files_to_import/varias/users_prod_${i}.json`;
     
     console.log("EXECUTING: "+ command);
@@ -16,7 +16,7 @@ for (let i=0; i<7; i++) {
     });
 }
 
-for (let i=0; i<7; i++) {
+for (let i=0; i<8; i++) {
   const command = `aws dynamodb batch-write-item --request-items file://files_to_import/varias/users_roles_dev_${i}.json`;
   
   console.log("EXECUTING: "+ command);
