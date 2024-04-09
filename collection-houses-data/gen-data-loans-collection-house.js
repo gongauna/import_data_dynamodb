@@ -108,12 +108,14 @@ const updateLoanAssignmentsAssignendEndAt = async (assignment) => {
     ExpressionAttributeNames: {
       "#updated_at": "updated_at",
       "#props": "props",
+      "#status": "status",
     },
     ExpressionAttributeValues: {
       ":updated_at": currentDateTime,
       ":props": assignment["props"],
+      ":status": assignment["status"],
     },
-    UpdateExpression: "set #updated_at = :updated_at, #props = :props"
+    UpdateExpression: "set #updated_at = :updated_at, #props = :props, #status = :status"
   };
 
   if (!assignment["props"]) {
@@ -262,13 +264,13 @@ async function generateCollectionHouseRecords(houses, country) {
         const ARRAY_STATUS_ACTIVE = ["active", "partial"];
 
         const loanActive = loanAssignment.filter((item) => ARRAY_STATUS_ACTIVE.includes(item["status"]) && item?.["sk"].split("|")[1] !== house);
-        const loanActiveSameHouse = loanAssignment.filter((item) => ARRAY_STATUS_ACTIVE.includes(item["status"]) && item?.["sk"].split("|")[1] === house && item?.["sk"].split("|")[3] === bucketIdHandled);
+        const loanActiveSameHouse = loanAssignment.filter((item) => (ARRAY_STATUS_ACTIVE.includes(item["status"]) || !item["status"]) && item?.["sk"].split("|")[1] === house && item?.["sk"].split("|")[3] === bucketIdHandled);
 
         if (loanActiveSameHouse && loanActiveSameHouse.length > 0) {
           loansActivesSameHouse.push(loanActiveSameHouse);
           const assignedEndAt = new Date(row.assigned_end_at).toISOString();
 
-          if (loanActiveSameHouse[0]["props"]["assigned_end_at"] !== assignedEndAt) {
+          //if (loanActiveSameHouse[0]["props"]["assigned_end_at"] !== assignedEndAt) {
             await Promise.all(
               loanActiveSameHouse.map((item) => {
                   // Cambiar assigned end at
@@ -276,10 +278,12 @@ async function generateCollectionHouseRecords(houses, country) {
                     ...item
                   };
                   updated["props"]["assigned_end_at"] = assignedEndAt;
+                  updated["props"]["status"] = "inactive";
+                  updated["status"] = "inactive";
                   return updateLoanAssignmentsAssignendEndAt(updated);
               })
             );
-          }
+          //}
         } else {
           if (loanActive && loanActive.length > 0) {
             loansActivesDifferentHouse.push(loanActive);
@@ -291,7 +295,7 @@ async function generateCollectionHouseRecords(houses, country) {
                   };
                   updated["props"]["status"] = "inactive";
                   updated["status"] = "inactive";
-                  return updateLoanAssignments(updated);
+                  return 1;//updateLoanAssignments(updated);
               })
             );
           }
@@ -314,7 +318,7 @@ async function generateCollectionHouseRecords(houses, country) {
               "data": {
                 "M": {
                   "text": {
-                    "S": `El crédito ${row.loan_id} ha sido asignado a la casa de cobranza ${house} al encontrarse en el bucket ${bucketNameHandled} el día ${assignedAt.toISOString()}. Sera gestionado por dicha casa de cobranza hasta ${assignedEndAt.toISOString()}.`
+                    "S": "Venta 1 No dar información de saldos comunicarse al No. 59221033 Firma de Abogados Novales Tel 2215-5345 "//`El crédito ${row.loan_id} ha sido asignado a la casa de cobranza ${house} al encontrarse en el bucket ${bucketNameHandled} el día ${assignedAt.toISOString()}. Sera gestionado por dicha casa de cobranza hasta ${assignedEndAt.toISOString()}.`
                   }
                 }
               },

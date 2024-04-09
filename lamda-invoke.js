@@ -3,12 +3,12 @@ const fs = require('fs');
 const AWS = require('aws-sdk');
 
 const schemaLoans = {
-  'user_id': {
-    prop: 'user_id',
+  'loan_id': {
+    prop: 'loan_id',
     type: String
   },
-  'loan_request_id': {
-    prop: 'loan_request_id',
+  'user_id': {
+    prop: 'user_id',
     type: String
   }
 }
@@ -23,9 +23,10 @@ const lambda = new AWS.Lambda({ region: 'us-east-1' }); // Replace 'your-region'
 
 async function generateAnnotation(
 ) {
-  readXlsxFile('./rd-duplicados.xlsx', { schema: schemaLoans, sheet: 'Hoja1'}).then(async (rows) => {
-    const items = rows.rows.slice(1,rows.rows.length);
-  
+  readXlsxFile('./gen-review-excel.xlsx', { schema: schemaLoans}).then(async (rows) => {
+    const items = rows.rows.slice(100,rows.rows.length);
+    
+    console.log("ITEMS"+items.length);
     const promises = items.map((item) => {
       return new Promise((resolve, reject) => {
         const lambdaParams = {
@@ -35,10 +36,10 @@ async function generateAnnotation(
               "userId": item.user_id,
               "user_id": item.user_id,
               "type": "review",
-              "loan_request_id": item.loan_request_id,
+              "loan_id": item.loan_id,
               "data": {
                 "review": true,
-                "text": "Desembolso doble el 16/12/2023"
+                "text": `El credito id ${item.loan_id} forma parte de la cartera vendida a Corpocredit. El cliente no puede solicitar un nuevo credito en Vana.`
               }
             }
           })
@@ -49,14 +50,14 @@ async function generateAnnotation(
             console.error('Error invoking Lambda function:', err);
             reject(err); // Reject the promise on error
           } else {
-            console.log('Lambda function executed successfully:', data);
+            //console.log('Lambda function executed successfully:', data);
             resolve(data); // Resolve the promise on success
           }
         });
       });
     });
   
-    console.log("PROMISESS"+JSON.stringify(promises));
+    //console.log("PROMISESS"+JSON.stringify(promises));
     // Wait for all lambda.invoke promises to settle
     return await Promise.allSettled(promises);
   })
@@ -64,7 +65,7 @@ async function generateAnnotation(
     // Process the results here if needed
     results.forEach((result, index) => {
       if (result.status === 'fulfilled') {
-        console.log(`Lambda ${index} succeeded:`, result.value);
+        //console.log(`Lambda ${index} succeeded:`, result.value);
       } else {
         console.error(`Lambda ${index} failed:`, result.reason);
       }

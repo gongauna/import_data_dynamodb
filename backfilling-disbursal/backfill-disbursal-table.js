@@ -107,12 +107,14 @@ const updateDisbursal = async (id, account) => {
       id: id
     },
     ExpressionAttributeNames: {
-      "#account": "account",
+      "#status": "status",
+      "#department": "department",
     },
     ExpressionAttributeValues: {
-      ":account": account,
+      ":department": department,
+      ":status": status,
     },
-    UpdateExpression: "set #account = :account"
+    UpdateExpression: "set #status = :status, #department = :department"
   };
 
   await dynamodbClient.update(updateParams).promise();
@@ -142,7 +144,7 @@ async function updateDisbursalProcess() {
           return null;
         }
         const [sourceData] = await getSourceData(tableSource, item.loan_request_id);
-  
+        
         if (sourceData && sourceData.account) {
           return updateDisbursal(item.id, sourceData.account);
         }

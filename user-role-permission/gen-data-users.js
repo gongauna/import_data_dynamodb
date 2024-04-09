@@ -140,6 +140,12 @@ readXlsxFile('./data-user.xlsx', { schema: schemaUsers, sheet: 'users'}).then((r
                 },
                 type: {
                   S: "USER"
+                },
+                status: {
+                  S: row.deleted_at ? "disabled" : "enabled"
+                },
+                department: {
+                  S: row.department
                 }
               }
             }

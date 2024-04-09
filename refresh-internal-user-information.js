@@ -16,3 +16,22 @@ userRoles.generateUserRoles(ambiente);
 
 //aws dynamodb batch-write-item --request-items file://files_to_import/varias/users_dev_0.json
 
+
+
+
+
+
+
+
+   
+
+
+   
+
+
+
+   
+
+
+
+   

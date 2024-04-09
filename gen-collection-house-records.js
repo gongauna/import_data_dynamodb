@@ -1,6 +1,6 @@
 // Imports
 const country = "gt";
-const houses = ["corpocredit"
+const houses = ["avantte"
     //"lexcom","admicarter","claudiaaguilar",
     //"avantte","tecserfin","xdmasters",
     //"vlrservicios","recaguagt","recsa","contacto502",

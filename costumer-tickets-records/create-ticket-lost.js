@@ -3,6 +3,14 @@ const fs = require('fs');
 const AWS = require('aws-sdk');
 const { v4: uuidv4 } = require("uuid");
 
+AWS.config.update({
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  sessionToken: process.env.AWS_SESSION_TOKEN,
+  region: 'us-east-1' 
+});
+const lambda = new AWS.Lambda({ region: 'us-east-1' }); 
+
 const getTicket = async (id) => {
   AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
@@ -161,7 +169,7 @@ const createTicket = async (item, createtAt) => {
 }
 
 async function createTicketLost() {
-  console.log("Empezo creating");
+  console.log("Empezo creating22");
 
   const [loanRequestDocumentSent, ticketPending, ticketAssigned] = await Promise.all([
     getLoanRequestByStatus("document_sent"),
@@ -174,7 +182,6 @@ async function createTicketLost() {
   console.log("Cantidad assigned: " +ticketAssigned.length);
   const ticketToUpdate = [];
   const loanRequestWithoutTicket = await Promise.all(loanRequestDocumentSent.map(async (item) => {
-    //console.log("id"+JSON.stringify(item["loan_request_id"]))
     const ticket = await getTicket(item["loan_request_id"]);
 
 
@@ -194,35 +201,69 @@ async function createTicketLost() {
 
   console.log("Cantidad a crear: " +toCreate.length);
   console.log("Cantidad a actualizar: " +ticketToUpdate.length);
+  //console.log("Crear: " +JSON.stringify(ticketToUpdate[0]));
 
-  const created = await Promise.all(toCreate.map( async (item) => {
-    const user = await getUser(item["user_id"]);
-    const loanRequest = await getLoanRequest(item["loan_request_id"]);
-    
+  ticketToUpdate.map((item) => {
+    console.log("Loan_request_id: "+item["props"]["value"]);
+  })
 
-    const ticketItem = {
-      ticket_id: item["loan_request_id"],
-      type: "request",
-      props: {
-        user_id: item["user_id"],
-        type: "request",
-        value: item["loan_request_id"],
-        queue: "review",
-        snooze_until: null,
-        country: user["personal"]["country"],
-        first_name: user["personal"]["first_name"] ?? "",
-        last_name: user["personal"]["last_name"] ?? "",
-        amount: loanRequest?.["amount"] ?? 0,
-      },
-      status: "pending",
-    }
+  /*await Promise.all(toCreate.map( async (item) => {
 
-    console.log("ITEM"+JSON.stringify(ticketItem));
-    return createTicket(ticketItem, item["updated_at"]);
+    return new Promise((resolve, reject) => {
+      const lambdaParams = {
+        FunctionName: 'internal-document-analyzer-consume-events',
+        Payload: JSON.stringify({
+          "detail-type": "InternalLoanRequest.Evaluated",
+          "detail": {
+            "loan_request_id": item["loan_request_id"],
+            "user_id": item["user_id"],
+            "previous_status": "created",
+            "status": "document_sent"
+          }
+        })
+      };
+      
+      lambda.invoke(lambdaParams, (err, data) => {
+        if (err) {
+          console.error('Error invoking Lambda function:', err);
+          reject(err); // Reject the promise on error
+        } else {
+          //console.log('Lambda function executed successfully:', data);
+          console.log("CREADO");
+          resolve(data); // Resolve the promise on success
+        }
+      });
+    });
+  }));*/ 
+
+  await Promise.all(ticketToUpdate.map( async (item) => {
+
+    return new Promise((resolve, reject) => {
+      const lambdaParams = {
+        FunctionName: 'internal-document-analyzer-consume-events',
+        Payload: JSON.stringify({
+          "detail-type": "InternalLoanRequest.Evaluated",
+          "detail": {
+            "loan_request_id": item["props"]["value"],
+            "user_id": item["props"]["user_id"],
+            "previous_status": "created",
+            "status": "document_sent"
+          }
+        })
+      };
+      
+      lambda.invoke(lambdaParams, (err, data) => {
+        if (err) {
+          console.error('Error invoking Lambda function:', err);
+          reject(err); // Reject the promise on error
+        } else {
+          //console.log('Lambda function executed successfully:', data);
+          console.log("CREADO");
+          resolve(data); // Resolve the promise on success
+        }
+      });
+    });
   }));
-
-  console.log("created"+JSON.stringify(created));
-
 
   console.log("FIN creating")
 }
