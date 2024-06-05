@@ -13,7 +13,7 @@ const getTicketsPending = async (fecha) => {
 
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
   const findParams = {
-    TableName: 'costumer_tickets_records',
+    TableName: 'costumer_tickets_records_qa',
     IndexName: 'status_index',
     ExpressionAttributeNames: {
       "#status": "status",
@@ -22,7 +22,7 @@ const getTicketsPending = async (fecha) => {
       "#sk": "sk"
     },
     ExpressionAttributeValues: {
-      ":status": "assigned",
+      ":status": "pending",
       ":type": "TICKET_REQUEST",
       ":updated_at": fecha,
       ":sk": "TYPE|TICKET_REQUEST|QUEUE|"
@@ -57,7 +57,7 @@ const getTicket = async (ticketId) => {
 
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
   const params = {
-    TableName: 'costumer_tickets_records',
+    TableName: 'costumer_tickets_records_qa',
     Key: {
       pk: "TICKET_REQUEST|"+ticketId
     }
@@ -76,7 +76,7 @@ const getTicketsJournal = async (ticket_id) => {
 
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
   const findParams = {
-    TableName: 'costumer_tickets_records',
+    TableName: 'costumer_tickets_records_qa',
     IndexName: 'sk_index',
     ExpressionAttributeNames: {
       "#sk": "sk",
@@ -116,7 +116,7 @@ const deleteCostumerTicket = async (pk) => {
 
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
   const response = await dynamodbClient.delete({
-    TableName: 'costumer_tickets_records',
+    TableName: 'costumer_tickets_records_qa',
     Key: {
       pk: pk,
     },
@@ -229,17 +229,17 @@ const updateTicket = async (ticketData) => {
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
   const currentDateTime = new Date().toISOString();
   const updateParams = {
-    TableName: "costumer_tickets_records",
+    TableName: "costumer_tickets_records_qa",
     Key: {
       pk: `${ticketData["pk"]}`,
     },
     ExpressionAttributeNames: {
-      "#props": "props",
+      "#status": "status",
     },
     ExpressionAttributeValues: {
-      ":props": ticketData["props"],
+      ":status": ticketData["status"],
     },
-    UpdateExpression: "set #props = :props"
+    UpdateExpression: "set #status = :status"
   };
 
   await dynamodbClient.update(updateParams).promise();//new UpdateCommand(updateParams);
@@ -277,22 +277,22 @@ const createTicket = async (item) => {
 }
 
 async function deleteTickets(fecha) {
-  console.log("Empezo delete tickets COMPLETO");
+  console.log("SISI-Empezo delete tickets COMPLETO");
   const arrayTicketsToDeleteAll = await getTicketsPending(fecha);
   
   
   console.log("Cantidad arrayTicketsToDeleteAll: "+arrayTicketsToDeleteAll.length)
   const arrayTicketsToDelete = []
   await Promise.all(arrayTicketsToDeleteAll.map(async (item) => {
-    const loanRequestItem = await getLoanRequestStateData(item.props.value)
-
-    if (loanRequestItem["status"] !== "document_sent" /*&& loanRequestItem["status"] === "reviewing" /*&& loanRequestItem["status"] !== "document_rejected"*/) {
+    //const loanRequestItem = await getLoanRequestStateData(item.props.value)
+    arrayTicketsToDelete.push(item);
+    /*if (loanRequestItem["status"] !== "document_sent" /*&& loanRequestItem["status"] === "reviewing" /*&& loanRequestItem["status"] !== "document_rejected"*) {
       //console.log(loanRequestItem["loan_request_id"]+"--------------"+loanRequestItem["status"]);
       arrayTicketsToDelete.push(item);
-    }
+    }*/
   }));
   console.log("Cantidad filtradas: "+arrayTicketsToDelete.length)
-  console.log("Estos: "+JSON.stringify(arrayTicketsToDelete));
+  //console.log("Estos: "+JSON.stringify(arrayTicketsToDelete));
 
   //Delete journals
   const arrayJournalsToDelete = await Promise.all(arrayTicketsToDelete.map((item) => getTicketsJournal(item.props.value)));
@@ -302,22 +302,28 @@ async function deleteTickets(fecha) {
         journalsToDelete.push(i);
       });
   })
-  console.log("Cantidad journalsToDelete: "+arrayJournalsToDelete.filter((item)=> item).length)
+  //console.log("Cantidad journalsToDelete: "+arrayJournalsToDelete.filter((item)=> item).length)
   let counter = 0;
-  await Promise.all(journalsToDelete.map((item) => {
+  /*await Promise.all(journalsToDelete.map((item) => {
     if (item["pk"]) {
       counter = counter +1;
       //deleteCostumerTicket(item["pk"]);
     }
-  }));
+  }));*/
   console.log("Journals Borrados: "+counter);
 
-  //Delete tickets
+  //Update to completed tickets
   //console.log("ESTOS: "+JSON.stringify(arrayTicketsToDelete));
   await Promise.all(arrayTicketsToDelete.map((item) => {
     if (item["pk"]) {
-      deleteCostumerTicket(item["pk"]);
+      
+      const updated = {
+        pk: item["pk"],
+        status: "completed"
+      };
+      return updateTicket(updated);
     }
+
   }));
   console.log("Tickets Borrados");
   console.log("Fin");

@@ -22,23 +22,23 @@ const deleteLoan = async (pkParam, skParam) => {
 }
 
 const schemaDelete = {
-  'id': {
+  'pk': {
     prop: 'pk',
     type: String
   },
-  'house_id': {
+  'sk': {
     prop: 'sk',
     type: String
   }
 }
 
 async function deleteCollectionHouseRecords() {
-  readXlsxFile('./duplicados-casas.xlsx', { schema: schemaDelete, sheet: 'Hoja1'}).then(async (rows) => {
+  readXlsxFile('./bucket_gt_5_error.xlsx', { schema: schemaDelete}).then(async (rows) => {
     console.log("Inicio")
     const filas = rows.rows;
 
 
-    console.log("Cantidad"+JSON.stringify(filas[0]));
+    console.log("Cantidad"+filas.length);
     await Promise.all(filas.map((item) => {
       deleteLoan(item["pk"], item["sk"]);
     }));

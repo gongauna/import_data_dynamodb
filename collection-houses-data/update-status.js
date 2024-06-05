@@ -84,27 +84,11 @@ const schemaUpdate = {
   'sk': {
     prop: 'sk',
     type: String
-  },
-  'status': {
-    prop: 'status',
-    type: String
-  },
-  'loan_id': {
-    prop: 'loan_id',
-    type: String
-  },
-  'loan_status': {
-    prop: 'loan_status',
-    type: String
-  },
-  'settled': {
-    prop: 'settled',
-    type: String
   }
 }
 
 async function updateStatusCollectionHouse() {
-  readXlsxFile('./ArreglarStatus.xlsx', { schema: schemaUpdate }).then(async (rows) => {
+  readXlsxFile('./asignaciones_duplicadas_borrar.xlsx', { schema: schemaUpdate }).then(async (rows) => {
     console.log("Inicio status")
     const filas = rows.rows;
 
@@ -128,15 +112,15 @@ async function updateStatusCollectionHouse() {
             const updated = {
               ...itemFirst
             };
-            let statusHandle = "active";
+            /*let statusHandle = "active";
             if (Number(row["settled"]) > 0 && row["loan_status"] === "released" ) {
               statusHandle = "partial";
             }
 
             if (row.loan_status === "fulfilled") {
               statusHandle = "fulfilled";
-            }
-            updated["status"] = statusHandle;
+            }*/
+            updated["status"] = "inactive";
             counter = counter +1;
             return updateLoanAssignments(updated);
           }

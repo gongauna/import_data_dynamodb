@@ -33,46 +33,28 @@ const getLoans = async () => {
   return Items;
 }
 
-const getLoansTypeIndex = async (house) => {
+const pruebaQuery = async (id) => {
   AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
     sessionToken: process.env.AWS_SESSION_TOKEN,
     region: 'us-east-1' // Replace with your desired AWS region
   });
-
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
-  const findParams = {
+
+  const queryParams = {
     TableName: 'collection_house_records',
-    IndexName: 'type_index',
     ExpressionAttributeNames: {
-      "#type": "type",
-      "#sk": "sk",
-      "#created_at": "created_at"
+      "#pk": "pk"
     },
     ExpressionAttributeValues: {
-      ":sk": `HOUSE|${house}|BUCKET|bucket_gt_5`,
-      ":type": "LOAN|HOUSE",
-      ":created_at": "2022-11-13T18:00:15.024Z"
+      ":pk": `BUCKET|${id}`
     },
-    KeyConditionExpression: "#type = :type AND begins_with(#sk, :sk)",
-    FilterExpression: "#created_at >= :created_at"
+    KeyConditionExpression: "#pk = :pk",
   };
-
-  let result = [];
-  let moreItems = true;
-  while (moreItems) {
-    moreItems = false;
-    let foundItems = await dynamodbClient.query(findParams).promise();
-    if ((foundItems) && (foundItems.Items)) {
-      result = result.concat(foundItems.Items);
-    }
-    if (typeof foundItems.LastEvaluatedKey != "undefined") {
-      moreItems = true;
-      findParams["ExclusiveStartKey"] = foundItems.LastEvaluatedKey;
-    }
-  }
-  return result;
+  let foundItems = await dynamodbClient.query(queryParams).promise();
+  const [ Item ] = foundItems.Items;
+  return Item;
 }
 
 const deleteLoan = async (pkParam, skParam) => {
@@ -157,22 +139,10 @@ async function deleteCollectionHouseRecords() {
 }
 
 async function updateCollectionHouseRecordWrongHouse() {
-  console.log("UPDATEEEEEEE222");
-  const items1 = await getLoansTypeIndex("avantte");
+  console.log("Prueba consulta.");
+  const item = await pruebaQuery("bucket_gt_5");
 
-  console.log("Cantidad: "+items1.length)
-  const items = items1;
-  await Promise.all(items.map((item) => {
-    if (item) {
-      const updated = {
-        ...item
-      };
-      updated["props"]["status"] = "inactive";
-      updated["status"] = "inactive";
-      //console.log("updatedupdated"+JSON.stringify(updated))
-      return updateLoanAssignments(updated);
-    }
-  }));
+  console.log("Item: "+JSON.stringify(item))
   console.log("Fin")
 }
 

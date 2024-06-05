@@ -24,7 +24,7 @@ const lambda = new AWS.Lambda({ region: 'us-east-1' }); // Replace 'your-region'
 async function generateAnnotation(
 ) {
   readXlsxFile('./gen-review-excel.xlsx', { schema: schemaLoans}).then(async (rows) => {
-    const items = rows.rows.slice(100,rows.rows.length);
+    const items = rows.rows.slice(0,1);
     
     console.log("ITEMS"+items.length);
     const promises = items.map((item) => {
@@ -38,8 +38,8 @@ async function generateAnnotation(
               "type": "review",
               "loan_id": item.loan_id,
               "data": {
-                "review": true,
-                "text": `El credito id ${item.loan_id} forma parte de la cartera vendida a Corpocredit. El cliente no puede solicitar un nuevo credito en Vana.`
+                "review": false,
+                "text": `Error asignacion casa de cobranza.`
               }
             }
           })

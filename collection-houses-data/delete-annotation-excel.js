@@ -31,14 +31,15 @@ const deleteAnnotation = async (idParam) => {
 
 async function deleteAnnotations() {
   console.log("Empezo borrado excel");
-  readXlsxFile('./Anotaciones_borrar.xlsx', { schema: schemaAnnotation, sheet: 'Anotaciones_borrar'}).then(async (rows) => {
+  readXlsxFile('./Anotaciones_borrar.xlsx', { schema: schemaAnnotation}).then(async (rows) => {
     const arrayAnnotationToDelete = rows.rows;
 
+    console.log("CANTIDAD A BORRAR"+arrayAnnotationToDelete.length)
     await Promise.all(
       arrayAnnotationToDelete.map((item) => {
         deleteAnnotation(item["id"]);
 
-        console.log("IDDD"+item["id"]);
+        //console.log("IDDD"+item["id"]);
       })
     )
   })
