@@ -23,8 +23,8 @@ const lambda = new AWS.Lambda({ region: 'us-east-1' }); // Replace 'your-region'
 
 async function generateAnnotation(
 ) {
-  readXlsxFile('./gen-review-excel.xlsx', { schema: schemaLoans}).then(async (rows) => {
-    const items = rows.rows.slice(0,1);
+  readXlsxFile('./loanvanamas.xlsx', { schema: schemaLoans}).then(async (rows) => {
+    const items = rows.rows;//.slice(0,1);
     
     console.log("ITEMS"+items.length);
     const promises = items.map((item) => {
@@ -39,7 +39,7 @@ async function generateAnnotation(
               "loan_id": item.loan_id,
               "data": {
                 "review": false,
-                "text": `Error asignacion casa de cobranza.`
+                "text": `Error asignacion casa de cobranza bucket VanaMas.`
               }
             }
           })

@@ -17,13 +17,16 @@ const getLoansTypeIndex = async () => {
     IndexName: 'type_index',
     ExpressionAttributeNames: {
       "#sk": "sk",
-      "#type": "type"
+      "#type": "type",
+      "#created_at": "created_at"
     },
     ExpressionAttributeValues: {
-      ":sk": `HOUSE|undefined|BUCKET|`,
+      ":sk": `HOUSE|avantte|BUCKET|bucket_gt_9`,
       ":type": "LOAN|HOUSE",
+      ":created_at": "2024-07-07T10:18:54.369Z"
     },
-    KeyConditionExpression: "#type = :type AND begins_with(#sk, :sk)"
+    KeyConditionExpression: "#type = :type AND begins_with(#sk, :sk)",
+    FilterExpression: "#created_at > :created_at"
   };
 
   let result = [];
@@ -74,9 +77,9 @@ async function deleteCollectionHouseRecordsAssignments() {
   console.log("Cantidad inactives: "+inactives.length)
 
   //itemsfil = [items[0]]
-  /*await Promise.all(items.map((item) => {
+  await Promise.all(items.map((item) => {
     deleteLoan(item["pk"], item["sk"]);
-  }));*/
+  }));
   console.log("Fin delete undefined")
 }
 

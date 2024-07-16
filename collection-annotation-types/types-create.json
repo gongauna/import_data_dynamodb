@@ -1,0 +1,44 @@
+{
+    "types-create": [
+        {
+            "id": "comment",
+            "name": "Comentario",
+            "department": "vana" 
+        },
+        {
+            "id": "compliance_check",
+            "name": "Chequeo de compliance",
+            "department": "Legal and compliance" 
+        },
+        {
+            "id": "automatic_request_check",
+            "name": "Resumen proceso automatico de solicitudes",
+            "department": "Engineering & Data Science" 
+        },
+        {
+            "id": "decision_engine_status",
+            "name": "Ejecucion de motor de decisiones de solicitudes",
+            "department": "Engineering & Data Science" 
+        },
+        {
+            "id": "collection_house_assignment",
+            "name": "Asignacion a casa de cobros",
+            "department": "Engineering & Data Science" 
+        },
+        {
+            "id": "payment_update_status",
+            "name": "Aprobacion/rechazo de pagos manuales",
+            "department": "Engineering & Data Science" 
+        },
+        {
+            "id": "automated_rejected",
+            "name": "Rechazo automatico de solicitudes",
+            "department": "Engineering & Data Science" 
+        },
+        {
+            "id": "manual_rejected",
+            "name": "Rechazo manual de solicitudes",
+            "department": "Engineering & Data Science" 
+        }
+    ]
+}

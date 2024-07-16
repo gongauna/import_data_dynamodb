@@ -2,8 +2,7 @@ const readXlsxFile = require('read-excel-file/node')
 const fs = require('fs');
 const AWS = require('aws-sdk');
 
-const ambiente = "_dev"
-const getItemsToDelete = async () => {
+const getItemsToDelete = async (ambiente) => {
   AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
@@ -13,12 +12,19 @@ const getItemsToDelete = async () => {
 
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
   const { Items } = await dynamodbClient.scan({
-    TableName: 'internal_users'+ambiente
+    TableName: 'internal_users'+ambiente,
+    FilterExpression: '#type = :typeValue',
+    ExpressionAttributeNames: {
+      '#type': 'type' // Mapear el nombre del campo
+    },
+    ExpressionAttributeValues: {
+      ':typeValue': 'USER|ROLE' // Valor que queremos filtrar
+    }
   }).promise();
   return Items;
 }
 
-const deleteItem = async (pkParam, skParam) => {
+const deleteItem = async (pkParam, skParam, ambiente) => {
   AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
@@ -38,13 +44,13 @@ const deleteItem = async (pkParam, skParam) => {
 }
 
 
-async function deleteInternalUsersRecords() {
+async function deleteInternalUsersRecords(ambiente) {
   console.log("Empezo");
-  const items = await getItemsToDelete();
+  const items = await getItemsToDelete(ambiente);
 
-  console.log("Cantidad: "+items.length)
+  console.log("Cantidad User Role: "+items.length)
   await Promise.all(items.map((item) => {
-    deleteItem(item["pk"], item["sk"]);
+    deleteItem(item["pk"], item["sk"], ambiente);
   }));
   console.log("Fin")
 }

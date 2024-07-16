@@ -13,7 +13,7 @@ const getTicketsPending = async (fecha) => {
 
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
   const findParams = {
-    TableName: 'costumer_tickets_records_qa',
+    TableName: 'costumer_tickets_records_dev',
     IndexName: 'status_index',
     ExpressionAttributeNames: {
       "#status": "status",
@@ -58,7 +58,7 @@ const updateTicket = async (ticketData) => {
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
   const currentDateTime = new Date().toISOString();
   const updateParams = {
-    TableName: "costumer_tickets_records_qa",
+    TableName: "costumer_tickets_records_dev",
     Key: {
       pk: `${ticketData["pk"]}`,
     },
