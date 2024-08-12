@@ -88,8 +88,8 @@ const schemaUpdate = {
 }
 
 async function updateStatusCollectionHouse() {
-  readXlsxFile('./asignaciones_duplicadas_borrar.xlsx', { schema: schemaUpdate }).then(async (rows) => {
-    console.log("Inicio status")
+  readXlsxFile('./asignaciones_loan_request_id.xlsx', { schema: schemaUpdate }).then(async (rows) => {
+    console.log("Inicio status111")
     const filas = rows.rows;
 
     console.log("Cant"+filas.length)
@@ -121,6 +121,8 @@ async function updateStatusCollectionHouse() {
               statusHandle = "fulfilled";
             }*/
             updated["status"] = "inactive";
+            updated["props"]["status"] = "inactive";
+            console.log("UPDATED"+JSON.stringify(updated))
             counter = counter +1;
             return updateLoanAssignments(updated);
           }

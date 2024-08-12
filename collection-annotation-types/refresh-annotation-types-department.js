@@ -61,12 +61,12 @@ async function refreshAnnotationTypesInformation(ambiente) {
   
   console.log("Cantidad delete: "+typesDelete.length)
   let counter = 0;
-  /*await Promise.all(typesDelete.map((item) => {
+  await Promise.all(typesDelete.map((item) => {
     if (item["id"]) {
       counter = counter +1;
       deleteType(ambiente, item["id"]);
     }
-  }));*/
+  }));
   console.log("Cantidad borrados: "+counter)
   
   let counterCreate = 0 

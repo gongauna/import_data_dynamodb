@@ -1,0 +1,13 @@
+bucket_hn_91_180: {"pronto":153}
+
+bucket_do_91_180: {"coreval":286}
+bucket_do_211_360: {"vertia":258}
+bucket_do_+601: {"templarisdo":235}
+
+bucket_gt_91_180: {"admicarter":144,"activagroup":96,"avantte":241,"lexcom":482}
+bucket_gt_181_210: {"dinamicalegal":692}
+bucket_gt_211_360: {"vlrservicios":247,"ovj":412,"pcjsercon":165}
+bucket_gt_361_510: {"serviciosestrategicos":158,"recsa":106}
+bucket_gt_31_60: {"avantte":367}
+bucket_gt_61_90: {"avantte":410}
+bucket_gt_+601: {"negociaree":764,"audepaz":764}

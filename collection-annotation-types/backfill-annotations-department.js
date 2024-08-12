@@ -149,7 +149,7 @@ async function backfillAnnotationsDepartment(ambiente) {
         const obj = {
           "id": item.id,
           "data": { ...item.data, "department": department },
-          "user_department": `USER|${item.user_id}|DEPARMENT|${department}`
+          "user_department": `USER|${item.user_id}|DEPARTMENT|${department}`
         }
         return updateAnnotations(ambiente, obj);
       } else {
