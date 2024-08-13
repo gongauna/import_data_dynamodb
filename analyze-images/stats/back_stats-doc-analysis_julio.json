@@ -1,0 +1,61 @@
+[
+  {
+    "loan_request_id": "-O1n3jRaDXfuHo2Hh65v",
+    "image_url": "pZcNjHsQZ6txzYhmmAbQVo/loan_request/-O1n3jRaDXfuHo2Hh65v/20240715150640_back.jpeg",
+    "user_id": "pZcNjHsQZ6txzYhmmAbQVo",
+    "labels": [
+      { "name": "Phone", "confidence": 98.16524505615234 },
+      { "name": "Mobile Phone", "confidence": 94.2855453491211 },
+      { "name": "Electronics", "confidence": 98.16524505615234 }
+    ]
+  },
+  {
+    "loan_request_id": "-O1rJ5025M4aNV53yo0M",
+    "image_url": "sHYpLwwKK7nB7jjpUzVqpt/loan_request/-O1rJ5025M4aNV53yo0M/20240715174033_back.jpeg",
+    "user_id": "sHYpLwwKK7nB7jjpUzVqpt",
+    "labels": [
+      { "name": "Phone", "confidence": 99.99971008300781 },
+      { "name": "Mobile Phone", "confidence": 99.99960327148438 },
+      { "name": "Electronics", "confidence": 99.99971008300781 }
+    ]
+  },
+  {
+    "loan_request_id": "-O1t7LbgCOb-OJ4kB0xe",
+    "image_url": "vRGzq3AKUtyLQmFPQa41Y5/loan_request/-O1t7LbgCOb-OJ4kB0xe/20240716013300_back.jpeg",
+    "user_id": "vRGzq3AKUtyLQmFPQa41Y5",
+    "labels": [
+      { "name": "Phone", "confidence": 98.24353790283203 },
+      { "name": "Mobile Phone", "confidence": 98.24353790283203 },
+      { "name": "Electronics", "confidence": 98.24353790283203 }
+    ]
+  },
+  {
+    "loan_request_id": "-O2FmYXRt5aQUt-Iypyr",
+    "image_url": "1UoTSmfMqs96K27RUMFs6U/loan_request/-O2FmYXRt5aQUt-Iypyr/20240720154600_back.jpeg",
+    "user_id": "1UoTSmfMqs96K27RUMFs6U",
+    "labels": [
+      { "name": "Phone", "confidence": 97.21512603759766 },
+      { "name": "Mobile Phone", "confidence": 94.49610137939453 },
+      { "name": "Electronics", "confidence": 97.21512603759766 }
+    ]
+  },
+  {
+    "loan_request_id": "-O2RP1CueT0kTPvMed5g",
+    "image_url": "fUu6Rj7gRC3YjrLZxvgDh2/loan_request/-O2RP1CueT0kTPvMed5g/20240723213707_back.jpeg",
+    "user_id": "fUu6Rj7gRC3YjrLZxvgDh2",
+    "labels": [
+      { "name": "Phone", "confidence": 93.7890853881836 },
+      { "name": "Electronics", "confidence": 93.7890853881836 }
+    ]
+  },
+  {
+    "loan_request_id": "-O2YRjaLfR8BfNJAc7tG",
+    "image_url": "8mMaxvPu3xobkea1YqTZDZ/loan_request/-O2YRjaLfR8BfNJAc7tG/20240724123453_back.jpeg",
+    "user_id": "8mMaxvPu3xobkea1YqTZDZ",
+    "labels": [
+      { "name": "Phone", "confidence": 92.03201293945312 },
+      { "name": "Mobile Phone", "confidence": 86.0096664428711 },
+      { "name": "Electronics", "confidence": 92.03201293945312 }
+    ]
+  }
+]

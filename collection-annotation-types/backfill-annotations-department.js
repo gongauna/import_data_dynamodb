@@ -59,6 +59,13 @@ const listAnnotations = async (ambiente, lastKey) => {
   const dynamodbClient = new AWS.DynamoDB.DocumentClient();
   const findParams = {
       TableName: "collection_annotation"+ambiente,
+      FilterExpression: 'attribute_not_exists(#user_department) OR #user_department = :nullValue',
+      ExpressionAttributeNames: {
+          '#user_department': 'user_department'
+      },
+      ExpressionAttributeValues: {
+          ':nullValue': null
+      }
   };
 
   if (lastKey) {
@@ -75,7 +82,7 @@ const listAnnotations = async (ambiente, lastKey) => {
     if (foundItems && Array.isArray(foundItems.Items)) {
       items.push(...foundItems.Items);
     }
-    console.log("LastKey"+JSON.stringify(foundItems.LastEvaluatedKey))
+    //console.log("LastKey"+JSON.stringify(foundItems.LastEvaluatedKey))
     if (typeof foundItems.LastEvaluatedKey !== "undefined") {
       moreItems = true;
       findParams["ExclusiveStartKey"] = foundItems.LastEvaluatedKey;
@@ -135,7 +142,9 @@ async function backfillAnnotationsDepartment(ambiente) {
     typesMap.set(item.id, item);
   });
 
-  const { items: annotation, lastEvaluatedKey} = await listAnnotations(ambiente);
+  const lastKey = {"id":"c9215d06-e05b-47a6-91d5-eb58beb36ccf"};
+  const { items: annotation, lastEvaluatedKey} = await listAnnotations(ambiente, lastKey);
+  console.log("lastEvaluatedKey:"+JSON.stringify(lastEvaluatedKey));
   console.log("Cantidad actualizar:"+annotation.length);
   
   let counterUpdate = 0 
@@ -156,7 +165,7 @@ async function backfillAnnotationsDepartment(ambiente) {
         return null;
       }
     })
-  )
+  );
   console.log("Cantidad actualizados:"+counterUpdate);
   
   console.log("Fin backfill annotation department");

@@ -1,0 +1,300 @@
+[
+  {
+    "loan_request_id": "-O3FCdtPXdo58YHOsfsY",
+    "image_url": "4ezRrtEx8R1wrK4Y2JKjot/loan_request/-O3FCdtPXdo58YHOsfsY/20240802000301_selfie.jpeg",
+    "user_id": "4ezRrtEx8R1wrK4Y2JKjot",
+    "labels": [
+      { "name": "Phone", "confidence": 87.2633285522461 },
+      { "name": "Mobile Phone", "confidence": 87.2633285522461 },
+      { "name": "Electronics", "confidence": 87.2633285522461 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3IgiQtzDYnkrVI95_A",
+    "image_url": "v6v9RN8roAuLyVnKkHmPhx/loan_request/-O3IgiQtzDYnkrVI95_A/20240802153454_selfie.jpeg",
+    "user_id": "v6v9RN8roAuLyVnKkHmPhx",
+    "labels": [
+      { "name": "Phone", "confidence": 98.8699722290039 },
+      { "name": "Mobile Phone", "confidence": 97.15557861328125 },
+      { "name": "Hardware", "confidence": 99.76304626464844 },
+      { "name": "Screen", "confidence": 99.82361602783203 },
+      { "name": "Monitor", "confidence": 99.76304626464844 },
+      { "name": "Electronics", "confidence": 99.82361602783203 },
+      { "name": "Computer Hardware", "confidence": 99.76304626464844 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3ItZUhKUtaXIDrKRsO",
+    "image_url": "bha1x2CizskZuxrVVKApyf/loan_request/-O3ItZUhKUtaXIDrKRsO/20240802162809_selfie.jpeg",
+    "user_id": "bha1x2CizskZuxrVVKApyf",
+    "labels": [
+      { "name": "Phone", "confidence": 96.460693359375 },
+      { "name": "Mobile Phone", "confidence": 86.19546508789062 },
+      { "name": "Electronics", "confidence": 96.460693359375 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3J25MSmAB6SC2Hi8JT",
+    "image_url": "s4dDBHcGDnzmjyhnGFvepq/loan_request/-O3J25MSmAB6SC2Hi8JT/20240802170909_selfie.jpeg",
+    "user_id": "s4dDBHcGDnzmjyhnGFvepq",
+    "labels": [
+      { "name": "Phone", "confidence": 99.90092468261719 },
+      { "name": "Mobile Phone", "confidence": 99.63878631591797 },
+      { "name": "Hardware", "confidence": 80.12529754638672 },
+      { "name": "Screen", "confidence": 95.43749237060547 },
+      { "name": "Monitor", "confidence": 80.12529754638672 },
+      { "name": "Electronics", "confidence": 99.90092468261719 },
+      { "name": "Computer Hardware", "confidence": 80.12529754638672 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3JehAl0QoMKKYXyv1k",
+    "image_url": "2UjsuRKuRDKh6pm2QFVtDY/loan_request/-O3JehAl0QoMKKYXyv1k/20240802200217_selfie.jpeg",
+    "user_id": "2UjsuRKuRDKh6pm2QFVtDY",
+    "labels": [
+      { "name": "Phone", "confidence": 95.9592056274414 },
+      { "name": "Mobile Phone", "confidence": 91.07196044921875 },
+      { "name": "Hardware", "confidence": 82.6376953125 },
+      { "name": "Screen", "confidence": 95.38147735595703 },
+      { "name": "Monitor", "confidence": 82.6376953125 },
+      { "name": "Electronics", "confidence": 99.38134002685547 },
+      { "name": "Computer Hardware", "confidence": 82.6376953125 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3KQ0M_XiGXLhycvjz4",
+    "image_url": "8pnt9e6vnCpTbFArYGqh9r/loan_request/-O3KQ0M_XiGXLhycvjz4/20240802233911_selfie.jpeg",
+    "user_id": "8pnt9e6vnCpTbFArYGqh9r",
+    "labels": [
+      { "name": "Phone", "confidence": 82.88970947265625 },
+      { "name": "Mobile Phone", "confidence": 82.88970947265625 },
+      { "name": "Electronics", "confidence": 82.88970947265625 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3LAIT8yH4s5opoMTOx",
+    "image_url": "3KRRMRhvEJgNeP4UdyGkrr/loan_request/-O3LAIT8yH4s5opoMTOx/20240803034815_selfie.jpeg",
+    "user_id": "3KRRMRhvEJgNeP4UdyGkrr",
+    "labels": [
+      { "name": "Phone", "confidence": 98.42227935791016 },
+      { "name": "Mobile Phone", "confidence": 95.04908752441406 },
+      { "name": "Hardware", "confidence": 99.94125366210938 },
+      { "name": "Screen", "confidence": 99.95649719238281 },
+      { "name": "Monitor", "confidence": 99.94125366210938 },
+      { "name": "Electronics", "confidence": 99.95649719238281 },
+      { "name": "Computer Hardware", "confidence": 99.94125366210938 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3NXug5d1Ck_a6JoPQ8",
+    "image_url": "oujKsuUfoYGaBtnajH146p/loan_request/-O3NXug5d1Ck_a6JoPQ8/20240803222126_selfie.jpeg",
+    "user_id": "oujKsuUfoYGaBtnajH146p",
+    "labels": [
+      { "name": "Phone", "confidence": 83.51133728027344 },
+      { "name": "Mobile Phone", "confidence": 83.51133728027344 },
+      { "name": "Electronics", "confidence": 83.51133728027344 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3U4qnegmJyUOFk1p0v",
+    "image_url": "7QVgGNMqF8k6QHz42DGErV/loan_request/-O3U4qnegmJyUOFk1p0v/20240804204655_selfie.jpeg",
+    "user_id": "7QVgGNMqF8k6QHz42DGErV",
+    "labels": [
+      { "name": "Phone", "confidence": 99.98455047607422 },
+      { "name": "Mobile Phone", "confidence": 99.96562194824219 },
+      { "name": "Hardware", "confidence": 81.26502990722656 },
+      { "name": "Screen", "confidence": 92.23405456542969 },
+      { "name": "Monitor", "confidence": 81.26502990722656 },
+      { "name": "Electronics", "confidence": 99.98455047607422 },
+      { "name": "Computer Hardware", "confidence": 81.26502990722656 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3YH5u8AO6_YmvT6PHI",
+    "image_url": "8EHFjt4jRE9GNdJJWKQMEp/loan_request/-O3YH5u8AO6_YmvT6PHI/20240805161257_selfie.jpeg",
+    "user_id": "8EHFjt4jRE9GNdJJWKQMEp",
+    "labels": [
+      { "name": "Phone", "confidence": 87.88568115234375 },
+      { "name": "Electronics", "confidence": 87.88814544677734 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3YaU2CQUY-Jbv1oEbp",
+    "image_url": "nskrnbdQB5ft5xwUGFDMNf/loan_request/-O3YaU2CQUY-Jbv1oEbp/20240805173759_selfie.jpeg",
+    "user_id": "nskrnbdQB5ft5xwUGFDMNf",
+    "labels": [
+      { "name": "Phone", "confidence": 99.65171813964844 },
+      { "name": "Mobile Phone", "confidence": 98.60462188720703 },
+      { "name": "Electronics", "confidence": 99.65171813964844 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3YsCYCiGKCKtYHFxdb",
+    "image_url": "6j5BM6G7gDtVt9CKsPgE67/loan_request/-O3YsCYCiGKCKtYHFxdb/20240805185913_selfie.jpeg",
+    "user_id": "6j5BM6G7gDtVt9CKsPgE67",
+    "labels": [
+      { "name": "Phone", "confidence": 99.69847869873047 },
+      { "name": "Mobile Phone", "confidence": 98.18617248535156 },
+      { "name": "Electronics", "confidence": 99.69847869873047 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3ZjRyEyPN6EJDfekb3",
+    "image_url": "tL6dUrpgnbf5Z6VTqVTEbN/loan_request/-O3ZjRyEyPN6EJDfekb3/20240805225809_selfie.jpeg",
+    "user_id": "tL6dUrpgnbf5Z6VTqVTEbN",
+    "labels": [
+      { "name": "Phone", "confidence": 92.95926666259766 },
+      { "name": "Mobile Phone", "confidence": 80.84375 },
+      { "name": "Electronics", "confidence": 92.95926666259766 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3c4hEsswIbN9WuAytx",
+    "image_url": "sFEVPReiLqRW1HjhW1Mbau/loan_request/-O3c4hEsswIbN9WuAytx/20240806145626_selfie.jpeg",
+    "user_id": "sFEVPReiLqRW1HjhW1Mbau",
+    "labels": [
+      { "name": "Phone", "confidence": 95.0858154296875 },
+      { "name": "Mobile Phone", "confidence": 88.74401092529297 },
+      { "name": "Hardware", "confidence": 98.50949096679688 },
+      { "name": "Screen", "confidence": 98.63121032714844 },
+      { "name": "Monitor", "confidence": 98.50949096679688 },
+      { "name": "Electronics", "confidence": 98.63121032714844 },
+      { "name": "Computer Hardware", "confidence": 98.50949096679688 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3dArxY1tKmMVCXEheL",
+    "image_url": "oVje2RYux7oJsQwwYrJ4s8/loan_request/-O3dArxY1tKmMVCXEheL/20240806205022_selfie.jpeg",
+    "user_id": "oVje2RYux7oJsQwwYrJ4s8",
+    "labels": [
+      { "name": "Phone", "confidence": 80.92369842529297 },
+      { "name": "Hardware", "confidence": 99.9449691772461 },
+      { "name": "Screen", "confidence": 99.95286560058594 },
+      { "name": "Monitor", "confidence": 99.9449691772461 },
+      { "name": "Electronics", "confidence": 99.95286560058594 },
+      { "name": "Computer Hardware", "confidence": 99.9449691772461 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3ZWs79gx1Iwc0wd3mf",
+    "image_url": "bysDHVLPvvC2DGhfySdw7p/loan_request/-O3ZWs79gx1Iwc0wd3mf/20240807184720_selfie.jpeg",
+    "user_id": "bysDHVLPvvC2DGhfySdw7p",
+    "labels": [
+      { "name": "Phone", "confidence": 88.79779815673828 },
+      { "name": "Mobile Phone", "confidence": 88.79779815673828 },
+      { "name": "Electronics", "confidence": 88.79779815673828 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3jDK0DP2BY3Dq_OwMA",
+    "image_url": "nskrnbdQB5ft5xwUGFDMNf/loan_request/-O3jDK0DP2BY3Dq_OwMA/20240807234547_selfie.jpeg",
+    "user_id": "nskrnbdQB5ft5xwUGFDMNf",
+    "labels": [
+      { "name": "Phone", "confidence": 99.65171813964844 },
+      { "name": "Mobile Phone", "confidence": 98.60462188720703 },
+      { "name": "Electronics", "confidence": 99.65171813964844 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3jl2YTwSaLHnJnECAe",
+    "image_url": "avpdEQu2DSSi1ak1hyrc7r/loan_request/-O3jl2YTwSaLHnJnECAe/20240808175828_selfie.jpeg",
+    "user_id": "avpdEQu2DSSi1ak1hyrc7r",
+    "labels": [
+      { "name": "Phone", "confidence": 85.33495330810547 },
+      { "name": "Electronics", "confidence": 85.33495330810547 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3mw-Xix8LsKz0e_oR5",
+    "image_url": "vjdqdfpAwb8umNyvicnVPN/loan_request/-O3mw-Xix8LsKz0e_oR5/20240808212849_selfie.jpeg",
+    "user_id": "vjdqdfpAwb8umNyvicnVPN",
+    "labels": [
+      { "name": "Phone", "confidence": 89.78105163574219 },
+      { "name": "Electronics", "confidence": 89.78105163574219 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3omnW6H5B9Rgm0Jdo2",
+    "image_url": "38oDe8D5jrSHdjDBSzpNGv/loan_request/-O3omnW6H5B9Rgm0Jdo2/20240809015004_selfie.jpeg",
+    "user_id": "38oDe8D5jrSHdjDBSzpNGv",
+    "labels": [
+      { "name": "Phone", "confidence": 91.86737060546875 },
+      { "name": "Hardware", "confidence": 95.12401580810547 },
+      { "name": "Screen", "confidence": 96.01174926757812 },
+      { "name": "Monitor", "confidence": 95.12401580810547 },
+      { "name": "Electronics", "confidence": 96.01174926757812 },
+      { "name": "Computer Hardware", "confidence": 95.12401580810547 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3mnSMBvJPnvBgRhLt-",
+    "image_url": "3vWukoVAa1ZNBXLYt1n6rB/loan_request/-O3mnSMBvJPnvBgRhLt-/20240809144822_selfie.jpeg",
+    "user_id": "3vWukoVAa1ZNBXLYt1n6rB",
+    "labels": [
+      { "name": "Phone", "confidence": 99.96932983398438 },
+      { "name": "Mobile Phone", "confidence": 99.9215087890625 },
+      { "name": "Electronics", "confidence": 99.96932983398438 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3r1_hf2m9T1cMJjt5l",
+    "image_url": "s4dDBHcGDnzmjyhnGFvepq/loan_request/-O3r1_hf2m9T1cMJjt5l/20240809154827_selfie.jpeg",
+    "user_id": "s4dDBHcGDnzmjyhnGFvepq",
+    "labels": [
+      { "name": "Phone", "confidence": 99.90092468261719 },
+      { "name": "Mobile Phone", "confidence": 99.63878631591797 },
+      { "name": "Hardware", "confidence": 80.12529754638672 },
+      { "name": "Screen", "confidence": 95.43749237060547 },
+      { "name": "Monitor", "confidence": 80.12529754638672 },
+      { "name": "Electronics", "confidence": 99.90092468261719 },
+      { "name": "Computer Hardware", "confidence": 80.12529754638672 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3sYYi81zfPMTpKPf13",
+    "image_url": "hgBXLBBntVNHh5caJ8Ckyf/loan_request/-O3sYYi81zfPMTpKPf13/20240809191736_selfie.jpeg",
+    "user_id": "hgBXLBBntVNHh5caJ8Ckyf",
+    "labels": [
+      { "name": "Phone", "confidence": 92.24695587158203 },
+      { "name": "Hardware", "confidence": 99.81354522705078 },
+      { "name": "Screen", "confidence": 99.88771057128906 },
+      { "name": "Monitor", "confidence": 99.81354522705078 },
+      { "name": "Electronics", "confidence": 99.88771057128906 },
+      { "name": "Computer Hardware", "confidence": 99.81354522705078 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3saFUFkTP4A_BbA2W_",
+    "image_url": "hAGUnxDR6BExEd9CgR6jWS/loan_request/-O3saFUFkTP4A_BbA2W_/20240809193118_selfie.jpeg",
+    "user_id": "hAGUnxDR6BExEd9CgR6jWS",
+    "labels": [
+      { "name": "Phone", "confidence": 97.95231628417969 },
+      { "name": "Mobile Phone", "confidence": 93.36915588378906 },
+      { "name": "Electronics", "confidence": 97.95231628417969 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3rery1B9o3P5oieRIl",
+    "image_url": "7CD1whx5JE6Z1xDifJ5gkE/loan_request/-O3rery1B9o3P5oieRIl/20240809203237_selfie.jpeg",
+    "user_id": "7CD1whx5JE6Z1xDifJ5gkE",
+    "labels": [
+      { "name": "Phone", "confidence": 96.58961486816406 },
+      { "name": "Mobile Phone", "confidence": 93.46636199951172 },
+      { "name": "Electronics", "confidence": 96.58961486816406 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3sxQytfUCZSaMA5bDF",
+    "image_url": "s4dDBHcGDnzmjyhnGFvepq/loan_request/-O3sxQytfUCZSaMA5bDF/20240809212933_selfie.jpeg",
+    "user_id": "s4dDBHcGDnzmjyhnGFvepq",
+    "labels": [
+      { "name": "Phone", "confidence": 99.90092468261719 },
+      { "name": "Mobile Phone", "confidence": 99.63878631591797 },
+      { "name": "Hardware", "confidence": 80.12529754638672 },
+      { "name": "Screen", "confidence": 95.43749237060547 },
+      { "name": "Monitor", "confidence": 80.12529754638672 },
+      { "name": "Electronics", "confidence": 99.90092468261719 },
+      { "name": "Computer Hardware", "confidence": 80.12529754638672 }
+    ]
+  }
+]

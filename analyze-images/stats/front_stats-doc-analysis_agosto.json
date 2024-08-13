@@ -1,0 +1,50 @@
+[
+  {
+    "loan_request_id": "-O3gaRzEtAg22ELF2z0y",
+    "image_url": "wAxobLawFzwxF47U8ZiWCU/loan_request/-O3gaRzEtAg22ELF2z0y/20240807120918_front.jpeg",
+    "user_id": "wAxobLawFzwxF47U8ZiWCU",
+    "labels": [
+      { "name": "Phone", "confidence": 84.58397674560547 },
+      { "name": "Electronics", "confidence": 86.7903823852539 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3eqqDlWn3s3BjI6cRJ",
+    "image_url": "1MeJHnQrQHemk7Kd3suNsg/loan_request/-O3eqqDlWn3s3BjI6cRJ/20240807174601_front.jpeg",
+    "user_id": "1MeJHnQrQHemk7Kd3suNsg",
+    "labels": [
+      { "name": "Phone", "confidence": 99.82894134521484 },
+      { "name": "Mobile Phone", "confidence": 99.82894134521484 },
+      { "name": "Electronics", "confidence": 99.82894134521484 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3iRODlpzwsP2trw32k",
+    "image_url": "eCVqjbV2YxuijW8JF4DJ7d/loan_request/-O3iRODlpzwsP2trw32k/20240807204352_front.jpeg",
+    "user_id": "eCVqjbV2YxuijW8JF4DJ7d",
+    "labels": [
+      { "name": "Phone", "confidence": 84.53601837158203 },
+      { "name": "Electronics", "confidence": 84.53601837158203 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3mmfhZxqiZBZOD2Mn8",
+    "image_url": "e3uLRmqaqaqaa46kntyEqB/loan_request/-O3mmfhZxqiZBZOD2Mn8/20240808170617_front.jpeg",
+    "user_id": "e3uLRmqaqaqaa46kntyEqB",
+    "labels": [
+      { "name": "Phone", "confidence": 91.52495574951172 },
+      { "name": "Mobile Phone", "confidence": 91.52495574951172 },
+      { "name": "Electronics", "confidence": 91.52495574951172 }
+    ]
+  },
+  {
+    "loan_request_id": "-O3roYipSSrkt5rcJQPl",
+    "image_url": "4pZYEHdpBoySgYGQi4PRNr/loan_request/-O3roYipSSrkt5rcJQPl/20240809155524_front.jpeg",
+    "user_id": "4pZYEHdpBoySgYGQi4PRNr",
+    "labels": [
+      { "name": "Phone", "confidence": 99.18659210205078 },
+      { "name": "Mobile Phone", "confidence": 99.05829620361328 },
+      { "name": "Electronics", "confidence": 99.18659210205078 }
+    ]
+  }
+]

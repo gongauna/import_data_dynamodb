@@ -1,0 +1,12 @@
+[
+  {
+    "loan_request_id": "-O3gaRzEtAg22ELF2z0y",
+    "image_url": "wAxobLawFzwxF47U8ZiWCU/loan_request/-O3gaRzEtAg22ELF2z0y/20240807120918_back.jpeg",
+    "user_id": "wAxobLawFzwxF47U8ZiWCU",
+    "labels": [
+      { "name": "Phone", "confidence": 85.2427749633789 },
+      { "name": "Electronics", "confidence": 85.2427749633789 }
+    ]
+  }
+]
+
