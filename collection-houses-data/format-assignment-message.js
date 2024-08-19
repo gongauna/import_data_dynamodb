@@ -39,9 +39,9 @@ function processDataAndSaveToFile(jsonStrings, replacements, outputFilePath) {
 async function formatAssignmentMessage() {
   // Example usage
   const jsonStrings = [
-    `{"bucket_hn_1":{"pronto":153}}`,
-    `{"bucket_do_1":{"coreval":286},"bucket_do_3":{"vertia":258},"bucket_do_8":{"vertia":0,"templarisdo":235}}`,
-    `{"bucket_gt_5":{"avantte":367},"bucket_gt_6":{"avantte":410},"bucket_gt_1":{"admicarter":144,"recsa":0,"activagroup":96,"avantte":241,"lexcom":482},"bucket_gt_2":{"dinamicalegal":692,"recaguagt":0,"ovj":0,"vlrservicios":0,"tecserfin":0,"activagroup":0,"pcjsercon":0,"producnova":0},"bucket_gt_3":{"producnova":0,"vlrservicios":247,"tecserfin":0,"recaguagt":0,"ovj":412,"pcjsercon":165,"lexcom":0},"bucket_gt_4":{"itlumina":0,"contacto502":0,"serviciosestrategicos":158,"servicios_fey":0,"recsa":106},"bucket_gt_8":{"aserta":0,"bolson":0,"negociaree":764,"audepaz":764}}`
+    `{"bucket_hn_1":{"pronto":179}}`,
+    `{"bucket_do_1":{"coreval":489},"bucket_do_3":{"vertia":273}}`,
+    `{"bucket_gt_5":{"avantte":427},"bucket_gt_6":{"avantte":342},"bucket_gt_1":{"admicarter":221,"recsa":0,"activagroup":148,"avantte":369,"lexcom":738},"bucket_gt_2":{"dinamicalegal":887,"recaguagt":0,"ovj":0,"vlrservicios":0,"tecserfin":0,"activagroup":0,"pcjsercon":0,"producnova":0},"bucket_gt_3":{"producnova":0,"vlrservicios":127,"tecserfin":0,"recaguagt":0,"ovj":211,"pcjsercon":84,"lexcom":0},"bucket_gt_4":{"itlumina":0,"contacto502":0,"serviciosestrategicos":480,"servicios_fey":0,"recsa":320},"bucket_gt_7":{"aserta":0,"corpocredit":1,"contacto502":0,"itlumina":0,"pronto":0}}`
   ];
 
   const replacements = [
