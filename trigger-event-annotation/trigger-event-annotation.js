@@ -27,10 +27,10 @@ const putEventInEventBridge = async (annotationData) => {
   const params = {
     Entries: [
       {
-        EventBusName: 'vana', // The name of the event bus
-        Source: 'vana.annotation.service', // Replace with your source
-        DetailType: 'CollectionAnnotation.Created', // Type of event
-        Detail: JSON.stringify(annotationData), // The event payload
+        EventBusName: 'vana',
+        Source: 'vana.annotation.service',
+        DetailType: 'CollectionAnnotation.Created',
+        Detail: JSON.stringify(annotationData),
       }
     ]
   };
