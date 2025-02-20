@@ -1,12 +1,23 @@
-bucket_hn_91_180: {"pronto":179}
+HN
+bucket_hn_91_210: {"pronto":143,"css":143}
+bucket_hn_91_210_2nd_plus: {"pronto":204,"css":204}
+bucket_hn_211_360_2nd_plus: {"controles_gerenciales":1}
 
-bucket_do_91_180: {"coreval":489}
-bucket_do_211_360: {"vertia":273}
+DO
+bucket_do_31_60: {"coreval":510}
+bucket_do_91_210: {"coreval":342,"iungo":342}
+bucket_do_91_210_2nd_plus: {"coreval":661,"iungo":661}
+bucket_do_211_360: {"vertia":491}
 
-bucket_gt_91_180: {"admicarter":221,"activagroup":148,"avantte":369,"lexcom":738}
-bucket_gt_181_210: {"dinamicalegal":887}
-bucket_gt_211_360: {"vlrservicios":127,"ovj":211,"pcjsercon":84}
-bucket_gt_361_510: {"serviciosestrategicos":480,"recsa":320}
-bucket_gt_31_60: {"avantte":427}
-bucket_gt_61_90: {"avantte":342}
-bucket_gt_511_600: {"corpocredit":1}
+GT
+bucket_gt_91_210: {"admicarter":160,"avantte":191,"lexcom":191,"serviciosestrategicos":96}
+bucket_gt_211_360: {"producnova":98,"recaguagt":49,"fyg_cobros_efectivos":49,"cardicobros":49,"activagroup":98,"dinamicalegal":148}
+bucket_gt_361_510: {"serviciosestrategicos":5,"soluciones_globales":5}
+bucket_gt_31_60: {"avantte":677}
+bucket_gt_511_600: {"itlumina":17,"recsa":17}
+bucket_gt_+601: {"gestion_servicios_integrados":2108}
+bucket_gt_91_210_2nd_plus: {"admicarter":310,"avantte":372,"lexcom":372,"serviciosestrategicos":186}
+bucket_gt_211_360_2nd_plus: {"producnova":106,"recaguagt":53,"fyg_cobros_efectivos":53,"cardicobros":53,"activagroup":106,"dinamicalegal":158}
+bucket_gt_361_510_2nd_plus: {"serviciosestrategicos":45,"soluciones_globales":45}
+bucket_gt_511_600_2nd_plus: {"itlumina":30,"recsa":30}
+bucket_gt_+601_2nd_plus: {"gestion_servicios_integrados":93}

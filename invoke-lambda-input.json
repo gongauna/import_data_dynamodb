@@ -1,0 +1,39 @@
+[
+    {
+        "msg": {
+            "id": "10c54761-5c8c-7c4d-de09-c6cbd4a54c9e",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T16:49:19Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|iEWkkCEQ4YQ5p5PxAMFGbe|DEPARTMENT|Lending Ops",
+                "user_id": "iEWkkCEQ4YQ5p5PxAMFGbe",
+                "created_at": "2024-11-28T16:49:19.160Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "Fotos tomadas a otro dispositivo, validar que sea el titular del crédito "
+                },
+                "created_by": "daniel.cruz@vana.gt",
+                "id": "eff7552d-2d97-4c9a-8c52-dd83314f36d3",
+                "order_by": "2024-11-28T16:49:19.160Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "3154426604110768510",
+                    "x-datadog-parent-id": "6532845841754192673",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=67489f0e00000000,_dd.p.dm=-1",
+                    "traceparent": "00-67489f0e000000002bc6c6489810697e-5aa954ae3a257b21-01",
+                    "tracestate": "dd=t.tid:67489f0e00000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 16:49:19.283",
+        "@message": "2024-11-28T16:49:19.283Z\tdf18bdb1-1c15-4507-8da2-ca09f4aab45d\tINFO\t[dd.trace_id=3154426604110768510 dd.span_id=3112494513968820249] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"10c54761-5c8c-7c4d-de09-c6cbd4a54c9e\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T16:49:19Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|iEWkkCEQ4YQ5p5PxAMFGbe|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"iEWkkCEQ4YQ5p5PxAMFGbe\\\",\\\"created_at\\\":\\\"2024-11-28T16:49:19.160Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"Fotos tomadas a otro dispositivo, validar que sea el titular del crédito \\\"},\\\"created_by\\\":\\\"daniel.cruz@vana.gt\\\",\\\"id\\\":\\\"eff7552d-2d97-4c9a-8c52-dd83314f36d3\\\",\\\"order_by\\\":\\\"2024-11-28T16:49:19.160Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"3154426604110768510\\\",\\\"x-datadog-parent-id\\\":\\\"6532845841754192673\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=67489f0e00000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-67489f0e000000002bc6c6489810697e-5aa954ae3a257b21-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:67489f0e00000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]c2e1d9a263054e259fee9f1dd681bb09",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    }
+]

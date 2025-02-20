@@ -1,0 +1,557 @@
+[
+    {
+        "msg": {
+            "id": "5e78e245-ea29-0258-cd20-b6a834e65e9e",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T16:37:03Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|n89kV1EWeWiLE95WQQPsG6|DEPARTMENT|Lending Ops",
+                "user_id": "n89kV1EWeWiLE95WQQPsG6",
+                "created_at": "2024-11-28T16:37:03.226Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "solicitar 2 referencias mas "
+                },
+                "created_by": "brenda.ixcoy@vana.gt",
+                "id": "989af751-7689-4db9-97a3-9fcb0d4897f7",
+                "order_by": "2024-11-28T16:37:03.226Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "3475693929357226675",
+                    "x-datadog-parent-id": "1197146941815616660",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=67489c2e00000000,_dd.p.dm=-1",
+                    "traceparent": "00-67489c2e00000000303c2536b751b2b3-109d1ecd02dd7494-01",
+                    "tracestate": "dd=t.tid:67489c2e00000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 16:37:03.344",
+        "@message": "2024-11-28T16:37:03.344Z\t1b5f351e-fc9f-444d-91ba-f368c7ea791e\tINFO\t[dd.trace_id=3475693929357226675 dd.span_id=915999866251130804] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"5e78e245-ea29-0258-cd20-b6a834e65e9e\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T16:37:03Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|n89kV1EWeWiLE95WQQPsG6|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"n89kV1EWeWiLE95WQQPsG6\\\",\\\"created_at\\\":\\\"2024-11-28T16:37:03.226Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"solicitar 2 referencias mas \\\"},\\\"created_by\\\":\\\"brenda.ixcoy@vana.gt\\\",\\\"id\\\":\\\"989af751-7689-4db9-97a3-9fcb0d4897f7\\\",\\\"order_by\\\":\\\"2024-11-28T16:37:03.226Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"3475693929357226675\\\",\\\"x-datadog-parent-id\\\":\\\"1197146941815616660\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=67489c2e00000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-67489c2e00000000303c2536b751b2b3-109d1ecd02dd7494-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:67489c2e00000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]ec1a2e25117d478889e726be1f22829d",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "31208c1c-5c02-d224-5abe-f65b8fa39f2f",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T16:33:10Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|ounTXH5PiHKY1wBuUMdrzE|DEPARTMENT|Lending Ops",
+                "user_id": "ounTXH5PiHKY1wBuUMdrzE",
+                "created_at": "2024-11-28T16:33:10.930Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "validar correo electrónico "
+                },
+                "created_by": "brenda.ixcoy@vana.gt",
+                "id": "31499e6b-5afa-4706-900f-c4f4a1dc868b",
+                "order_by": "2024-11-28T16:33:10.930Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "7740298306361149326",
+                    "x-datadog-parent-id": "9181004876876604662",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=67489b4600000000,_dd.p.dm=-1",
+                    "traceparent": "00-67489b46000000006b6b104cbe36c78e-7f697b4adf5be4f6-01",
+                    "tracestate": "dd=t.tid:67489b4600000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 16:33:11.094",
+        "@message": "2024-11-28T16:33:11.094Z\t014ef054-7455-4f15-b4f0-6527bb9a4447\tINFO\t[dd.trace_id=7740298306361149326 dd.span_id=6639066700986881816] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"31208c1c-5c02-d224-5abe-f65b8fa39f2f\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T16:33:10Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|ounTXH5PiHKY1wBuUMdrzE|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"ounTXH5PiHKY1wBuUMdrzE\\\",\\\"created_at\\\":\\\"2024-11-28T16:33:10.930Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"validar correo electrónico \\\"},\\\"created_by\\\":\\\"brenda.ixcoy@vana.gt\\\",\\\"id\\\":\\\"31499e6b-5afa-4706-900f-c4f4a1dc868b\\\",\\\"order_by\\\":\\\"2024-11-28T16:33:10.930Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"7740298306361149326\\\",\\\"x-datadog-parent-id\\\":\\\"9181004876876604662\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=67489b4600000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-67489b46000000006b6b104cbe36c78e-7f697b4adf5be4f6-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:67489b4600000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]8292d5579ec54a7a9e225ed480a90fa1",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "e227fdac-3fd1-729f-6141-a76c4a99dd3f",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T16:21:44Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|v5KVs2kxGR2QGrrPuXU2h2|DEPARTMENT|Lending Ops",
+                "user_id": "v5KVs2kxGR2QGrrPuXU2h2",
+                "created_at": "2024-11-28T16:21:44.003Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "User crea cta secundaria cambiando un digito de la cedula ID: 9ALteZ86CZ3baBU9rDRsi6"
+                },
+                "created_by": "marielos.garcia@vana.gt",
+                "id": "f583d057-2f21-4b47-b118-c519b0d7387e",
+                "order_by": "2024-11-28T16:21:44.003Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "8317211929531824295",
+                    "x-datadog-parent-id": "3691115390487123043",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=6748989700000000,_dd.p.dm=-1",
+                    "traceparent": "00-6748989700000000736cac2ef562b8a7-333979e42af65463-01",
+                    "tracestate": "dd=t.tid:6748989700000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 16:21:44.164",
+        "@message": "2024-11-28T16:21:44.164Z\t13fab473-4809-400d-a281-cbb865df5106\tINFO\t[dd.trace_id=8317211929531824295 dd.span_id=7236546324157515828] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"e227fdac-3fd1-729f-6141-a76c4a99dd3f\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T16:21:44Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|v5KVs2kxGR2QGrrPuXU2h2|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"v5KVs2kxGR2QGrrPuXU2h2\\\",\\\"created_at\\\":\\\"2024-11-28T16:21:44.003Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"User crea cta secundaria cambiando un digito de la cedula ID: 9ALteZ86CZ3baBU9rDRsi6\\\"},\\\"created_by\\\":\\\"marielos.garcia@vana.gt\\\",\\\"id\\\":\\\"f583d057-2f21-4b47-b118-c519b0d7387e\\\",\\\"order_by\\\":\\\"2024-11-28T16:21:44.003Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"8317211929531824295\\\",\\\"x-datadog-parent-id\\\":\\\"3691115390487123043\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=6748989700000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-6748989700000000736cac2ef562b8a7-333979e42af65463-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:6748989700000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]e74313a3bb3b4d55abee8353b2b910a6",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "eeae514b-a02c-de02-730c-999ed9c51b88",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T16:09:02Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|3vui5TS8kSq77KuK2v3LyG|DEPARTMENT|Lending Ops",
+                "user_id": "3vui5TS8kSq77KuK2v3LyG",
+                "created_at": "2024-11-28T16:09:02.940Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "solicitar referencias "
+                },
+                "created_by": "brenda.ixcoy@vana.gt",
+                "id": "993aab19-7a8a-4b42-9dfb-0937b76f49eb",
+                "order_by": "2024-11-28T16:09:02.940Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "7497723989779636102",
+                    "x-datadog-parent-id": "6583449573082591939",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=6748959e00000000,_dd.p.dm=-1",
+                    "traceparent": "00-6748959e00000000680d443e7abd5f86-5b5d1c819048f2c3-01",
+                    "tracestate": "dd=t.tid:6748959e00000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 16:09:03.071",
+        "@message": "2024-11-28T16:09:03.071Z\t6464f39d-4486-4019-b0b2-147c191a0575\tINFO\t[dd.trace_id=7497723989779636102 dd.span_id=508842113276397680] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"eeae514b-a02c-de02-730c-999ed9c51b88\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T16:09:02Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|3vui5TS8kSq77KuK2v3LyG|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"3vui5TS8kSq77KuK2v3LyG\\\",\\\"created_at\\\":\\\"2024-11-28T16:09:02.940Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"solicitar referencias \\\"},\\\"created_by\\\":\\\"brenda.ixcoy@vana.gt\\\",\\\"id\\\":\\\"993aab19-7a8a-4b42-9dfb-0937b76f49eb\\\",\\\"order_by\\\":\\\"2024-11-28T16:09:02.940Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"7497723989779636102\\\",\\\"x-datadog-parent-id\\\":\\\"6583449573082591939\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=6748959e00000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-6748959e00000000680d443e7abd5f86-5b5d1c819048f2c3-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:6748959e00000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]8292d5579ec54a7a9e225ed480a90fa1",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "26f56c85-bf2e-6f0a-cfc6-68bcd6a3c5d9",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T16:07:44Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|jMbzDqjFAoqSA7frvsi1Ck|DEPARTMENT|Lending Ops",
+                "user_id": "jMbzDqjFAoqSA7frvsi1Ck",
+                "created_at": "2024-11-28T16:07:44.187Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "validar correo"
+                },
+                "created_by": "brenda.ixcoy@vana.gt",
+                "id": "611ffd4c-1296-42a0-9fa7-fa04601afe6d",
+                "order_by": "2024-11-28T16:07:44.187Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "8052917257013688083",
+                    "x-datadog-parent-id": "8513310328897074219",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=6748955000000000,_dd.p.dm=-1",
+                    "traceparent": "00-67489550000000006fc1b5943de9f713-76255aa38092f42b-01",
+                    "tracestate": "dd=t.tid:6748955000000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 16:07:44.305",
+        "@message": "2024-11-28T16:07:44.305Z\t2e584248-22c1-4c63-929d-ba8aef7007b1\tINFO\t[dd.trace_id=8052917257013688083 dd.span_id=141458217772535574] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"26f56c85-bf2e-6f0a-cfc6-68bcd6a3c5d9\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T16:07:44Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|jMbzDqjFAoqSA7frvsi1Ck|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"jMbzDqjFAoqSA7frvsi1Ck\\\",\\\"created_at\\\":\\\"2024-11-28T16:07:44.187Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"validar correo\\\"},\\\"created_by\\\":\\\"brenda.ixcoy@vana.gt\\\",\\\"id\\\":\\\"611ffd4c-1296-42a0-9fa7-fa04601afe6d\\\",\\\"order_by\\\":\\\"2024-11-28T16:07:44.187Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"8052917257013688083\\\",\\\"x-datadog-parent-id\\\":\\\"8513310328897074219\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=6748955000000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-67489550000000006fc1b5943de9f713-76255aa38092f42b-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:6748955000000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]6e13137ade744fbb84d64e9c6d4a5590",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "4f0335eb-b487-acff-7737-547de2f0dedc",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T15:56:37Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|5XJJF5DKgPLpWosxNETGoE|DEPARTMENT|Lending Ops",
+                "user_id": "5XJJF5DKgPLpWosxNETGoE",
+                "created_at": "2024-11-28T15:56:37.684Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "solicitar 2 referencias mas "
+                },
+                "created_by": "brenda.ixcoy@vana.gt",
+                "id": "d6c68785-844a-4f7e-ac7f-1477ab8d76cd",
+                "order_by": "2024-11-28T15:56:37.684Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "8795065490690352389",
+                    "x-datadog-parent-id": "5435536052930837466",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=674892b500000000,_dd.p.dm=-1",
+                    "traceparent": "00-674892b5000000007a0e59772ce52505-4b6ee73dcec57bda-01",
+                    "tracestate": "dd=t.tid:674892b500000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 15:56:37.798",
+        "@message": "2024-11-28T15:56:37.798Z\t7d739f83-8d59-4a34-8ea8-52160164d070\tINFO\t[dd.trace_id=8795065490690352389 dd.span_id=3829179597444141561] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"4f0335eb-b487-acff-7737-547de2f0dedc\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T15:56:37Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|5XJJF5DKgPLpWosxNETGoE|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"5XJJF5DKgPLpWosxNETGoE\\\",\\\"created_at\\\":\\\"2024-11-28T15:56:37.684Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"solicitar 2 referencias mas \\\"},\\\"created_by\\\":\\\"brenda.ixcoy@vana.gt\\\",\\\"id\\\":\\\"d6c68785-844a-4f7e-ac7f-1477ab8d76cd\\\",\\\"order_by\\\":\\\"2024-11-28T15:56:37.684Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"8795065490690352389\\\",\\\"x-datadog-parent-id\\\":\\\"5435536052930837466\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=674892b500000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-674892b5000000007a0e59772ce52505-4b6ee73dcec57bda-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:674892b500000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]0e41810db45f49b2bde6216a6c2a080a",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "afc94c82-301a-001f-b0ff-cdeb2071f1cf",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T15:43:03Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|ppTDiac2htWzPFjYeccZiG|DEPARTMENT|Lending Ops",
+                "user_id": "ppTDiac2htWzPFjYeccZiG",
+                "created_at": "2024-11-28T15:43:03.430Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "user crea 3 cuentas adicionales mod el no. de documento user: wunsT3MRjziyhaSrmsq4HV - hUiGaLmmtZFHmgz49AmFty - mGEq4nrHyxnswxZGopgthN - siendo el principal el user ppTDiac2htWzPFjYeccZiG"
+                },
+                "created_by": "marlon.cotzojay@vana.gt",
+                "id": "1c74c866-967a-455f-8091-e44daf39003f",
+                "order_by": "2024-11-28T15:43:03.430Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "2967233336246998642",
+                    "x-datadog-parent-id": "2200633910934981364",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=67488f8600000000,_dd.p.dm=-1",
+                    "traceparent": "00-67488f8600000000292dbaff8cb31672-1e8a38e1edf54af4-01",
+                    "tracestate": "dd=t.tid:67488f8600000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 15:43:03.551",
+        "@message": "2024-11-28T15:43:03.551Z\t2c68cd84-227b-44e5-bfdf-73d390aa56ef\tINFO\t[dd.trace_id=2967233336246998642 dd.span_id=6000425401771759032] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"afc94c82-301a-001f-b0ff-cdeb2071f1cf\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T15:43:03Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|ppTDiac2htWzPFjYeccZiG|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"ppTDiac2htWzPFjYeccZiG\\\",\\\"created_at\\\":\\\"2024-11-28T15:43:03.430Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"user crea 3 cuentas adicionales mod el no. de documento user: wunsT3MRjziyhaSrmsq4HV - hUiGaLmmtZFHmgz49AmFty - mGEq4nrHyxnswxZGopgthN - siendo el principal el user ppTDiac2htWzPFjYeccZiG\\\"},\\\"created_by\\\":\\\"marlon.cotzojay@vana.gt\\\",\\\"id\\\":\\\"1c74c866-967a-455f-8091-e44daf39003f\\\",\\\"order_by\\\":\\\"2024-11-28T15:43:03.430Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"2967233336246998642\\\",\\\"x-datadog-parent-id\\\":\\\"2200633910934981364\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=67488f8600000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-67488f8600000000292dbaff8cb31672-1e8a38e1edf54af4-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:67488f8600000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]16d36f793270493ebae2df9f7a422381",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "6baa7900-2d14-5d33-3b8d-560428a49eaf",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T15:09:00Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|9kdb2wjPCKMt6DAjDrUFCw|DEPARTMENT|Lending Ops",
+                "user_id": "9kdb2wjPCKMt6DAjDrUFCw",
+                "created_at": "2024-11-28T15:09:00.200Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "validar correo electrónico "
+                },
+                "created_by": "brenda.ixcoy@vana.gt",
+                "id": "484ab374-731d-4c2c-9176-612cb9ebeab2",
+                "order_by": "2024-11-28T15:09:00.200Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "5760442527500772766",
+                    "x-datadog-parent-id": "496398316369164509",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=6748878c00000000,_dd.p.dm=-1",
+                    "traceparent": "00-6748878c000000004ff133f568bca59e-06e38fa3824938dd-01",
+                    "tracestate": "dd=t.tid:6748878c00000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 15:09:00.345",
+        "@message": "2024-11-28T15:09:00.345Z\t13a811e1-8db3-4014-b9e6-58dff281ac41\tINFO\t[dd.trace_id=5760442527500772766 dd.span_id=1454513189473909338] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"6baa7900-2d14-5d33-3b8d-560428a49eaf\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T15:09:00Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|9kdb2wjPCKMt6DAjDrUFCw|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"9kdb2wjPCKMt6DAjDrUFCw\\\",\\\"created_at\\\":\\\"2024-11-28T15:09:00.200Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"validar correo electrónico \\\"},\\\"created_by\\\":\\\"brenda.ixcoy@vana.gt\\\",\\\"id\\\":\\\"484ab374-731d-4c2c-9176-612cb9ebeab2\\\",\\\"order_by\\\":\\\"2024-11-28T15:09:00.200Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"5760442527500772766\\\",\\\"x-datadog-parent-id\\\":\\\"496398316369164509\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=6748878c00000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-6748878c000000004ff133f568bca59e-06e38fa3824938dd-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:6748878c00000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]499d9ad73593422c9f57c3e7a860a953",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "e4d7bdbb-43b8-2659-b8e7-57417fd629d9",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T14:35:12Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|6juDjrkMQAJTvyVQcUBU3G|DEPARTMENT|Lending Ops",
+                "user_id": "6juDjrkMQAJTvyVQcUBU3G",
+                "created_at": "2024-11-28T14:35:12.891Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "confirmar correo/ solicitar 1 ref. mas "
+                },
+                "created_by": "brenda.ixcoy@vana.gt",
+                "id": "66745d62-4ca0-4ab6-9d6d-d9575cf45eb3",
+                "order_by": "2024-11-28T14:35:12.891Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "1448046582088322352",
+                    "x-datadog-parent-id": "5573132661011673474",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=67487fa000000000,_dd.p.dm=-1",
+                    "traceparent": "00-67487fa00000000014187eb1bf97cd30-4d57bea0a1ba7182-01",
+                    "tracestate": "dd=t.tid:67487fa000000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 14:35:13.006",
+        "@message": "2024-11-28T14:35:13.006Z\te61619fb-7059-4c66-9da3-283f8d167241\tINFO\t[dd.trace_id=1448046582088322352 dd.span_id=263967914719061055] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"e4d7bdbb-43b8-2659-b8e7-57417fd629d9\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T14:35:12Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|6juDjrkMQAJTvyVQcUBU3G|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"6juDjrkMQAJTvyVQcUBU3G\\\",\\\"created_at\\\":\\\"2024-11-28T14:35:12.891Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"confirmar correo/ solicitar 1 ref. mas \\\"},\\\"created_by\\\":\\\"brenda.ixcoy@vana.gt\\\",\\\"id\\\":\\\"66745d62-4ca0-4ab6-9d6d-d9575cf45eb3\\\",\\\"order_by\\\":\\\"2024-11-28T14:35:12.891Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"1448046582088322352\\\",\\\"x-datadog-parent-id\\\":\\\"5573132661011673474\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=67487fa000000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-67487fa00000000014187eb1bf97cd30-4d57bea0a1ba7182-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:67487fa000000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]b4489cef07bb4168bf8f083181deb1df",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "4102378b-1915-ff03-f851-04068bbfee86",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T14:04:08Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|hLzALuJNCtzggco3E6jnPK|DEPARTMENT|Lending Ops",
+                "user_id": "hLzALuJNCtzggco3E6jnPK",
+                "created_at": "2024-11-28T14:04:08.825Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "User crea cta. secundaria con datos de mujer y envía sus fotografías ID: i2La4Rvye3J6q6TGAS3z58"
+                },
+                "created_by": "marielos.garcia@vana.gt",
+                "id": "80e2eae8-8278-43af-a47a-3dec4cef8ec9",
+                "order_by": "2024-11-28T14:04:08.825Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "4407404826174570412",
+                    "x-datadog-parent-id": "5112220013302492005",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=6748785800000000,_dd.p.dm=-1",
+                    "traceparent": "00-67487858000000003d2a3f56857a3fac-46f241043289ab65-01",
+                    "tracestate": "dd=t.tid:6748785800000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 14:04:08.954",
+        "@message": "2024-11-28T14:04:08.954Z\tb43cabff-908b-4947-8e66-7ec430a72079\tINFO\t[dd.trace_id=4407404826174570412 dd.span_id=8943242675379683748] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"4102378b-1915-ff03-f851-04068bbfee86\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T14:04:08Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|hLzALuJNCtzggco3E6jnPK|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"hLzALuJNCtzggco3E6jnPK\\\",\\\"created_at\\\":\\\"2024-11-28T14:04:08.825Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"User crea cta. secundaria con datos de mujer y envía sus fotografías ID: i2La4Rvye3J6q6TGAS3z58\\\"},\\\"created_by\\\":\\\"marielos.garcia@vana.gt\\\",\\\"id\\\":\\\"80e2eae8-8278-43af-a47a-3dec4cef8ec9\\\",\\\"order_by\\\":\\\"2024-11-28T14:04:08.825Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"4407404826174570412\\\",\\\"x-datadog-parent-id\\\":\\\"5112220013302492005\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=6748785800000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-67487858000000003d2a3f56857a3fac-46f241043289ab65-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:6748785800000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]52fd91f52c154f4287d6a35d24fa0976",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "7d399f52-83eb-55e3-9fcc-158bfa231e39",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T14:04:03Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|jFDBXbUdxxsDS7tEGdSsbx|DEPARTMENT|Lending Ops",
+                "user_id": "jFDBXbUdxxsDS7tEGdSsbx",
+                "created_at": "2024-11-28T14:04:03.305Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "Fotos tomadas a otro dispositivo, validar que sea la misma persona quien solicita el crédito "
+                },
+                "created_by": "daniel.cruz@vana.gt",
+                "id": "e5c3a5e2-dbc3-4432-b9ed-b0202e15d520",
+                "order_by": "2024-11-28T14:04:03.305Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "1247180765906974182",
+                    "x-datadog-parent-id": "5810242872099081255",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=6748785300000000,_dd.p.dm=-1",
+                    "traceparent": "00-6748785300000000114ee04c7a95b5e6-50a2211bb2360c27-01",
+                    "tracestate": "dd=t.tid:6748785300000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 14:04:03.428",
+        "@message": "2024-11-28T14:04:03.428Z\t82a467f2-2460-4b98-a332-70854d3c20a8\tINFO\t[dd.trace_id=1247180765906974182 dd.span_id=3627758238946809971] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"7d399f52-83eb-55e3-9fcc-158bfa231e39\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T14:04:03Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|jFDBXbUdxxsDS7tEGdSsbx|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"jFDBXbUdxxsDS7tEGdSsbx\\\",\\\"created_at\\\":\\\"2024-11-28T14:04:03.305Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"Fotos tomadas a otro dispositivo, validar que sea la misma persona quien solicita el crédito \\\"},\\\"created_by\\\":\\\"daniel.cruz@vana.gt\\\",\\\"id\\\":\\\"e5c3a5e2-dbc3-4432-b9ed-b0202e15d520\\\",\\\"order_by\\\":\\\"2024-11-28T14:04:03.305Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"1247180765906974182\\\",\\\"x-datadog-parent-id\\\":\\\"5810242872099081255\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=6748785300000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-6748785300000000114ee04c7a95b5e6-50a2211bb2360c27-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:6748785300000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]52fd91f52c154f4287d6a35d24fa0976",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "62f2d1a5-c285-23f4-2a41-9bb512d7308f",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T14:03:24Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|sKGZ6oYigGL5HPY1eVeTnt|DEPARTMENT|Lending Ops",
+                "user_id": "sKGZ6oYigGL5HPY1eVeTnt",
+                "created_at": "2024-11-28T14:03:24.348Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "Fotos tomadas a otro dspositivo validar que sea la misma persona quien solicita el crédito "
+                },
+                "created_by": "daniel.cruz@vana.gt",
+                "id": "bdbae640-da85-4a81-8841-0f27e33d4702",
+                "order_by": "2024-11-28T14:03:24.348Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "1098240544460116632",
+                    "x-datadog-parent-id": "8401476013517471502",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=6748782c00000000,_dd.p.dm=-1",
+                    "traceparent": "00-6748782c000000000f3dbbf4da7a1298-749809ebdeac7f0e-01",
+                    "tracestate": "dd=t.tid:6748782c00000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 14:03:24.531",
+        "@message": "2024-11-28T14:03:24.531Z\t427f1fff-3305-4ba4-bed7-459819081af7\tINFO\t[dd.trace_id=1098240544460116632 dd.span_id=1699261963958737373] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"62f2d1a5-c285-23f4-2a41-9bb512d7308f\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T14:03:24Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|sKGZ6oYigGL5HPY1eVeTnt|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"sKGZ6oYigGL5HPY1eVeTnt\\\",\\\"created_at\\\":\\\"2024-11-28T14:03:24.348Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"Fotos tomadas a otro dspositivo validar que sea la misma persona quien solicita el crédito \\\"},\\\"created_by\\\":\\\"daniel.cruz@vana.gt\\\",\\\"id\\\":\\\"bdbae640-da85-4a81-8841-0f27e33d4702\\\",\\\"order_by\\\":\\\"2024-11-28T14:03:24.348Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"1098240544460116632\\\",\\\"x-datadog-parent-id\\\":\\\"8401476013517471502\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=6748782c00000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-6748782c000000000f3dbbf4da7a1298-749809ebdeac7f0e-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:6748782c00000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]52fd91f52c154f4287d6a35d24fa0976",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "3bb343c1-4619-6cd3-c794-98e26438f141",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T14:02:34Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|o3KLAGtcGzQCsuuBxCw7vn|DEPARTMENT|Lending Ops",
+                "user_id": "o3KLAGtcGzQCsuuBxCw7vn",
+                "created_at": "2024-11-28T14:02:34.887Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "User con fotos a un dispositivo, confirmar que sea el cliente "
+                },
+                "created_by": "daniel.cruz@vana.gt",
+                "id": "bb1d3f9e-885d-4193-9909-089d2cf3ca19",
+                "order_by": "2024-11-28T14:02:34.887Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "1999959458964936752",
+                    "x-datadog-parent-id": "3868089981657578058",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=674877fa00000000,_dd.p.dm=-1",
+                    "traceparent": "00-674877fa000000001bc148881cc99830-35ae375823f27a4a-01",
+                    "tracestate": "dd=t.tid:674877fa00000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 14:02:35.007",
+        "@message": "2024-11-28T14:02:35.007Z\t2b2dc79f-337f-4398-b2f2-cca495ba0a35\tINFO\t[dd.trace_id=1999959458964936752 dd.span_id=6356841804820948726] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"3bb343c1-4619-6cd3-c794-98e26438f141\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T14:02:34Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|o3KLAGtcGzQCsuuBxCw7vn|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"o3KLAGtcGzQCsuuBxCw7vn\\\",\\\"created_at\\\":\\\"2024-11-28T14:02:34.887Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"User con fotos a un dispositivo, confirmar que sea el cliente \\\"},\\\"created_by\\\":\\\"daniel.cruz@vana.gt\\\",\\\"id\\\":\\\"bb1d3f9e-885d-4193-9909-089d2cf3ca19\\\",\\\"order_by\\\":\\\"2024-11-28T14:02:34.887Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"1999959458964936752\\\",\\\"x-datadog-parent-id\\\":\\\"3868089981657578058\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=674877fa00000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-674877fa000000001bc148881cc99830-35ae375823f27a4a-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:674877fa00000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]00c6fbbde40845dfa81158a1d7b34120",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "2bcf3574-71da-ee6e-66b3-042bec32145c",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T13:26:50Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|iTUNymvM1boPK4oiEJ9DmY|DEPARTMENT|Lending Ops",
+                "user_id": "iTUNymvM1boPK4oiEJ9DmY",
+                "created_at": "2024-11-28T13:26:50.211Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "Fotos tomadas a un dispositivo, confirmar info y validar que sea la titular del crédito"
+                },
+                "created_by": "daniel.cruz@vana.gt",
+                "id": "036d95a8-a007-4eb9-811d-713aab1e8094",
+                "order_by": "2024-11-28T13:26:50.211Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "4805315216700054246",
+                    "x-datadog-parent-id": "36371072027469410",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=67486f9900000000,_dd.p.dm=-1",
+                    "traceparent": "00-67486f990000000042afe8badd2f9ae6-0081374c1c4c2662-01",
+                    "tracestate": "dd=t.tid:67486f9900000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 13:26:50.338",
+        "@message": "2024-11-28T13:26:50.338Z\tbb807eda-7f69-4813-aee2-514fb42368f4\tINFO\t[dd.trace_id=4805315216700054246 dd.span_id=4603121508451571073] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"2bcf3574-71da-ee6e-66b3-042bec32145c\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T13:26:50Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|iTUNymvM1boPK4oiEJ9DmY|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"iTUNymvM1boPK4oiEJ9DmY\\\",\\\"created_at\\\":\\\"2024-11-28T13:26:50.211Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"Fotos tomadas a un dispositivo, confirmar info y validar que sea la titular del crédito\\\"},\\\"created_by\\\":\\\"daniel.cruz@vana.gt\\\",\\\"id\\\":\\\"036d95a8-a007-4eb9-811d-713aab1e8094\\\",\\\"order_by\\\":\\\"2024-11-28T13:26:50.211Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"4805315216700054246\\\",\\\"x-datadog-parent-id\\\":\\\"36371072027469410\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=67486f9900000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-67486f990000000042afe8badd2f9ae6-0081374c1c4c2662-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:67486f9900000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]17abe756dcae4eeebbbe838845ae12f4",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    },
+    {
+        "msg": {
+            "id": "6ca8d5b2-5df4-890e-aa30-fbfc9d3a84ea",
+            "detail-type": "CollectionAnnotation.Created",
+            "source": "vana.annotation.service",
+            "account": "384120103923",
+            "time": "2024-11-28T13:15:30Z",
+            "region": "us-east-1",
+            "resources": [],
+            "detail": {
+                "user_department": "USER|emCbMr5ojnrYe3zKAG4x3M|DEPARTMENT|Lending Ops",
+                "user_id": "emCbMr5ojnrYe3zKAG4x3M",
+                "created_at": "2024-11-28T13:15:30.179Z",
+                "data": {
+                    "department": "Lending Ops",
+                    "review": true,
+                    "text": "user crea cta. secundaria cambiando un digito de la cedula ID: hZ397FJCkVBV4a49DbdbaJ"
+                },
+                "created_by": "marielos.garcia@vana.gt",
+                "id": "62c4de9f-0e68-4119-bcf1-457b165376d7",
+                "order_by": "2024-11-28T13:15:30.179Z",
+                "type": "review",
+                "_datadog": {
+                    "x-datadog-trace-id": "7426428917992832971",
+                    "x-datadog-parent-id": "3516183651129117429",
+                    "x-datadog-sampling-priority": "1",
+                    "x-datadog-tags": "_dd.p.tid=67486cf100000000,_dd.p.dm=-1",
+                    "traceparent": "00-67486cf100000000670ff9c106a6bfcb-30cbfe66b2964af5-01",
+                    "tracestate": "dd=t.tid:67486cf100000000;t.dm:-1;s:1"
+                }
+            }
+        },
+        "@timestamp": "2024-11-28 13:15:30.358",
+        "@message": "2024-11-28T13:15:30.358Z\t7080a4cb-9ee9-41b2-8c33-f6c121ae1f49\tINFO\t[dd.trace_id=7426428917992832971 dd.span_id=7799347076318770920] {\"_logLevel\":\"info\",\"msg\":\"{\\\"id\\\":\\\"6ca8d5b2-5df4-890e-aa30-fbfc9d3a84ea\\\",\\\"detail-type\\\":\\\"CollectionAnnotation.Created\\\",\\\"source\\\":\\\"vana.annotation.service\\\",\\\"account\\\":\\\"384120103923\\\",\\\"time\\\":\\\"2024-11-28T13:15:30Z\\\",\\\"region\\\":\\\"us-east-1\\\",\\\"resources\\\":[],\\\"detail\\\":{\\\"user_department\\\":\\\"USER|emCbMr5ojnrYe3zKAG4x3M|DEPARTMENT|Lending Ops\\\",\\\"user_id\\\":\\\"emCbMr5ojnrYe3zKAG4x3M\\\",\\\"created_at\\\":\\\"2024-11-28T13:15:30.179Z\\\",\\\"data\\\":{\\\"department\\\":\\\"Lending Ops\\\",\\\"review\\\":true,\\\"text\\\":\\\"user crea cta. secundaria cambiando un digito de la cedula ID: hZ397FJCkVBV4a49DbdbaJ\\\"},\\\"created_by\\\":\\\"marielos.garcia@vana.gt\\\",\\\"id\\\":\\\"62c4de9f-0e68-4119-bcf1-457b165376d7\\\",\\\"order_by\\\":\\\"2024-11-28T13:15:30.179Z\\\",\\\"type\\\":\\\"review\\\",\\\"_datadog\\\":{\\\"x-datadog-trace-id\\\":\\\"7426428917992832971\\\",\\\"x-datadog-parent-id\\\":\\\"3516183651129117429\\\",\\\"x-datadog-sampling-priority\\\":\\\"1\\\",\\\"x-datadog-tags\\\":\\\"_dd.p.tid=67486cf100000000,_dd.p.dm=-1\\\",\\\"traceparent\\\":\\\"00-67486cf100000000670ff9c106a6bfcb-30cbfe66b2964af5-01\\\",\\\"tracestate\\\":\\\"dd=t.tid:67486cf100000000;t.dm:-1;s:1\\\"}}}\",\"_tags\":[]}\n",
+        "@logStream": "2024/11/28/[$LATEST]66935f40beef42bbac586eb3450a00bd",
+        "@log": "384120103923:/aws/lambda/user-consume-events"
+    }
+]
