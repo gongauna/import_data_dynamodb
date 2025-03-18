@@ -24,7 +24,7 @@ const listAnnotations = async (ambiente, lastKey) => {
     findParams["ExclusiveStartKey"] = lastKey;
   }
 
-  const maxItems = 100000;
+  const maxItems = 1;
   let lastEvaluatedKey;
   let items = [];
   let moreItems = true;
@@ -77,27 +77,36 @@ const updateAnnotations = async (ambiente, item) => {
 async function backfillAnnotationsSearchField(ambiente) {
   console.log("Inicio backfill annotation search field");
 
-  const lastKey = null; //{"id":"c9215d06-e05b-47a6-91d5-eb58beb36ccf"};
-  const { items: annotation, lastEvaluatedKey } = await listAnnotations(
-    ambiente,
-    lastKey
-  );
-  console.log("lastEvaluatedKey:" + JSON.stringify(lastEvaluatedKey));
-  console.log("Cantidad actualizar:" + annotation.length);
-
+  let lastKey = null; //{ id: "ef1548a0-010b-4002-8f58-3636cf14e209" };
+  let count = 0;
   let counterUpdate = 0;
-  await Promise.all(
-    annotation.map((item) => {
-      //console.log("ITEM::: " + item.id);
-      counterUpdate = counterUpdate + 1;
-      const obj = {
-        id: item.id,
-        search: `SOURCE|vana|USER|${item.user_id}`,
-      };
-      return updateAnnotations(ambiente, obj);
-    })
-  );
-  console.log("Cantidad actualizados:" + counterUpdate);
+  while (count < 1) {
+    //lastKey) {
+    console.log("COUNT: " + count);
+    const { items: annotation, lastEvaluatedKey } = await listAnnotations(
+      ambiente,
+      lastKey
+    );
+    console.log("lastEvaluatedKey:" + JSON.stringify(lastEvaluatedKey));
+    lastKey = lastEvaluatedKey;
+    console.log("Cantidad actualizar:" + annotation.length);
+
+    console.log("ITEM id::: " + annotation[0].id);
+    console.log("ITEM::: " + annotation[0].search);
+    await Promise.all(
+      annotation.map((item) => {
+        counterUpdate = counterUpdate + 1;
+        const obj = {
+          id: item.id,
+          search: `SOURCE|vana|USER|${item.user_id}`,
+        };
+        return 1;//updateAnnotations(ambiente, obj);
+      })
+    );
+    console.log("Cantidad actualizados:" + counterUpdate);
+    count = count + 1;
+  }
+  console.log("FIN Cantidad actualizados:" + counterUpdate);
 
   console.log("Fin backfill annotation search");
 }

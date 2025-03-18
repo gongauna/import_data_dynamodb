@@ -1,6 +1,6 @@
 // Imports
 const backfill = require("./backfill-annotation-search");
 
-const ambiente = "_dev"
+const ambiente = ""
 backfill.backfillAnnotationsSearchField(ambiente);
 
