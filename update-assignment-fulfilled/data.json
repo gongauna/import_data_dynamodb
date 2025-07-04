@@ -1,0 +1,1738 @@
+[
+  {
+    "pk": "LOAN|0f41b263-4a82-4e3c-b7e9-f6b58259fb65",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "0f41b263-4a82-4e3c-b7e9-f6b58259fb65",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|2ed2f33d-ef37-4cf3-a625-38df0e8b1c89",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "2ed2f33d-ef37-4cf3-a625-38df0e8b1c89",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|34fdfd7a-95e1-45ff-9629-c2460e0f9eaf",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "34fdfd7a-95e1-45ff-9629-c2460e0f9eaf",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|3e05b849-ce03-43fe-b4cf-5680baa46ff7",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "3e05b849-ce03-43fe-b4cf-5680baa46ff7",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|510a9e45-c79f-423e-977c-a57d2eef81fa",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "510a9e45-c79f-423e-977c-a57d2eef81fa",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|5bfeb8d5-cd5d-4abf-a07e-fe94b75c1f8f",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "5bfeb8d5-cd5d-4abf-a07e-fe94b75c1f8f",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|5c78f401-aaa1-4b8b-b096-b5d01df3f300",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "5c78f401-aaa1-4b8b-b096-b5d01df3f300",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|5d82bb13-c920-4f06-afc7-d87fbfd01035",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "5d82bb13-c920-4f06-afc7-d87fbfd01035",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|619a526b-727a-4f5c-8de4-d15dbe4c6eb7",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "619a526b-727a-4f5c-8de4-d15dbe4c6eb7",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|63d2afee-abdd-431d-90e1-75357034404a",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "63d2afee-abdd-431d-90e1-75357034404a",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|6ee31af4-7419-49d5-a047-2677316f6182",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "6ee31af4-7419-49d5-a047-2677316f6182",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|774ca5d4-420a-4c9d-8d90-f064f1d86e40",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "774ca5d4-420a-4c9d-8d90-f064f1d86e40",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|84b35423-8435-4f01-afd2-878d57a8c161",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "84b35423-8435-4f01-afd2-878d57a8c161",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|95cf7698-e726-487b-9a3b-1cd40a4f9f02",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "95cf7698-e726-487b-9a3b-1cd40a4f9f02",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|9834d0fb-e2c5-4b45-9272-e67d753922ee",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "9834d0fb-e2c5-4b45-9272-e67d753922ee",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|9a9608f6-eeeb-451a-b1c2-5972ee6bc938",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "9a9608f6-eeeb-451a-b1c2-5972ee6bc938",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|9d3e35da-b180-40e1-b1c6-a46fc4b5d5e7",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "9d3e35da-b180-40e1-b1c6-a46fc4b5d5e7",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|a408aa6c-11ab-49c6-b928-e6ea61c4a717",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "a408aa6c-11ab-49c6-b928-e6ea61c4a717",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|acd8b9ec-99be-455e-9211-e9798501e66a",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "acd8b9ec-99be-455e-9211-e9798501e66a",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|b1b3b1fc-944e-4d2a-98a0-20075297fd1a",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "b1b3b1fc-944e-4d2a-98a0-20075297fd1a",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|be16661c-8f44-49d1-b9c1-57a27a10c9ae",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "be16661c-8f44-49d1-b9c1-57a27a10c9ae",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|f564a2bb-265b-4a04-8d86-c4ea2825f291",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "f564a2bb-265b-4a04-8d86-c4ea2825f291",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|fa6bbdf5-8db1-44af-8068-e819c7290ba2",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "fa6bbdf5-8db1-44af-8068-e819c7290ba2",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|85063d4a-fae3-42e1-aa3a-747a01c17a48",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "85063d4a-fae3-42e1-aa3a-747a01c17a48",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|1b6c6b33-2f3c-4d34-af42-4bf95701bd5f",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "1b6c6b33-2f3c-4d34-af42-4bf95701bd5f",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|2d29e4d9-b072-4aaf-b397-7331211186b5",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "2d29e4d9-b072-4aaf-b397-7331211186b5",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|31bd9e7c-faf8-4ef2-9bac-6f3277a7c194",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "31bd9e7c-faf8-4ef2-9bac-6f3277a7c194",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|329e9c9f-d85b-4ce9-809a-def8f18afc4d",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "329e9c9f-d85b-4ce9-809a-def8f18afc4d",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|32bee1ad-1fb5-4680-8652-a4fec94aaf4d",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "32bee1ad-1fb5-4680-8652-a4fec94aaf4d",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|3a6941c3-198d-4539-96b4-cb0392cebaa0",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "3a6941c3-198d-4539-96b4-cb0392cebaa0",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|3b9f48a3-0003-44ce-87e5-80196d2a397b",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "3b9f48a3-0003-44ce-87e5-80196d2a397b",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|43b5c963-6192-4d3d-a2cd-d965534b5453",
+    "sk": "HOUSE|admicarter|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "43b5c963-6192-4d3d-a2cd-d965534b5453",
+    "props_house_id": "admicarter"
+  },
+  {
+    "pk": "LOAN|5c21a687-29fc-407c-91ae-b1ffc077d62b",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "5c21a687-29fc-407c-91ae-b1ffc077d62b",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|6ac072be-e728-48c4-ad88-895f068769b0",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "6ac072be-e728-48c4-ad88-895f068769b0",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|6ac5b4ae-2228-4f49-8709-4e649fbadaab",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "6ac5b4ae-2228-4f49-8709-4e649fbadaab",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|783e9885-14e0-4d22-99f3-cfcce22ae11a",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "783e9885-14e0-4d22-99f3-cfcce22ae11a",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|8277f982-e910-4828-abe6-2f96aa6c0918",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "8277f982-e910-4828-abe6-2f96aa6c0918",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|88032c42-60d4-4be4-984e-2338c7af95a9",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "88032c42-60d4-4be4-984e-2338c7af95a9",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|882b4b00-3899-4856-8bb8-07312bbf461f",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "882b4b00-3899-4856-8bb8-07312bbf461f",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|92fb2d48-b220-4fe7-acde-a7f967dbb4af",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "92fb2d48-b220-4fe7-acde-a7f967dbb4af",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|97086dc0-5b71-4799-920a-3ec061dfb1bf",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "97086dc0-5b71-4799-920a-3ec061dfb1bf",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|9927f194-87c9-4cb6-b7fd-95d5ccef9493",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "9927f194-87c9-4cb6-b7fd-95d5ccef9493",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|9e7c4c39-36c9-4741-bff0-a6cd637ab1fc",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "9e7c4c39-36c9-4741-bff0-a6cd637ab1fc",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|a149059e-2767-4f57-9bdd-68d2671132d5",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "a149059e-2767-4f57-9bdd-68d2671132d5",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|a72d858d-a02b-47d9-9eae-8ff484c1c43d",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "a72d858d-a02b-47d9-9eae-8ff484c1c43d",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|a77f7b98-9596-4c68-9eeb-ed39590473ff",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "a77f7b98-9596-4c68-9eeb-ed39590473ff",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|a7ef45cd-4cb3-4af5-aead-cfef4293febe",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "a7ef45cd-4cb3-4af5-aead-cfef4293febe",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|a87a9277-f1fe-40d8-a2ae-b1b0ae9b9441",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "a87a9277-f1fe-40d8-a2ae-b1b0ae9b9441",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|d615773e-902f-4dbe-b456-04c068779f1f",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "d615773e-902f-4dbe-b456-04c068779f1f",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|df379b70-74f5-4d84-bf7d-c471471a1d03",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "df379b70-74f5-4d84-bf7d-c471471a1d03",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|e2434b7c-253b-4590-b3d2-55bd38dbccf9",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "e2434b7c-253b-4590-b3d2-55bd38dbccf9",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|e9e3cf7b-4114-48bb-9cbb-2a68d07342f4",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "e9e3cf7b-4114-48bb-9cbb-2a68d07342f4",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|14fd0e1c-d853-4a9e-8def-da6ed07960fd",
+    "sk": "HOUSE|soluciones_globales|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "14fd0e1c-d853-4a9e-8def-da6ed07960fd",
+    "props_house_id": "soluciones_globales"
+  },
+  {
+    "pk": "LOAN|005da185-c0f6-4cf6-936d-3e1ff28824d0",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "005da185-c0f6-4cf6-936d-3e1ff28824d0",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|0064bbb4-8e2d-4172-a35f-2a608570647d",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "0064bbb4-8e2d-4172-a35f-2a608570647d",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|04f8ad91-64cf-439a-8110-0a3f1073eed0",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "04f8ad91-64cf-439a-8110-0a3f1073eed0",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|0ae5afe2-da53-433d-9ebf-63d401899e76",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "0ae5afe2-da53-433d-9ebf-63d401899e76",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|1e412ca1-60e5-4c6d-95b8-938de39dbb96",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "1e412ca1-60e5-4c6d-95b8-938de39dbb96",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|3a81bd77-0842-4e0d-97d4-24148fa9c452",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "3a81bd77-0842-4e0d-97d4-24148fa9c452",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|3c7d6b67-d704-4505-961b-b72f381865ca",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "3c7d6b67-d704-4505-961b-b72f381865ca",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|3fcf561a-2a35-4ef4-9717-f520c841ad0b",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "3fcf561a-2a35-4ef4-9717-f520c841ad0b",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|43beabbd-00fb-435b-ac2a-747d7525367c",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "43beabbd-00fb-435b-ac2a-747d7525367c",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|46752cf7-089f-4308-8169-172f2960bbca",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "46752cf7-089f-4308-8169-172f2960bbca",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|495faa3e-b802-41e5-95d9-3d1de725461b",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "495faa3e-b802-41e5-95d9-3d1de725461b",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|552420c7-d121-40e1-8583-7973afeac7f9",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "552420c7-d121-40e1-8583-7973afeac7f9",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|5851633b-b97f-4a3a-90de-8cbecba520df",
+    "sk": "HOUSE|admicarter|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "5851633b-b97f-4a3a-90de-8cbecba520df",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|58f43a02-20a4-4faa-9833-4ec475b984f1",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "58f43a02-20a4-4faa-9833-4ec475b984f1",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|59ff520c-39b9-4e49-8bd4-476ecd64628f",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "59ff520c-39b9-4e49-8bd4-476ecd64628f",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|621b6431-f2bb-45ce-a522-7681aa600804",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "621b6431-f2bb-45ce-a522-7681aa600804",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|70c52ca7-2eff-408e-8f57-eee544b53628",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "70c52ca7-2eff-408e-8f57-eee544b53628",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|896d2c58-199a-4182-b8a1-9f5bdb716645",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "896d2c58-199a-4182-b8a1-9f5bdb716645",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|8d7fbbc3-bf3a-43ab-ba44-71063ea10bc4",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "8d7fbbc3-bf3a-43ab-ba44-71063ea10bc4",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|91c7661e-625c-4a80-a434-bd18d071620c",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "91c7661e-625c-4a80-a434-bd18d071620c",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|95427d52-7685-40c2-b319-bf1f4bdee05c",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "95427d52-7685-40c2-b319-bf1f4bdee05c",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|976acd55-b868-479e-a139-e8f0ea24e7e6",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "976acd55-b868-479e-a139-e8f0ea24e7e6",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|97bd2fc5-e747-4ee0-a531-5e6f284d9e03",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "97bd2fc5-e747-4ee0-a531-5e6f284d9e03",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|b5f0fc04-e9e6-4397-bc94-287d3d52ee93",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "b5f0fc04-e9e6-4397-bc94-287d3d52ee93",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|c26b5e0f-f236-47f0-8870-9b5de481dd89",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "c26b5e0f-f236-47f0-8870-9b5de481dd89",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|c5452cdb-eeb6-479d-8dd5-61fc224c88cf",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "c5452cdb-eeb6-479d-8dd5-61fc224c88cf",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|ca36bf0e-78ac-45be-a44f-1aa9839dd121",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "ca36bf0e-78ac-45be-a44f-1aa9839dd121",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|cb2b9e20-0448-4f14-ab73-df2ff2805ca6",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "cb2b9e20-0448-4f14-ab73-df2ff2805ca6",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|cb639207-ab84-4528-8756-6ddda7ca3289",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "cb639207-ab84-4528-8756-6ddda7ca3289",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|cc147c19-3aac-47c7-93ce-3efaed6ab2c7",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "cc147c19-3aac-47c7-93ce-3efaed6ab2c7",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|ef1646aa-a554-4862-aa85-cd49d262a4ec",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "ef1646aa-a554-4862-aa85-cd49d262a4ec",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|efb01aac-6cf1-4d92-abb6-1a06e2f57c3e",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "efb01aac-6cf1-4d92-abb6-1a06e2f57c3e",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|f7fab484-d124-4f2b-bfe7-33c8d3c46488",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "f7fab484-d124-4f2b-bfe7-33c8d3c46488",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|ff3da617-6e41-48ec-a1d8-9960f7b04a65",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "ff3da617-6e41-48ec-a1d8-9960f7b04a65",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|551cd49c-3e9b-4a82-85f7-e1773c793d5d",
+    "sk": "HOUSE|fraud_investigation|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "551cd49c-3e9b-4a82-85f7-e1773c793d5d",
+    "props_house_id": "fraud_investigation"
+  },
+  {
+    "pk": "LOAN|0d68adba-19d5-4544-931c-bfa7297a8a41",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "0d68adba-19d5-4544-931c-bfa7297a8a41",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|0e13af59-c977-455b-bdbe-0e5ebde930eb",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "0e13af59-c977-455b-bdbe-0e5ebde930eb",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|170ca96e-9cd6-4dc3-a148-0c6373543379",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "170ca96e-9cd6-4dc3-a148-0c6373543379",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|1def30e9-b853-45b5-b233-059aa36fc771",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "1def30e9-b853-45b5-b233-059aa36fc771",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|37426b25-066e-4b7f-9a37-8c4691b39d36",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "37426b25-066e-4b7f-9a37-8c4691b39d36",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|41f9d9dd-fd0d-4558-b419-4d6930ba6208",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "41f9d9dd-fd0d-4558-b419-4d6930ba6208",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|42349e69-3531-4b4f-aab1-4341c49c3db7",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "42349e69-3531-4b4f-aab1-4341c49c3db7",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|4e6805c0-c336-496a-bd8b-b78828a7411b",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "4e6805c0-c336-496a-bd8b-b78828a7411b",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|59177ec1-f4ec-4c64-88f9-f35b2a5d17e4",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "59177ec1-f4ec-4c64-88f9-f35b2a5d17e4",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|6318a203-c24a-4b2b-baaf-b1565acff99f",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "6318a203-c24a-4b2b-baaf-b1565acff99f",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|65524317-02cc-43a2-8a57-ec93c95bc56f",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "65524317-02cc-43a2-8a57-ec93c95bc56f",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|71deb3a1-7c67-4aed-ab60-325dea4898e6",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "71deb3a1-7c67-4aed-ab60-325dea4898e6",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|79b1855c-b90d-4592-8a3a-b36695ce638e",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "79b1855c-b90d-4592-8a3a-b36695ce638e",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|79f4d913-0c7b-444c-bd3c-760886fb43b7",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "79f4d913-0c7b-444c-bd3c-760886fb43b7",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|85d5a2ed-87e1-4c71-9443-d927f1851bad",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "85d5a2ed-87e1-4c71-9443-d927f1851bad",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|91228e30-ddd0-4676-a4c5-26616fbb690b",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "91228e30-ddd0-4676-a4c5-26616fbb690b",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|9361658a-6e91-4aae-a7c2-b1b02159b947",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "9361658a-6e91-4aae-a7c2-b1b02159b947",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|9dda4a90-3e5f-4d5a-a198-1c8db2f10fc1",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "9dda4a90-3e5f-4d5a-a198-1c8db2f10fc1",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|a5d3ce8d-5897-458b-89d3-db8fe077dff5",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "a5d3ce8d-5897-458b-89d3-db8fe077dff5",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|adc59854-64ef-4cb5-81e0-968f989ad0d4",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "adc59854-64ef-4cb5-81e0-968f989ad0d4",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|ae1a844b-c25a-4d87-8710-c4dceaad4c01",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "ae1a844b-c25a-4d87-8710-c4dceaad4c01",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|b4644bde-43d6-458c-b3bc-1ab907cccc39",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "b4644bde-43d6-458c-b3bc-1ab907cccc39",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|b5ebe172-051d-4189-a83d-186a086db989",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "b5ebe172-051d-4189-a83d-186a086db989",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|beb5ba47-8edf-43ae-bf8b-57c7a3489b6c",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "beb5ba47-8edf-43ae-bf8b-57c7a3489b6c",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|c2f83a16-768d-4b6c-94e0-9fc468a79e58",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "c2f83a16-768d-4b6c-94e0-9fc468a79e58",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|c57b578d-0dce-4b00-a135-36e7ba4953b5",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "c57b578d-0dce-4b00-a135-36e7ba4953b5",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|d3802602-6550-4a7f-a037-803e064023c3",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "d3802602-6550-4a7f-a037-803e064023c3",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|d49b0da1-013b-478f-9394-770e102abf4e",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "d49b0da1-013b-478f-9394-770e102abf4e",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|e1eafe41-455b-4caa-afaf-330b8ccd6537",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "e1eafe41-455b-4caa-afaf-330b8ccd6537",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|e397ca81-6322-4bd3-bfc1-36040cf7370e",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "e397ca81-6322-4bd3-bfc1-36040cf7370e",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|eea20278-4933-469d-82dd-c99f7b852649",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "eea20278-4933-469d-82dd-c99f7b852649",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|ef404fe6-817d-4f9c-a2e5-02481e4145eb",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "ef404fe6-817d-4f9c-a2e5-02481e4145eb",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|f2e37115-db10-429a-a96c-3b3541538dc4",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "f2e37115-db10-429a-a96c-3b3541538dc4",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|f404dacc-72aa-4e0d-b9f3-e51a4b33939b",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "f404dacc-72aa-4e0d-b9f3-e51a4b33939b",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|f7423daa-6855-432d-b91b-1e508849deeb",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "f7423daa-6855-432d-b91b-1e508849deeb",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|f7dc62a2-0b48-4d40-9494-3c3cc4dcff76",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "f7dc62a2-0b48-4d40-9494-3c3cc4dcff76",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|f874344b-f764-4301-b5f8-cf2b8c648c96",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "f874344b-f764-4301-b5f8-cf2b8c648c96",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|f9c1e8b6-0a3d-4d43-abb0-9062071296a8",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "f9c1e8b6-0a3d-4d43-abb0-9062071296a8",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|fabba65a-6e89-4f3a-b2e4-3d3f8f0d5949",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "fabba65a-6e89-4f3a-b2e4-3d3f8f0d5949",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|061e141c-f091-4748-bda5-787d35343e35",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "061e141c-f091-4748-bda5-787d35343e35",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|1920582f-ed9b-419a-827d-dc5198dbca5b",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "1920582f-ed9b-419a-827d-dc5198dbca5b",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|19209a12-8a62-4e83-95d4-6289e4809a3b",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "19209a12-8a62-4e83-95d4-6289e4809a3b",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|4a8f88ef-f2b6-4893-b9c5-f4fe92ec660a",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "4a8f88ef-f2b6-4893-b9c5-f4fe92ec660a",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|538c9559-1d4d-4236-9809-e34c7a5367bf",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "538c9559-1d4d-4236-9809-e34c7a5367bf",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|53f689ae-7530-4cf5-aa09-7b721de58652",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "53f689ae-7530-4cf5-aa09-7b721de58652",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|5450b792-57ba-430d-bac3-e2875634ec39",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "5450b792-57ba-430d-bac3-e2875634ec39",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|5664e1a9-7388-4f01-80d1-fe0a32c44d46",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "5664e1a9-7388-4f01-80d1-fe0a32c44d46",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|566f0d3f-0ce9-4a9c-9dad-d88e969e6c90",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "566f0d3f-0ce9-4a9c-9dad-d88e969e6c90",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|5be6c870-552f-4c65-93d8-447668dc5ea0",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "5be6c870-552f-4c65-93d8-447668dc5ea0",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|89cd00ab-1072-41bb-a5c8-6bbf3d1fb400",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "89cd00ab-1072-41bb-a5c8-6bbf3d1fb400",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|9167ebbc-7364-4419-baec-0a28c2ef3790",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "9167ebbc-7364-4419-baec-0a28c2ef3790",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|a66f850c-9ddc-4b48-926b-fd29339c665b",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "a66f850c-9ddc-4b48-926b-fd29339c665b",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|abe2d217-a187-4c91-aa85-689ffc8c7806",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "abe2d217-a187-4c91-aa85-689ffc8c7806",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|ce52855f-31f7-4871-83b6-8f937d16734e",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "ce52855f-31f7-4871-83b6-8f937d16734e",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|d2f444ce-5286-4d5b-92c7-7fe9c9fca380",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "d2f444ce-5286-4d5b-92c7-7fe9c9fca380",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|dd9fc702-8de0-4a81-97cb-c83f30960d5e",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "dd9fc702-8de0-4a81-97cb-c83f30960d5e",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|e06326d5-f73f-4677-b8e1-371e7115bba3",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "e06326d5-f73f-4677-b8e1-371e7115bba3",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|e2936f15-62d7-4403-b60d-c1c7e3745c9e",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "e2936f15-62d7-4403-b60d-c1c7e3745c9e",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|e29e6353-c90c-4daa-ae61-d00eeb6d7c89",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "e29e6353-c90c-4daa-ae61-d00eeb6d7c89",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|ebee981f-94a5-437f-9ce4-39b0a10f6b69",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "ebee981f-94a5-437f-9ce4-39b0a10f6b69",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|f158038e-4508-4d34-b6e0-dd84b76d7310",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "f158038e-4508-4d34-b6e0-dd84b76d7310",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|f427315f-fe6e-4938-b514-1ac2f6d5b3b8",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "f427315f-fe6e-4938-b514-1ac2f6d5b3b8",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|f6e14328-ce0a-4753-8b18-087afb5fc646",
+    "sk": "HOUSE|admicarter|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "f6e14328-ce0a-4753-8b18-087afb5fc646",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|f9ba84ba-9c56-453d-a97a-d81594029709",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "f9ba84ba-9c56-453d-a97a-d81594029709",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|0c00ec02-e1d0-4b98-b04c-895bea5293da",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "0c00ec02-e1d0-4b98-b04c-895bea5293da",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|2015d54b-6d3c-4705-9b73-9135031bb21d",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "2015d54b-6d3c-4705-9b73-9135031bb21d",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|25b2dc36-bfd4-4b34-9f0f-2154b5bd1736",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "25b2dc36-bfd4-4b34-9f0f-2154b5bd1736",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|2b4614df-21a6-414c-a6ea-44debb7672e8",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "2b4614df-21a6-414c-a6ea-44debb7672e8",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|2cf7ae6d-2d00-492f-8e75-f238f144387a",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "2cf7ae6d-2d00-492f-8e75-f238f144387a",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|3ebc98b2-9bfc-4cc7-b791-f58d99a6899d",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "3ebc98b2-9bfc-4cc7-b791-f58d99a6899d",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|43da330c-d327-426c-a106-8b4a2812d4fc",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "43da330c-d327-426c-a106-8b4a2812d4fc",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|45a3eccf-6569-4843-be2c-614c9b6b5e5d",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "45a3eccf-6569-4843-be2c-614c9b6b5e5d",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|4860cc91-606b-4b41-b16e-1ccde72534cf",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "4860cc91-606b-4b41-b16e-1ccde72534cf",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|4b89f6aa-5810-4317-9b36-0154bca94657",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "4b89f6aa-5810-4317-9b36-0154bca94657",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|6657e5d5-f87d-49bc-8688-3ad0bb703365",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "6657e5d5-f87d-49bc-8688-3ad0bb703365",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|67e0397b-7086-4753-ab14-5a8b3810462a",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "67e0397b-7086-4753-ab14-5a8b3810462a",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|73aa1248-a6e4-4ce4-8ba3-befdf13738e7",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "73aa1248-a6e4-4ce4-8ba3-befdf13738e7",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|821a12a9-e393-4323-a456-d0d6f04a23dd",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "821a12a9-e393-4323-a456-d0d6f04a23dd",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|8b9503ac-9444-4248-80ed-49c22c0bb019",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "8b9503ac-9444-4248-80ed-49c22c0bb019",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|8bda5921-1ca7-45bf-a1a4-f4a91772c7aa",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "8bda5921-1ca7-45bf-a1a4-f4a91772c7aa",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|a212a6a1-ada2-409b-bee9-4f015e194612",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "a212a6a1-ada2-409b-bee9-4f015e194612",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|a630a805-c7c9-46ed-838e-210de245953b",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "a630a805-c7c9-46ed-838e-210de245953b",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|c9b91c42-f771-49eb-a581-286ca5cc3ffa",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "c9b91c42-f771-49eb-a581-286ca5cc3ffa",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|cf70ac47-e33b-42d7-bb61-3241f7996b59",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "cf70ac47-e33b-42d7-bb61-3241f7996b59",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|d1e10bb1-e206-4c7b-93e5-35d20b9f7356",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "d1e10bb1-e206-4c7b-93e5-35d20b9f7356",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|de7771f6-fad8-42a4-acb8-fd072a5b77f5",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "de7771f6-fad8-42a4-acb8-fd072a5b77f5",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|e0f0eee5-806e-446a-9e47-9b7311ec0e37",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "e0f0eee5-806e-446a-9e47-9b7311ec0e37",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|e10c665c-4791-476a-91df-3083f0d117c2",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "e10c665c-4791-476a-91df-3083f0d117c2",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|e4f54980-9eb2-448f-a4e7-7b132b24bfea",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "e4f54980-9eb2-448f-a4e7-7b132b24bfea",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|e952764b-2649-4530-b733-bf6579f335eb",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "e952764b-2649-4530-b733-bf6579f335eb",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|ed271427-dea8-457b-ae62-1e1eb73bbdaa",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "ed271427-dea8-457b-ae62-1e1eb73bbdaa",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|f0008b99-67d2-4b27-a5b2-bec6de11926a",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "f0008b99-67d2-4b27-a5b2-bec6de11926a",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|f307b252-76c5-41f2-8abf-4561d8719bd4",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "f307b252-76c5-41f2-8abf-4561d8719bd4",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|006ec832-f94a-4b02-969e-f48215bec694",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "006ec832-f94a-4b02-969e-f48215bec694",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|034ce27e-e12d-4d7f-a329-498d066e88f4",
+    "sk": "HOUSE|admicarter|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "034ce27e-e12d-4d7f-a329-498d066e88f4",
+    "props_house_id": "admicarter"
+  },
+  {
+    "pk": "LOAN|0a92d009-63a7-48e4-9ab2-2c5eedcd987d",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "0a92d009-63a7-48e4-9ab2-2c5eedcd987d",
+    "props_house_id": "lexcom"
+  },
+  {
+    "pk": "LOAN|17df69f4-a351-4883-b874-8be11ef0a8b8",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "17df69f4-a351-4883-b874-8be11ef0a8b8",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|2a81b9a0-4a0a-478b-9964-f5d54936941d",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "2a81b9a0-4a0a-478b-9964-f5d54936941d",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|32766101-29c0-482b-a604-89945c0ba075",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "32766101-29c0-482b-a604-89945c0ba075",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|409ee6a1-99ab-4456-a02c-d97504b88102",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "409ee6a1-99ab-4456-a02c-d97504b88102",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|4658f5df-5461-453b-8d8b-ff196bb115db",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "4658f5df-5461-453b-8d8b-ff196bb115db",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|4dfd5615-c811-4686-bdfa-a04f0faa5898",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "4dfd5615-c811-4686-bdfa-a04f0faa5898",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|59ed445a-a313-45fe-918c-5bba499af2ff",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "59ed445a-a313-45fe-918c-5bba499af2ff",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|5e3233c8-8a1f-4649-bb7b-8a96bfbf31e9",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "5e3233c8-8a1f-4649-bb7b-8a96bfbf31e9",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|7d8ea0ec-d6c7-4c01-bd5b-3e52f44316fa",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "7d8ea0ec-d6c7-4c01-bd5b-3e52f44316fa",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|7f6c1ee0-a55c-4b5b-a5f9-fc36aaa0c257",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "7f6c1ee0-a55c-4b5b-a5f9-fc36aaa0c257",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|80a2873f-7a50-473d-bea4-3930195f4fc9",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "80a2873f-7a50-473d-bea4-3930195f4fc9",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|81bd88b1-677d-4084-ad47-e871d5494836",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "81bd88b1-677d-4084-ad47-e871d5494836",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|871fce79-03d8-40ec-a3f5-0764780108dd",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "871fce79-03d8-40ec-a3f5-0764780108dd",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|8b9c9a3f-20a4-4a10-bec4-c4c75f6ec05b",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "8b9c9a3f-20a4-4a10-bec4-c4c75f6ec05b",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|8e37d883-7f96-4044-b082-d23edf2bc18b",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "8e37d883-7f96-4044-b082-d23edf2bc18b",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|a313102c-41fc-4e35-8eaa-d8b4eb19dea4",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "a313102c-41fc-4e35-8eaa-d8b4eb19dea4",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|b1bf72b7-00b9-465c-a165-e50ba09a3f14",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "b1bf72b7-00b9-465c-a165-e50ba09a3f14",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|bab723a9-96b8-43b6-bdcf-e083990b2528",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "bab723a9-96b8-43b6-bdcf-e083990b2528",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|bbe5dbea-4b0f-489b-98da-6decb5f9b23d",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "bbe5dbea-4b0f-489b-98da-6decb5f9b23d",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|beafbeb1-b8c9-49ab-b060-682ebce5e8cd",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "beafbeb1-b8c9-49ab-b060-682ebce5e8cd",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|c2494c93-d9ce-4173-ab8b-1efdeb7ed4a7",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "c2494c93-d9ce-4173-ab8b-1efdeb7ed4a7",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|c75966a1-699a-44dc-b08e-de77916e7075",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "c75966a1-699a-44dc-b08e-de77916e7075",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|e3da86a1-c5b3-4711-bd43-9452bd32d4e1",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "e3da86a1-c5b3-4711-bd43-9452bd32d4e1",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|f15e406c-dc43-491d-85b4-4350160f2b32",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "f15e406c-dc43-491d-85b4-4350160f2b32",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|fb06f56b-0dab-48b2-b901-1a963f7a0938",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "fb06f56b-0dab-48b2-b901-1a963f7a0938",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|0389340f-243e-47e4-a174-80e134397a6d",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "0389340f-243e-47e4-a174-80e134397a6d",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|060e770d-8b89-401f-a2b6-88a9d029e6d4",
+    "sk": "HOUSE|fraud_investigation|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "060e770d-8b89-401f-a2b6-88a9d029e6d4",
+    "props_house_id": "fraud_investigation"
+  },
+  {
+    "pk": "LOAN|06a8b607-6d13-4ce0-b2ac-b6d7a45093af",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "06a8b607-6d13-4ce0-b2ac-b6d7a45093af",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|099df04e-665f-4829-a840-7135b6d5dc40",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "099df04e-665f-4829-a840-7135b6d5dc40",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|0dea5595-caf2-436d-b2c7-5ab29a69be05",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "0dea5595-caf2-436d-b2c7-5ab29a69be05",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|121ff9cc-17d5-4e06-afdf-4f1623bf2e6e",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "121ff9cc-17d5-4e06-afdf-4f1623bf2e6e",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|1229af80-c26e-490e-895f-dbff4e169cf5",
+    "sk": "HOUSE|coreval|BUCKET|bucket_do_1",
+    "status": "fulfilled",
+    "props_loan_id": "1229af80-c26e-490e-895f-dbff4e169cf5",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|15c8779e-3b0f-40d8-ba56-09321e1accc0",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "15c8779e-3b0f-40d8-ba56-09321e1accc0",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|2f07845d-7204-4cd4-bc45-f4dc99e46635",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "2f07845d-7204-4cd4-bc45-f4dc99e46635",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|395f78ec-f15f-4931-aa1d-f3ce207392db",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "395f78ec-f15f-4931-aa1d-f3ce207392db",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|48bf54ca-afd6-4afe-8f1a-1afb5a323290",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "48bf54ca-afd6-4afe-8f1a-1afb5a323290",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|495383a2-db4d-4365-8ae9-bb5901932fbf",
+    "sk": "HOUSE|vertia|BUCKET|bucket_do_3",
+    "status": "fulfilled",
+    "props_loan_id": "495383a2-db4d-4365-8ae9-bb5901932fbf",
+    "props_house_id": "vertia"
+  },
+  {
+    "pk": "LOAN|4d436f8b-1377-4322-a00a-238895b5a9f7",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "4d436f8b-1377-4322-a00a-238895b5a9f7",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|4e226159-5d3f-44c9-ad1a-654b178febb0",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "4e226159-5d3f-44c9-ad1a-654b178febb0",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|562210c9-926d-481c-ac1d-0ac4aa127816",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "562210c9-926d-481c-ac1d-0ac4aa127816",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|5d27559a-fbf8-41a2-b75c-1064039a6548",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "5d27559a-fbf8-41a2-b75c-1064039a6548",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|667e7822-d668-41e1-869e-ef2d5db63093",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "667e7822-d668-41e1-869e-ef2d5db63093",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|6fc33b8f-4cfc-4d52-b6aa-0b09a49b0a4a",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "6fc33b8f-4cfc-4d52-b6aa-0b09a49b0a4a",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|727339c7-a388-4bdb-8035-2e3256bfabdd",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "727339c7-a388-4bdb-8035-2e3256bfabdd",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|87b529fa-77a1-4462-ac01-f7799cc2ba7f",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "87b529fa-77a1-4462-ac01-f7799cc2ba7f",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|92e31e53-7ec9-43cd-91aa-ca8275e83e82",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "92e31e53-7ec9-43cd-91aa-ca8275e83e82",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|974e655c-b01e-4716-b342-f0cf03ac3a21",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "974e655c-b01e-4716-b342-f0cf03ac3a21",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|a0a5b975-edae-405b-a137-2b22ba27fea0",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "a0a5b975-edae-405b-a137-2b22ba27fea0",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|a19faf8c-eac2-4594-8fba-e9227cde8824",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "a19faf8c-eac2-4594-8fba-e9227cde8824",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|a409edfd-ef63-4b1a-a94e-b7e5d9f8dee0",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "a409edfd-ef63-4b1a-a94e-b7e5d9f8dee0",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|a57012bb-c895-474b-b47c-d5ee1ce33210",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "a57012bb-c895-474b-b47c-d5ee1ce33210",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|aceee4c0-4384-439e-859b-2bfee3be65f8",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "aceee4c0-4384-439e-859b-2bfee3be65f8",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|ae2b6117-3aab-4e8d-95cb-6f728c2602c6",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "ae2b6117-3aab-4e8d-95cb-6f728c2602c6",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|b1ab72d7-dc9e-41ab-84cd-82ea3ed07bf6",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "b1ab72d7-dc9e-41ab-84cd-82ea3ed07bf6",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|b94ba49e-0c51-4401-bf1d-7d987e5cbf4a",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "b94ba49e-0c51-4401-bf1d-7d987e5cbf4a",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|ba4a9ba7-f823-4cc3-898d-ddd283bf111e",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "ba4a9ba7-f823-4cc3-898d-ddd283bf111e",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|bcb6755f-a9d3-4258-abec-125aafc086c7",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "bcb6755f-a9d3-4258-abec-125aafc086c7",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|c29bfc3d-aa2c-4f5b-b7c5-1442e487dff8",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "c29bfc3d-aa2c-4f5b-b7c5-1442e487dff8",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|d4da05e6-318b-4b9c-91a9-f3335d867026",
+    "sk": "HOUSE|lexcom|BUCKET|bucket_gt_1",
+    "status": "fulfilled",
+    "props_loan_id": "d4da05e6-318b-4b9c-91a9-f3335d867026",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|d888ba33-02f0-45eb-bf9c-749166c23115",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_6",
+    "status": "fulfilled",
+    "props_loan_id": "d888ba33-02f0-45eb-bf9c-749166c23115",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|e087507c-d2c0-43f9-ad47-563f437a4478",
+    "sk": "HOUSE|contacto502|BUCKET|bucket_gt_4",
+    "status": "fulfilled",
+    "props_loan_id": "e087507c-d2c0-43f9-ad47-563f437a4478",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|f0de50b4-3b97-491d-932f-854860b52a06",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_5",
+    "status": "fulfilled",
+    "props_loan_id": "f0de50b4-3b97-491d-932f-854860b52a06",
+    "props_house_id": ""
+  },
+  {
+    "pk": "LOAN|f4d894e3-9524-40e0-9b51-1323646dafae",
+    "sk": "HOUSE|avantte|BUCKET|bucket_gt_1_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "f4d894e3-9524-40e0-9b51-1323646dafae",
+    "props_house_id": "avantte"
+  },
+  {
+    "pk": "LOAN|be1c61fd-7c96-41f9-a20c-de5d0b42a17f",
+    "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3_2nd",
+    "status": "fulfilled",
+    "props_loan_id": "be1c61fd-7c96-41f9-a20c-de5d0b42a17f",
+    "props_house_id": "fyg_cobros_efectivos"
+  }
+]

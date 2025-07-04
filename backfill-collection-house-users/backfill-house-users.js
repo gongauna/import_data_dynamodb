@@ -83,7 +83,7 @@ async function backfill(ambiente) {
   console.log("Quantity Users:" + users.length);
 
   await Promise.all(
-    users.map(async (item) => {
+    [users[0]].map(async (item) => {
       count = count + 1;
       const idCognito = await cognitoUtil.findUserByEmail(item.email);
       const obj = {
@@ -105,7 +105,7 @@ async function backfill(ambiente) {
 
       delete obj.props.status;
       
-      //console.log("Update User: " + JSON.stringify(obj));
+      console.log("Update User: " + JSON.stringify(obj));
       return updateUser(ambiente, obj);
     })
   );

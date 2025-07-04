@@ -1,0 +1,2502 @@
+[
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|40cfe6a9-1209-44a4-81b4-ebd8877fb5cb|HOUSE|admicarter|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|admicarter|BUCKET|bucket_gt_8",
+      "pk": "LOAN|40cfe6a9-1209-44a4-81b4-ebd8877fb5cb"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|6d1dcee2-d05a-4943-8708-c7dd9d0e984c|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|6d1dcee2-d05a-4943-8708-c7dd9d0e984c"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b49b2bcc-b39f-44e6-b328-633c50d3dac5|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|b49b2bcc-b39f-44e6-b328-633c50d3dac5"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|59c9e37b-9800-4ec7-8258-145797d91541|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|59c9e37b-9800-4ec7-8258-145797d91541"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|0f037c19-abe5-48f7-94f2-f0cc9cbcdc5d|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|0f037c19-abe5-48f7-94f2-f0cc9cbcdc5d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|765244da-f155-4aad-aed5-3d94dd1c94c0|HOUSE|recart|BUCKET|bucket_gt_7",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_7",
+      "sk": "HOUSE|recart|BUCKET|bucket_gt_7",
+      "pk": "LOAN|765244da-f155-4aad-aed5-3d94dd1c94c0"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b9fcdc84-9be7-43b9-8566-33a294b3fa4b|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|b9fcdc84-9be7-43b9-8566-33a294b3fa4b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|aaf9a4d4-ee17-4cb1-8040-47fb692884cd|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|aaf9a4d4-ee17-4cb1-8040-47fb692884cd"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|cfcc1864-6ca0-489d-ac02-267fb221db71|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|cfcc1864-6ca0-489d-ac02-267fb221db71"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|54b11654-d541-4118-87fa-3e0b53e86823|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|54b11654-d541-4118-87fa-3e0b53e86823"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|11b2d3b2-bdd4-4930-9951-629dda023d43|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|11b2d3b2-bdd4-4930-9951-629dda023d43"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|84a574a8-8dbc-4064-bd8d-7a8314f3c43a|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|84a574a8-8dbc-4064-bd8d-7a8314f3c43a"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9897f008-ce90-4141-9cc5-c0df522c37a4|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|9897f008-ce90-4141-9cc5-c0df522c37a4"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|6714df01-c8df-4d06-97bf-a7292ea3c82c|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|6714df01-c8df-4d06-97bf-a7292ea3c82c"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|351b0120-c099-4b28-a1e7-4edef44926c5|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|351b0120-c099-4b28-a1e7-4edef44926c5"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c00c126b-e799-4a83-a0e2-ac0e7f375249|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|c00c126b-e799-4a83-a0e2-ac0e7f375249"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4d86ee0e-a14c-46dc-b930-b926ee6e4525|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|4d86ee0e-a14c-46dc-b930-b926ee6e4525"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4dd5e9e3-74ea-49c8-b850-1db949fe5ae3|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|4dd5e9e3-74ea-49c8-b850-1db949fe5ae3"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|df4639f4-ecc4-46ed-975b-43fed71e77c9|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|df4639f4-ecc4-46ed-975b-43fed71e77c9"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a604f83f-4885-489e-8f85-bff52479650d|HOUSE|dinamicalegal|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|dinamicalegal|BUCKET|bucket_gt_4",
+      "pk": "LOAN|a604f83f-4885-489e-8f85-bff52479650d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a2648eaf-cdcd-4b79-95b4-cb978455a8c8|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|a2648eaf-cdcd-4b79-95b4-cb978455a8c8"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e0a0d07f-5413-485d-871f-57c6596aed94|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|e0a0d07f-5413-485d-871f-57c6596aed94"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c4569769-7f52-40b8-9ca7-93d7282649e9|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|c4569769-7f52-40b8-9ca7-93d7282649e9"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|597d7aae-1b66-4736-96d8-568025134de0|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|597d7aae-1b66-4736-96d8-568025134de0"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e508831a-7b14-4946-b50d-2adb4cf55a0f|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|e508831a-7b14-4946-b50d-2adb4cf55a0f"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|bb9afa3e-cec8-4311-a09f-a6b2cd533f73|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|bb9afa3e-cec8-4311-a09f-a6b2cd533f73"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|8db27e65-ed47-4c4c-b02f-21c35d43b4ea|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|8db27e65-ed47-4c4c-b02f-21c35d43b4ea"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|3f946fde-96e8-47fb-b22f-f674ddcf703e|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|3f946fde-96e8-47fb-b22f-f674ddcf703e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|40cfe6a9-1209-44a4-81b4-ebd8877fb5cb|HOUSE|vana_fraud|BUCKET|bucket_do_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_8",
+      "sk": "HOUSE|vana_fraud|BUCKET|bucket_do_8",
+      "pk": "LOAN|40cfe6a9-1209-44a4-81b4-ebd8877fb5cb"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|73a07d45-de82-462e-b0dd-45fad0ae44b5|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_7",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+      "pk": "LOAN|73a07d45-de82-462e-b0dd-45fad0ae44b5"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|126845ee-1b51-4cb0-8e27-2553105eb8b6|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_7",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+      "pk": "LOAN|126845ee-1b51-4cb0-8e27-2553105eb8b6"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|362ab08a-c2d1-4262-a85f-ee222da43e2a|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|362ab08a-c2d1-4262-a85f-ee222da43e2a"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1f9b2310-e9f6-4bdb-bd16-7584ad6911b8|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|1f9b2310-e9f6-4bdb-bd16-7584ad6911b8"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|8a47b041-eb80-4e63-9881-85d2602974f9|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|8a47b041-eb80-4e63-9881-85d2602974f9"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|89d72241-afb8-490b-9758-002fe77b4d2b|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|89d72241-afb8-490b-9758-002fe77b4d2b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9b9b7488-65be-46a1-b008-b13dce304dce|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|9b9b7488-65be-46a1-b008-b13dce304dce"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|25d2e575-b8d4-49a1-8aca-09fa8e9bf7ef|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|25d2e575-b8d4-49a1-8aca-09fa8e9bf7ef"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|145e72df-9c18-4382-938a-15caa7cfaa9d|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|145e72df-9c18-4382-938a-15caa7cfaa9d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e4a65870-df74-45fb-b127-4f07fdc3b1dc|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|e4a65870-df74-45fb-b127-4f07fdc3b1dc"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|ad2dda8d-7d53-45d3-87ad-0ddd5f591c05|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|ad2dda8d-7d53-45d3-87ad-0ddd5f591c05"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|da8ebc15-b53e-410f-89d8-962eded32669|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|da8ebc15-b53e-410f-89d8-962eded32669"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|daf82bdb-008a-4bc4-a153-32cb9e3bec64|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|daf82bdb-008a-4bc4-a153-32cb9e3bec64"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b6055fba-97ce-4a06-b47b-14475f7f8b3b|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|b6055fba-97ce-4a06-b47b-14475f7f8b3b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|50136ed6-a0ab-4740-8050-ebbb6438d227|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|50136ed6-a0ab-4740-8050-ebbb6438d227"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c05f1ace-ea99-4a3f-a995-bb5700011318|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|c05f1ace-ea99-4a3f-a995-bb5700011318"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|03a4037f-3de3-43fb-a827-eba6a64e38b1|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|03a4037f-3de3-43fb-a827-eba6a64e38b1"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|94d44fd6-37ff-41ae-98c4-3cd73141a2fc|HOUSE|iungo|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|iungo|BUCKET|bucket_gt_3",
+      "pk": "LOAN|94d44fd6-37ff-41ae-98c4-3cd73141a2fc"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e6867943-b6e6-4be6-bac2-a0829d9b5471|HOUSE|ategix|BUCKET|bucket_do_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_1",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_1",
+      "pk": "LOAN|e6867943-b6e6-4be6-bac2-a0829d9b5471"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|229dce1b-abed-445a-9da1-7ea7081b0841|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|229dce1b-abed-445a-9da1-7ea7081b0841"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|bf8895d6-d209-427e-ac54-5829d1ed2899|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|bf8895d6-d209-427e-ac54-5829d1ed2899"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|efdc2893-c02d-4ab9-b9d7-69bbaab90d70|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|efdc2893-c02d-4ab9-b9d7-69bbaab90d70"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4a3306d3-cc8d-4163-87db-2c60e150515b|HOUSE|iungo|BUCKET|bucket_gt_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_1",
+      "sk": "HOUSE|iungo|BUCKET|bucket_gt_1",
+      "pk": "LOAN|4a3306d3-cc8d-4163-87db-2c60e150515b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|6ef294f4-ef62-4f50-b62f-0bf4a6ecaa32|HOUSE|vana_fraud|BUCKET|bucket_gt_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_1",
+      "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_1",
+      "pk": "LOAN|6ef294f4-ef62-4f50-b62f-0bf4a6ecaa32"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|5f8ab58f-d9a5-4788-bab7-d93d01e40b4f|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|5f8ab58f-d9a5-4788-bab7-d93d01e40b4f"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|69fac5a0-c543-43ca-90ca-337249f45994|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|69fac5a0-c543-43ca-90ca-337249f45994"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|740f538b-fab8-4576-b21f-36427215c909|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|740f538b-fab8-4576-b21f-36427215c909"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|67d69cfa-0372-443f-ba2d-f8c611e76abe|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|67d69cfa-0372-443f-ba2d-f8c611e76abe"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|625a9f68-d4d2-4c5e-a622-b74d7dea706e|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|625a9f68-d4d2-4c5e-a622-b74d7dea706e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|95e348b9-4c61-4d85-9fb2-874090978eb1|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|95e348b9-4c61-4d85-9fb2-874090978eb1"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|af41fd54-5033-4613-937f-524e7ead5b69|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|af41fd54-5033-4613-937f-524e7ead5b69"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|86cc9603-48d0-4981-8439-e1efb44f6f0f|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|86cc9603-48d0-4981-8439-e1efb44f6f0f"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4eb6a078-f324-460f-a207-06e311ce26ef|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|4eb6a078-f324-460f-a207-06e311ce26ef"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f530c2ae-b1b7-4f5b-a2d3-93ba909b3d1f|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|f530c2ae-b1b7-4f5b-a2d3-93ba909b3d1f"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|563aebf8-fd44-4ef4-8a1d-e707ec37884f|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|563aebf8-fd44-4ef4-8a1d-e707ec37884f"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d2f273b3-d905-4057-bc05-13a9b1e8be61|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|d2f273b3-d905-4057-bc05-13a9b1e8be61"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|aa64d404-82aa-4746-b27c-4e2e32b4f259|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|aa64d404-82aa-4746-b27c-4e2e32b4f259"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f65d131f-7a19-4028-9689-a1a214335327|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|f65d131f-7a19-4028-9689-a1a214335327"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|693b87e3-3395-4ad5-bc19-aa8f27933b50|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|693b87e3-3395-4ad5-bc19-aa8f27933b50"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|dcc2ef4c-fb40-4f2e-932e-676e7113a1c1|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|dcc2ef4c-fb40-4f2e-932e-676e7113a1c1"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|2ee61d3c-db1b-4b30-bbfd-65a5622dd27b|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|2ee61d3c-db1b-4b30-bbfd-65a5622dd27b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1b37f1bc-3df0-4047-80a0-bfc52be8a3b3|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|1b37f1bc-3df0-4047-80a0-bfc52be8a3b3"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b81d615b-fbd4-4b30-ab2f-b1ad61885526|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|b81d615b-fbd4-4b30-ab2f-b1ad61885526"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|8031c641-70c9-45c9-a16d-0b73ea490224|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|8031c641-70c9-45c9-a16d-0b73ea490224"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e2dbbe51-671b-4a30-a0e3-a26eb421fe2c|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|e2dbbe51-671b-4a30-a0e3-a26eb421fe2c"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e1e90d03-ef06-4f39-b9af-2c418ec059da|HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|e1e90d03-ef06-4f39-b9af-2c418ec059da"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|924a4d71-8532-40ee-9823-9a98bcab73f2|HOUSE|dinamicalegal|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|dinamicalegal|BUCKET|bucket_gt_3",
+      "pk": "LOAN|924a4d71-8532-40ee-9823-9a98bcab73f2"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|8c74aff0-5e1d-486a-9673-3c344339c7fb|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|8c74aff0-5e1d-486a-9673-3c344339c7fb"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|5a40048e-9974-47f7-9027-9d7e19ba30d7|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|5a40048e-9974-47f7-9027-9d7e19ba30d7"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d327f7bb-7e12-479f-8ce0-c7734e2cdff5|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|d327f7bb-7e12-479f-8ce0-c7734e2cdff5"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c2af17ce-ce22-45ae-8468-827e4136e0d3|HOUSE|gcc|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|gcc|BUCKET|bucket_gt_3",
+      "pk": "LOAN|c2af17ce-ce22-45ae-8468-827e4136e0d3"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|88aec182-6a87-4eed-b4b4-e5ddab6ad97e|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|88aec182-6a87-4eed-b4b4-e5ddab6ad97e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|656c2893-df99-4b8a-9f74-0d1e315534e8|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_7",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+      "pk": "LOAN|656c2893-df99-4b8a-9f74-0d1e315534e8"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|86f28e13-5ec9-4268-ba38-9a10cfe081d6|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_7",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+      "pk": "LOAN|86f28e13-5ec9-4268-ba38-9a10cfe081d6"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|65e84fbc-1304-4b6a-9204-ecb6d810222c|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|65e84fbc-1304-4b6a-9204-ecb6d810222c"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|3de95bb1-5460-4742-8e5c-fb723c6f8862|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|3de95bb1-5460-4742-8e5c-fb723c6f8862"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9c463e05-da41-400a-a7ef-efa8886fc83d|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|9c463e05-da41-400a-a7ef-efa8886fc83d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e95f45eb-97d4-4db1-86ef-aceee5e17291|HOUSE|ovj|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|ovj|BUCKET|bucket_gt_4",
+      "pk": "LOAN|e95f45eb-97d4-4db1-86ef-aceee5e17291"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9142c577-ed4b-41d6-bb0b-6a2f28168aab|HOUSE|ovj|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|ovj|BUCKET|bucket_gt_4",
+      "pk": "LOAN|9142c577-ed4b-41d6-bb0b-6a2f28168aab"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|71260432-e51f-4b46-9343-4c3519a55790|HOUSE|ovj|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|ovj|BUCKET|bucket_gt_4",
+      "pk": "LOAN|71260432-e51f-4b46-9343-4c3519a55790"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|22c21f37-d28b-4c30-9a06-e8ed3f40815a|HOUSE|cobros_juridicos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|cobros_juridicos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|22c21f37-d28b-4c30-9a06-e8ed3f40815a"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a653921d-c07d-4a29-a172-fef33a1411f7|HOUSE|dinamicalegal|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|dinamicalegal|BUCKET|bucket_gt_4",
+      "pk": "LOAN|a653921d-c07d-4a29-a172-fef33a1411f7"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|59c44a37-2d04-4468-b29c-73a29e297c12|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|59c44a37-2d04-4468-b29c-73a29e297c12"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4282e86e-6d5a-4dec-9c2b-d67ca8f8abe0|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|4282e86e-6d5a-4dec-9c2b-d67ca8f8abe0"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|fcd798eb-4868-494f-b773-d4cea34d2178|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|fcd798eb-4868-494f-b773-d4cea34d2178"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f4ea7171-fa3a-4cdf-a06f-ada20551be76|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|f4ea7171-fa3a-4cdf-a06f-ada20551be76"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1db87bcb-2707-417d-b984-79d30ba524c0|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|1db87bcb-2707-417d-b984-79d30ba524c0"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|897fad2b-830c-430b-80ca-fc0151bd5209|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|897fad2b-830c-430b-80ca-fc0151bd5209"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|3d3b140e-f529-4aed-8cc8-92e0723e5c54|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|3d3b140e-f529-4aed-8cc8-92e0723e5c54"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4be48a77-c068-4526-86e1-3d6eaf3ebb75|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|4be48a77-c068-4526-86e1-3d6eaf3ebb75"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|6425e161-d52e-4d7e-a129-8de08939108a|HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|6425e161-d52e-4d7e-a129-8de08939108a"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b45da418-5101-4a7d-8692-fd1270701a44|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|b45da418-5101-4a7d-8692-fd1270701a44"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|67b6c2be-39a9-4bf1-a5d0-ef47f1e52363|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|67b6c2be-39a9-4bf1-a5d0-ef47f1e52363"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|0378285e-8f5b-41d6-8089-d0cb30f17ad9|HOUSE|iungo|BUCKET|bucket_gt_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_1",
+      "sk": "HOUSE|iungo|BUCKET|bucket_gt_1",
+      "pk": "LOAN|0378285e-8f5b-41d6-8089-d0cb30f17ad9"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|16e57420-cea7-4d01-b941-3c94499f10a7|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|16e57420-cea7-4d01-b941-3c94499f10a7"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c80e2587-8190-4de3-841b-c0852ea1eb7d|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|c80e2587-8190-4de3-841b-c0852ea1eb7d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|44bc2d81-601a-41cf-9a55-35af2b209055|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|44bc2d81-601a-41cf-9a55-35af2b209055"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|0a1512d7-697c-4171-a62b-cf2e84e4d328|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|0a1512d7-697c-4171-a62b-cf2e84e4d328"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|3bbe2ce4-63da-420e-b827-d839685cb820|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|3bbe2ce4-63da-420e-b827-d839685cb820"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a5a9de87-7be4-4551-8bbe-0b329de1aad1|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|a5a9de87-7be4-4551-8bbe-0b329de1aad1"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|bd2684e4-a208-46b5-9022-a94b47817765|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|bd2684e4-a208-46b5-9022-a94b47817765"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|6275c95e-abf7-417d-bf99-2b0571f6f3f7|HOUSE|dinamicalegal|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|dinamicalegal|BUCKET|bucket_gt_3",
+      "pk": "LOAN|6275c95e-abf7-417d-bf99-2b0571f6f3f7"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|3507ad6b-163c-48ab-bc3e-28838f79b11b|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|3507ad6b-163c-48ab-bc3e-28838f79b11b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a87874a6-b9d9-4ba5-97d4-ab8f71c160a8|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|a87874a6-b9d9-4ba5-97d4-ab8f71c160a8"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|06a7e1ea-b198-4ae0-a9cf-0a4ce1849820|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|06a7e1ea-b198-4ae0-a9cf-0a4ce1849820"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c01a33da-b8af-4f57-b972-fd04d8dd6613|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|c01a33da-b8af-4f57-b972-fd04d8dd6613"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1db31810-9b1d-49b6-b58f-b74098ca4898|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|1db31810-9b1d-49b6-b58f-b74098ca4898"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9865e9dc-0cc2-448b-a7cb-fb85b16e52af|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|9865e9dc-0cc2-448b-a7cb-fb85b16e52af"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9e7595ce-0de2-4ddf-815d-86029cfde939|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|9e7595ce-0de2-4ddf-815d-86029cfde939"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a48826a9-af79-4eb1-85af-e79f36839d19|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|a48826a9-af79-4eb1-85af-e79f36839d19"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|348b0c3a-04f1-4c07-a103-6b7e611debbf|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_7",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+      "pk": "LOAN|348b0c3a-04f1-4c07-a103-6b7e611debbf"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|7388df96-5ca3-4828-b6d7-4ca14df4b203|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_7",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+      "pk": "LOAN|7388df96-5ca3-4828-b6d7-4ca14df4b203"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|86863783-adc8-4b9d-a188-75ffb3771e14|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|86863783-adc8-4b9d-a188-75ffb3771e14"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|488288b8-80d0-4e0b-9515-39a627e0186c|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|488288b8-80d0-4e0b-9515-39a627e0186c"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a71d1e2f-79a6-44c0-b103-01db9f50f145|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|a71d1e2f-79a6-44c0-b103-01db9f50f145"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|271e1ec4-ac26-4373-a583-6f327bd00534|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|271e1ec4-ac26-4373-a583-6f327bd00534"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|8eebd48d-07e7-487f-bcdb-24aabe3e184c|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|8eebd48d-07e7-487f-bcdb-24aabe3e184c"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d42cbdb7-a2ff-46c6-855a-16a8ac5e0e53|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|d42cbdb7-a2ff-46c6-855a-16a8ac5e0e53"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4d474b35-1454-4d5c-ac67-df2660d21787|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|4d474b35-1454-4d5c-ac67-df2660d21787"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|33999238-63bd-4e8e-ae74-11ffc67f5d25|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|33999238-63bd-4e8e-ae74-11ffc67f5d25"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|42432734-163e-427c-bf13-33ecb405b485|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|42432734-163e-427c-bf13-33ecb405b485"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|97dc2118-f7a8-4e00-b727-e6adfad56ecc|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|97dc2118-f7a8-4e00-b727-e6adfad56ecc"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f6d20d13-b909-4675-8504-01f68f88302a|HOUSE|ovj|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|ovj|BUCKET|bucket_gt_4",
+      "pk": "LOAN|f6d20d13-b909-4675-8504-01f68f88302a"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|cd037f4c-cba4-45de-89a1-8e208c99d2a3|HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|cd037f4c-cba4-45de-89a1-8e208c99d2a3"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|06586f38-f3d3-49fe-9c55-655141bac096|HOUSE|iungo|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|iungo|BUCKET|bucket_gt_3",
+      "pk": "LOAN|06586f38-f3d3-49fe-9c55-655141bac096"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|09c9ce3f-4a8f-4767-928e-e68d264eb59e|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|09c9ce3f-4a8f-4767-928e-e68d264eb59e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d2831279-2c63-4479-8237-a54b87eb7b1d|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|d2831279-2c63-4479-8237-a54b87eb7b1d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4a6fc44a-6caf-48f7-a763-7f337dc4351e|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|4a6fc44a-6caf-48f7-a763-7f337dc4351e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e1c03b0f-0aa0-4583-9b2f-7b0817f58560|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|e1c03b0f-0aa0-4583-9b2f-7b0817f58560"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|17d15829-4bd5-465c-836e-2ab139718760|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|17d15829-4bd5-465c-836e-2ab139718760"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|bcdd94a0-f990-40b9-962f-9970e0d9db2e|HOUSE|ategix|BUCKET|bucket_do_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_1",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_1",
+      "pk": "LOAN|bcdd94a0-f990-40b9-962f-9970e0d9db2e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1d910fcf-b74f-4a1d-9557-50b33bc8f188|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|1d910fcf-b74f-4a1d-9557-50b33bc8f188"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c22f3bc9-58df-4ddc-9b96-912f997471fc|HOUSE|vana_fraud|BUCKET|bucket_gt_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_1",
+      "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_1",
+      "pk": "LOAN|c22f3bc9-58df-4ddc-9b96-912f997471fc"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|3594e47b-a5cc-4014-b068-566fb833c16c|HOUSE|vana_fraud|BUCKET|bucket_gt_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_1",
+      "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_1",
+      "pk": "LOAN|3594e47b-a5cc-4014-b068-566fb833c16c"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|2dd248bb-471f-4f39-aba9-2f8996925c55|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|2dd248bb-471f-4f39-aba9-2f8996925c55"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a1f34240-c288-474f-bb7b-9bffa5f5a9ac|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|a1f34240-c288-474f-bb7b-9bffa5f5a9ac"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1341db77-e3b4-4502-b987-feae24cd1671|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|1341db77-e3b4-4502-b987-feae24cd1671"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|5596043c-e7f6-40ff-97a4-1c5410ea2de2|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|5596043c-e7f6-40ff-97a4-1c5410ea2de2"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1e746010-668c-4701-b011-86979c6bf4b3|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|1e746010-668c-4701-b011-86979c6bf4b3"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a962d10f-ca21-43c4-8339-97bda6f00b99|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|a962d10f-ca21-43c4-8339-97bda6f00b99"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|8d0c19cf-7e61-4961-b92f-baa3a8795843|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|8d0c19cf-7e61-4961-b92f-baa3a8795843"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|ecdc221b-402e-4248-a39d-aedb7d8b36ac|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|ecdc221b-402e-4248-a39d-aedb7d8b36ac"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|0936e4e4-9e6a-4050-8955-a130c8bf53b6|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|0936e4e4-9e6a-4050-8955-a130c8bf53b6"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a0f6428b-b2c3-47ee-9b62-e58abb9c2f5d|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|a0f6428b-b2c3-47ee-9b62-e58abb9c2f5d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|7df2d973-dbad-4206-92f4-aa90b800c01a|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|7df2d973-dbad-4206-92f4-aa90b800c01a"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|418df55f-6228-4211-92ce-65b6dd9aa669|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|418df55f-6228-4211-92ce-65b6dd9aa669"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|719b7d39-ec4e-4257-b1d9-e781b6640a9e|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|719b7d39-ec4e-4257-b1d9-e781b6640a9e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|dfb265e8-3c51-42e9-8b82-fda1982bcf74|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|dfb265e8-3c51-42e9-8b82-fda1982bcf74"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|11f90d18-d18f-44b3-9cc5-216ec81f5b9e|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|11f90d18-d18f-44b3-9cc5-216ec81f5b9e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|7732e867-d616-4364-aead-ed51d54e8b92|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|7732e867-d616-4364-aead-ed51d54e8b92"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f7bc5ee1-add5-43de-ae86-c4f674082e01|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|f7bc5ee1-add5-43de-ae86-c4f674082e01"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|8304c6b4-ccb2-4bfd-9c38-c202fbcc3e6b|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|8304c6b4-ccb2-4bfd-9c38-c202fbcc3e6b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|88db62ae-2f7a-4f35-8d08-e76d5532ab9d|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|88db62ae-2f7a-4f35-8d08-e76d5532ab9d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|564006a6-96d1-47a5-8f9a-ec816de6d835|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|564006a6-96d1-47a5-8f9a-ec816de6d835"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e051c99e-bc56-4455-9305-9799c0282528|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|e051c99e-bc56-4455-9305-9799c0282528"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d26e4318-872e-453a-9f2e-0b25474e15f5|HOUSE|dinamicalegal|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|dinamicalegal|BUCKET|bucket_gt_4",
+      "pk": "LOAN|d26e4318-872e-453a-9f2e-0b25474e15f5"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|83814ae2-b740-42f4-adf6-1d953c5d8b89|HOUSE|dinamicalegal|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|dinamicalegal|BUCKET|bucket_gt_4",
+      "pk": "LOAN|83814ae2-b740-42f4-adf6-1d953c5d8b89"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9440b706-20d9-4363-85de-2cf127fcbf58|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|9440b706-20d9-4363-85de-2cf127fcbf58"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|5abff7ba-58a3-4df6-a92f-75f96a7711c0|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|5abff7ba-58a3-4df6-a92f-75f96a7711c0"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|87268a2f-fdbb-4a7d-bf4e-3677471f7a3b|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|87268a2f-fdbb-4a7d-bf4e-3677471f7a3b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9ef59eb5-6bdd-46e4-895a-d1cee236f7bc|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|9ef59eb5-6bdd-46e4-895a-d1cee236f7bc"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b1798e2d-0684-475e-b06b-775a53201944|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|b1798e2d-0684-475e-b06b-775a53201944"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|767ea745-051c-4ec1-83e9-ddafcbfe9507|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|767ea745-051c-4ec1-83e9-ddafcbfe9507"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|96baae74-bdf9-444c-a4cf-8e5edaea963b|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|96baae74-bdf9-444c-a4cf-8e5edaea963b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|8fe821f2-e9f5-4031-b46b-3e6500f851f0|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|8fe821f2-e9f5-4031-b46b-3e6500f851f0"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|ed277604-ceef-4426-81b6-726f0800d621|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|ed277604-ceef-4426-81b6-726f0800d621"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f5eab4a7-8a0e-4cc0-88d7-651bbc03bbc1|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|f5eab4a7-8a0e-4cc0-88d7-651bbc03bbc1"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f31c3196-96fa-441e-981b-884e36c6f98d|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|f31c3196-96fa-441e-981b-884e36c6f98d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|ff4f8993-655a-40e0-8213-02d1e0e5fc78|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|ff4f8993-655a-40e0-8213-02d1e0e5fc78"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e85ee143-875e-4c5e-ac17-d62445270b03|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_7",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+      "pk": "LOAN|e85ee143-875e-4c5e-ac17-d62445270b03"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|47b8536a-ee76-421c-ad33-e9b88db6a60e|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|47b8536a-ee76-421c-ad33-e9b88db6a60e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|0475fdd5-02c3-4d57-98fd-f9c2f52de9bb|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|0475fdd5-02c3-4d57-98fd-f9c2f52de9bb"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|92a892a8-dc3e-46bd-a88d-d9699b556578|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|92a892a8-dc3e-46bd-a88d-d9699b556578"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f05e060c-da70-4dcc-a6a0-ff0d5dd255ae|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|f05e060c-da70-4dcc-a6a0-ff0d5dd255ae"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|ae75ce85-62ae-4682-a08c-516c2b296f91|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|ae75ce85-62ae-4682-a08c-516c2b296f91"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|ee166d76-7f42-446e-be6c-87b5fb23a3f9|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|ee166d76-7f42-446e-be6c-87b5fb23a3f9"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b5a5f332-e94b-4f9a-92ba-47037a92618e|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|b5a5f332-e94b-4f9a-92ba-47037a92618e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|432fb449-2f7d-4ec4-93d6-3894f357b020|HOUSE|ovj|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|ovj|BUCKET|bucket_gt_4",
+      "pk": "LOAN|432fb449-2f7d-4ec4-93d6-3894f357b020"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|6d5094bc-0a83-40e5-ba75-6455c91264a9|HOUSE|ovj|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|ovj|BUCKET|bucket_gt_4",
+      "pk": "LOAN|6d5094bc-0a83-40e5-ba75-6455c91264a9"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4ac9196f-d327-4573-b9c7-104ecf5df7b9|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|4ac9196f-d327-4573-b9c7-104ecf5df7b9"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b7413ef9-a0e7-49d1-b609-3f6bd8b95fc9|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|b7413ef9-a0e7-49d1-b609-3f6bd8b95fc9"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|7063c68d-3adc-48ba-8964-436f9f403872|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|7063c68d-3adc-48ba-8964-436f9f403872"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|7046cc22-e498-483b-be53-a6f54219c03d|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|7046cc22-e498-483b-be53-a6f54219c03d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|201e898e-0dd5-47ee-af1e-6548beb4b559|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|201e898e-0dd5-47ee-af1e-6548beb4b559"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|2a4e6f75-2f83-4cee-9e78-49997cd8084d|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|2a4e6f75-2f83-4cee-9e78-49997cd8084d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|53f68f40-b0a5-480a-92db-638aa8dfb74b|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|53f68f40-b0a5-480a-92db-638aa8dfb74b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|df323b1b-2550-4b2a-be1d-538779d6e6a1|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|df323b1b-2550-4b2a-be1d-538779d6e6a1"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|dce110d2-71dd-4834-a9c7-f02ec795aab5|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|dce110d2-71dd-4834-a9c7-f02ec795aab5"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|83124a7c-bf90-47ec-87f1-16c5c68eae94|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|83124a7c-bf90-47ec-87f1-16c5c68eae94"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|96ee41fa-c707-46ae-a169-a036bd152fbf|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|96ee41fa-c707-46ae-a169-a036bd152fbf"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1818745e-ef22-42d5-92e1-18203d74e61d|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|1818745e-ef22-42d5-92e1-18203d74e61d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|5025505b-367a-4815-b8ab-5490c35472c3|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|5025505b-367a-4815-b8ab-5490c35472c3"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|dce7eecc-5cd4-4810-9a4a-7f7bb8d73363|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|dce7eecc-5cd4-4810-9a4a-7f7bb8d73363"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|7057496f-a583-4e7b-a1f6-ddc79c7b734b|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|7057496f-a583-4e7b-a1f6-ddc79c7b734b"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4dbf0993-1598-4a56-b3c5-7d3d2fc265a2|HOUSE|iungo|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|iungo|BUCKET|bucket_gt_3",
+      "pk": "LOAN|4dbf0993-1598-4a56-b3c5-7d3d2fc265a2"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|5aa4940e-3f17-41d3-be95-076320294af1|HOUSE|vana_fraud|BUCKET|bucket_gt_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_1",
+      "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_1",
+      "pk": "LOAN|5aa4940e-3f17-41d3-be95-076320294af1"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|002406c6-6ade-46a6-a44a-6083447ccfe5|HOUSE|dinamicalegal|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|dinamicalegal|BUCKET|bucket_gt_3",
+      "pk": "LOAN|002406c6-6ade-46a6-a44a-6083447ccfe5"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|96dabfb3-4f38-4a0a-9225-3fc33643c4d2|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|96dabfb3-4f38-4a0a-9225-3fc33643c4d2"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|7e060330-e50e-49da-b9c9-c0709d1841fe|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|7e060330-e50e-49da-b9c9-c0709d1841fe"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f130285d-4b11-45e5-9138-4b5b94eab110|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|f130285d-4b11-45e5-9138-4b5b94eab110"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|473846d8-0e1b-477d-b18b-3881de4824db|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|473846d8-0e1b-477d-b18b-3881de4824db"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9a92cd75-a16a-4c07-ac79-074d6a2eb443|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|9a92cd75-a16a-4c07-ac79-074d6a2eb443"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|2755f561-fd13-4808-a124-f7337c309117|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|2755f561-fd13-4808-a124-f7337c309117"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|ef921653-090b-4aa3-9372-07a88335d125|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|ef921653-090b-4aa3-9372-07a88335d125"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c7766156-29ae-4292-9157-20969b87378a|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|c7766156-29ae-4292-9157-20969b87378a"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|992ad237-780b-4cc3-a5d7-5fb3c000a3cf|HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|992ad237-780b-4cc3-a5d7-5fb3c000a3cf"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4b45f0b3-5d9c-4acb-9f8c-2777db7a0b0c|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|4b45f0b3-5d9c-4acb-9f8c-2777db7a0b0c"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c7e2c9b6-b8d4-4cbc-a38d-010ae85172fd|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|c7e2c9b6-b8d4-4cbc-a38d-010ae85172fd"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|2a808b74-96f5-4741-9490-738484eebbf6|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|2a808b74-96f5-4741-9490-738484eebbf6"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a187f597-e2d8-437d-b2da-1d7a0dea1aa4|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|a187f597-e2d8-437d-b2da-1d7a0dea1aa4"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|fdf09f55-e22d-474b-a241-2b52de29a0c5|HOUSE|dinamicalegal|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|dinamicalegal|BUCKET|bucket_gt_3",
+      "pk": "LOAN|fdf09f55-e22d-474b-a241-2b52de29a0c5"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e4b9fd12-351f-48e8-862e-b01f5b134602|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|e4b9fd12-351f-48e8-862e-b01f5b134602"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|10bc662a-8ad6-4575-bb97-163d30c9d9bc|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|10bc662a-8ad6-4575-bb97-163d30c9d9bc"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|40cfe6a9-1209-44a4-81b4-ebd8877fb5cb|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "pk": "LOAN|40cfe6a9-1209-44a4-81b4-ebd8877fb5cb"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|36b0e4dd-3b7f-4a04-8ffb-c74b61fbb623|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_7",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+      "pk": "LOAN|36b0e4dd-3b7f-4a04-8ffb-c74b61fbb623"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|29099c40-a182-4681-bd7f-391f06575f66|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|29099c40-a182-4681-bd7f-391f06575f66"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9e127584-4b89-4545-b9a8-a3979595ad7e|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|9e127584-4b89-4545-b9a8-a3979595ad7e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|072f6425-29cc-4d73-9675-47d5e873650d|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|072f6425-29cc-4d73-9675-47d5e873650d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|bc0942b1-6ca2-4940-8b61-5c91a1efee19|HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|predemandas_recart|BUCKET|bucket_gt_8",
+      "pk": "LOAN|bc0942b1-6ca2-4940-8b61-5c91a1efee19"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|07404ef0-41ba-4372-ab28-9d7b525789f6|HOUSE|ovj|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|ovj|BUCKET|bucket_gt_4",
+      "pk": "LOAN|07404ef0-41ba-4372-ab28-9d7b525789f6"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f68ff41a-8a37-448e-a5d2-6a9223e38f60|HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|f68ff41a-8a37-448e-a5d2-6a9223e38f60"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d3df4221-f1c3-40c5-a0c5-c61beacfa595|HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|cobros_juridicos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|d3df4221-f1c3-40c5-a0c5-c61beacfa595"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|5dd4fc63-ded0-47c2-99b5-286205bd2c32|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_3",
+      "pk": "LOAN|5dd4fc63-ded0-47c2-99b5-286205bd2c32"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|af0ee264-5047-4c71-9af8-7581fc9f3158|HOUSE|dinamicalegal|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|dinamicalegal|BUCKET|bucket_gt_4",
+      "pk": "LOAN|af0ee264-5047-4c71-9af8-7581fc9f3158"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|004ed2e6-948e-41c6-af97-95109a70b59d|HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_4",
+      "sk": "HOUSE|fyg_cobros_efectivos|BUCKET|bucket_gt_4",
+      "pk": "LOAN|004ed2e6-948e-41c6-af97-95109a70b59d"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|bc15398b-10a6-44b5-b1a1-09244e8ef2ea|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|bc15398b-10a6-44b5-b1a1-09244e8ef2ea"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c7491cad-d680-4233-af12-c47d58acd4dd|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|c7491cad-d680-4233-af12-c47d58acd4dd"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|9c772f9f-68e7-49ac-9588-23f2de2c6da7|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|9c772f9f-68e7-49ac-9588-23f2de2c6da7"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|8552c2e3-f9c7-4a9e-9b6e-7df645169bb2|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|8552c2e3-f9c7-4a9e-9b6e-7df645169bb2"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|2172a137-8f8c-4017-96bf-c1350df385cd|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|2172a137-8f8c-4017-96bf-c1350df385cd"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|18ce89f8-3908-4a51-8319-ae89808a8a8c|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|18ce89f8-3908-4a51-8319-ae89808a8a8c"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|2eb4e1e3-bf9e-4dc9-beb5-1263db920282|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_7",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_7",
+      "pk": "LOAN|2eb4e1e3-bf9e-4dc9-beb5-1263db920282"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|981f7ce7-ee07-42eb-bbe3-88d96159d330|HOUSE|iungo|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|iungo|BUCKET|bucket_gt_3",
+      "pk": "LOAN|981f7ce7-ee07-42eb-bbe3-88d96159d330"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4e7119ad-4c86-404c-ab8c-7029ab99eaa5|HOUSE|iungo|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|iungo|BUCKET|bucket_gt_3",
+      "pk": "LOAN|4e7119ad-4c86-404c-ab8c-7029ab99eaa5"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|80364f59-afdf-483b-9970-ade780f2e15f|HOUSE|ategix|BUCKET|bucket_do_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_1",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_1",
+      "pk": "LOAN|80364f59-afdf-483b-9970-ade780f2e15f"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|fc1ee683-2c62-4302-912d-c7a37d932b0f|HOUSE|iungo|BUCKET|bucket_gt_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_3",
+      "sk": "HOUSE|iungo|BUCKET|bucket_gt_3",
+      "pk": "LOAN|fc1ee683-2c62-4302-912d-c7a37d932b0f"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|cb60c196-e579-4eac-8dd0-777ddea5d669|HOUSE|ategix|BUCKET|bucket_do_3",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_3",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_3",
+      "pk": "LOAN|cb60c196-e579-4eac-8dd0-777ddea5d669"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c0b93c4d-eb2c-4bd0-900d-fa8723cffa42|HOUSE|iungo|BUCKET|bucket_gt_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_1",
+      "sk": "HOUSE|iungo|BUCKET|bucket_gt_1",
+      "pk": "LOAN|c0b93c4d-eb2c-4bd0-900d-fa8723cffa42"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|fcf83e2f-1e6d-420d-87b1-e8da22e09d3e|HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_gt_8",
+      "sk": "HOUSE|serviciosestrategicos|BUCKET|bucket_gt_8",
+      "pk": "LOAN|fcf83e2f-1e6d-420d-87b1-e8da22e09d3e"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|65fc693c-d973-4b4d-a868-215389895dff|HOUSE|ategix|BUCKET|bucket_do_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_1",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_1",
+      "pk": "LOAN|65fc693c-d973-4b4d-a868-215389895dff"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d9248036-f161-4b3d-8cd5-d7cd05593f8e|HOUSE|ategix|BUCKET|bucket_do_1",
+    "_score": 0,
+    "_source": {
+      "bucket_id": "bucket_do_1",
+      "sk": "HOUSE|ategix|BUCKET|bucket_do_1",
+      "pk": "LOAN|d9248036-f161-4b3d-8cd5-d7cd05593f8e"
+    }
+  }
+]

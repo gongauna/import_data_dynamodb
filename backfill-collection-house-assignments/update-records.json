@@ -1,0 +1,587 @@
+[
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|aecc9134-5c05-4417-8113-a93cb4c9195c|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|aecc9134-5c05-4417-8113-a93cb4c9195c"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|95e6336a-424c-40da-8138-a8b6f0986fbb|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|95e6336a-424c-40da-8138-a8b6f0986fbb"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|7ad2f955-d115-4232-8e01-aa011a6d3b43|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|7ad2f955-d115-4232-8e01-aa011a6d3b43"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|4a47b5c3-c570-4379-ac6a-1727ff030eca|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|4a47b5c3-c570-4379-ac6a-1727ff030eca"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|ec18ee46-f0a1-4bc6-bd26-261af775a6ee|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|ec18ee46-f0a1-4bc6-bd26-261af775a6ee"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|48d19a45-5403-4b5b-836a-8c2993795138|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|48d19a45-5403-4b5b-836a-8c2993795138"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|1956ac8f-404b-4f09-b16e-4899c7b29a7c|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|1956ac8f-404b-4f09-b16e-4899c7b29a7c"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|e83229c8-d7ae-41ab-8618-974922800b9c|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|e83229c8-d7ae-41ab-8618-974922800b9c"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|a021fbf8-bd32-4aea-bf60-20003770d376|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|a021fbf8-bd32-4aea-bf60-20003770d376"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|75b4d198-1061-44c2-9880-efc1b0e51277|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|75b4d198-1061-44c2-9880-efc1b0e51277"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|df54f0da-ddb7-42a2-91ab-dd8c43fd6e5d|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|df54f0da-ddb7-42a2-91ab-dd8c43fd6e5d"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|595dbfbc-597b-4de2-bb85-03844dd39687|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|595dbfbc-597b-4de2-bb85-03844dd39687"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|e248ecab-001e-4f6c-8aa5-c1e906579e74|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|e248ecab-001e-4f6c-8aa5-c1e906579e74"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|09a225af-39e8-4c9a-af46-26c1f5de7bb9|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|09a225af-39e8-4c9a-af46-26c1f5de7bb9"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|292df5bc-a3cf-4aa1-884a-88beb31423dc|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|292df5bc-a3cf-4aa1-884a-88beb31423dc"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|cb88154b-08f9-4ee1-abdb-c6a36496bf84|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|cb88154b-08f9-4ee1-abdb-c6a36496bf84"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|4ccb5e69-867e-40eb-8cf1-9ddb65f69c8f|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|4ccb5e69-867e-40eb-8cf1-9ddb65f69c8f"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|e2fc89c0-4dab-4a82-adc3-d8895d0540fa|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|e2fc89c0-4dab-4a82-adc3-d8895d0540fa"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|2e4056e6-d518-460d-af23-10f96c479746|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|2e4056e6-d518-460d-af23-10f96c479746"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|44d5a858-813a-4d48-84be-6182d410c350|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|44d5a858-813a-4d48-84be-6182d410c350"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|3085d08e-9033-4592-845e-fd541e46c3bb|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|3085d08e-9033-4592-845e-fd541e46c3bb"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|119983c8-e0ac-4125-b8b8-392ebe8db194|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|119983c8-e0ac-4125-b8b8-392ebe8db194"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|e38ed73a-1e51-409e-9586-807321220ce8|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|e38ed73a-1e51-409e-9586-807321220ce8"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|bf99ac28-3130-4130-86d6-6996b910c03d|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|bf99ac28-3130-4130-86d6-6996b910c03d"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|2a02cce3-6eba-4a3b-a60d-011835b74460|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|2a02cce3-6eba-4a3b-a60d-011835b74460"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|78921f4f-d7ab-490e-a1ef-dee1d11bb99f|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|78921f4f-d7ab-490e-a1ef-dee1d11bb99f"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|2c2c24eb-988b-471c-b234-f3984e16a2d5|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|2c2c24eb-988b-471c-b234-f3984e16a2d5"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|63b6fae2-390f-4f11-8460-1022331a04cf|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|63b6fae2-390f-4f11-8460-1022331a04cf"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|3ba9f4b8-6274-4331-93fb-6d2596adfdcd|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|3ba9f4b8-6274-4331-93fb-6d2596adfdcd"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|395894fa-cd37-4460-b8cc-987666ae488e|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|395894fa-cd37-4460-b8cc-987666ae488e"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|82e1152e-ac20-4de1-a3e8-a58fbe37059a|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|82e1152e-ac20-4de1-a3e8-a58fbe37059a"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|4c779995-a477-44ea-806a-8d49f5c5c473|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|4c779995-a477-44ea-806a-8d49f5c5c473"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|863d9ec6-feac-40b9-a366-99ced1b67413|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|863d9ec6-feac-40b9-a366-99ced1b67413"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|f1172b54-a121-45ee-82a3-1bed11744045|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|f1172b54-a121-45ee-82a3-1bed11744045"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|b56f12f9-a7a5-497c-b73c-a1a2fb97a32b|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|b56f12f9-a7a5-497c-b73c-a1a2fb97a32b"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|81e89715-53ce-4cad-94ce-294c9e5a84dc|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|81e89715-53ce-4cad-94ce-294c9e5a84dc"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|6eb69ecd-29ce-4a32-a5fd-36e8911c5cb8|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|6eb69ecd-29ce-4a32-a5fd-36e8911c5cb8"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|aafd74a7-98d0-4ee6-baf6-fae9686ad0b6|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|aafd74a7-98d0-4ee6-baf6-fae9686ad0b6"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|b206bbcd-316c-495f-997a-7b2f8536c384|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|b206bbcd-316c-495f-997a-7b2f8536c384"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|b41662d4-10fa-42b1-9865-45f95d470d09|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|b41662d4-10fa-42b1-9865-45f95d470d09"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|0d5061ca-3989-4103-87d1-d7e25d7a8058|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|0d5061ca-3989-4103-87d1-d7e25d7a8058"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|9a462bf4-88b6-482c-89a1-8e6378ad4a91|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|9a462bf4-88b6-482c-89a1-8e6378ad4a91"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|67dab076-5daf-4a20-9ec0-06628b35fda3|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|67dab076-5daf-4a20-9ec0-06628b35fda3"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|0a3919a0-0600-409f-85ac-491c73b13b00|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|0a3919a0-0600-409f-85ac-491c73b13b00"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|eaca0f2a-2ac7-4673-a35b-82c70b290fd4|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|eaca0f2a-2ac7-4673-a35b-82c70b290fd4"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|420d00f7-5f31-435f-8990-1e444d77e34d|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|420d00f7-5f31-435f-8990-1e444d77e34d"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|8db16e18-dd82-4b45-b2bc-90ade800425b|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|8db16e18-dd82-4b45-b2bc-90ade800425b"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|14080791-8970-4b24-8435-4f226f675d8f|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|14080791-8970-4b24-8435-4f226f675d8f"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|ecdffe5f-9d01-4392-9903-d2ce26e18989|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|ecdffe5f-9d01-4392-9903-d2ce26e18989"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|5d0fe038-9a40-4121-b972-43b046f3f2d1|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|5d0fe038-9a40-4121-b972-43b046f3f2d1"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|c8985af9-f8d7-4917-b1e1-83fc2c02ef64|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|c8985af9-f8d7-4917-b1e1-83fc2c02ef64"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|00d307bc-ac76-4168-8949-423758bd962a|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|00d307bc-ac76-4168-8949-423758bd962a"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|f5f3f794-9c01-43db-9d3b-8122454bf35d|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|f5f3f794-9c01-43db-9d3b-8122454bf35d"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|2230e54b-fd8a-42df-bd8e-90303946bd21|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|2230e54b-fd8a-42df-bd8e-90303946bd21"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|6402d9dc-6370-4ce8-b315-c6fa677811b9|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|6402d9dc-6370-4ce8-b315-c6fa677811b9"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|00355c4e-5375-4fa3-8530-879d05760014|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|00355c4e-5375-4fa3-8530-879d05760014"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|3b3b7f45-4273-4518-93a0-0e0ca2411249|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|3b3b7f45-4273-4518-93a0-0e0ca2411249"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|3a846af1-5867-492f-8405-583394088a05|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|3a846af1-5867-492f-8405-583394088a05"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|ffc5e1e8-7af1-48e5-85d4-3f1c52bfc15c|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|ffc5e1e8-7af1-48e5-85d4-3f1c52bfc15c"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|a06b3da2-c72b-419f-83b4-ef39fd23c041|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|a06b3da2-c72b-419f-83b4-ef39fd23c041"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|a0786121-d768-4040-91b2-a48e11f3a7c7|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|a0786121-d768-4040-91b2-a48e11f3a7c7"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|3bf75c9f-a4db-406b-bcd6-bfe812463392|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|3bf75c9f-a4db-406b-bcd6-bfe812463392"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|f263dbd4-8ee4-4a85-89ac-5f91d515163e|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|f263dbd4-8ee4-4a85-89ac-5f91d515163e"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|78ac6526-6697-4594-b4f6-3f5a3cf0b376|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|78ac6526-6697-4594-b4f6-3f5a3cf0b376"
+      }
+    },
+    {
+      "_index": "chr_loan_house_index",
+      "_id": "LOAN|1e429c0a-90d7-4a47-bdcf-6c0766ea5c3c|HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+      "_score": 1,
+      "_source": {
+        "sk": "HOUSE|vana_fraud|BUCKET|bucket_gt_8",
+        "pk": "LOAN|1e429c0a-90d7-4a47-bdcf-6c0766ea5c3c"
+      }
+    }
+  ]

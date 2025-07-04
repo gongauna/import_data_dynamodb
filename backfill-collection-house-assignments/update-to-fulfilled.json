@@ -1,0 +1,932 @@
+[
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|3f58c235-d47b-4e30-b66e-ba76371746f7|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|3f58c235-d47b-4e30-b66e-ba76371746f7",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4299570a-6c14-4948-b0c1-8c7f9f692c59|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -1
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|4299570a-6c14-4948-b0c1-8c7f9f692c59",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|641bdbeb-33d7-40b7-a61f-2abef086c38e|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -16
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|641bdbeb-33d7-40b7-a61f-2abef086c38e",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a65951b2-1b7f-4229-b897-e8f10a47cfe8|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|a65951b2-1b7f-4229-b897-e8f10a47cfe8",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a0be5b7c-0f3b-4942-84b8-3aec10e5dcbc|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|a0be5b7c-0f3b-4942-84b8-3aec10e5dcbc",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4d05d506-8645-43ef-9d44-803a273e7453|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -2
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|4d05d506-8645-43ef-9d44-803a273e7453",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|3b8cf103-02f8-43b6-841e-49dfa0cf7045|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|3b8cf103-02f8-43b6-841e-49dfa0cf7045",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|cb64dd92-7f72-45c2-b9d6-28bc6a424bbc|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "unmanaged",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|cb64dd92-7f72-45c2-b9d6-28bc6a424bbc",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|244fb12e-5531-4517-8f88-cbb4f879f229|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|244fb12e-5531-4517-8f88-cbb4f879f229",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e042f4e2-9581-4216-a31f-c52d65e94244|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|e042f4e2-9581-4216-a31f-c52d65e94244",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|6b60aa2b-b141-4149-a0a3-44feb5466ea8|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -1
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|6b60aa2b-b141-4149-a0a3-44feb5466ea8",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d0bf5d83-5082-42bd-85d2-2d1a0464fe31|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "unmanaged",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|d0bf5d83-5082-42bd-85d2-2d1a0464fe31",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|34040697-8358-4e2d-8110-5c02c805f546|HOUSE|vertia_temporal|BUCKET|bucket_do_8",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -1
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_8",
+      "pk": "LOAN|34040697-8358-4e2d-8110-5c02c805f546",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|20307341-d2a3-46c3-8615-3edef9e159ba|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|20307341-d2a3-46c3-8615-3edef9e159ba",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|31c6e2dd-2ce0-47ea-9fec-589613002498|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -58
+      },
+      "assignment_status": "unmanaged",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|31c6e2dd-2ce0-47ea-9fec-589613002498",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|892193fa-2254-4c70-8918-f9958561d4a6|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|892193fa-2254-4c70-8918-f9958561d4a6",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|68452b24-6d5b-4de3-b00f-23c5dbb3972d|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -62
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|68452b24-6d5b-4de3-b00f-23c5dbb3972d",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|2ccd19cd-4174-4e26-a14b-11daee4491ef|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -2
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|2ccd19cd-4174-4e26-a14b-11daee4491ef",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|64c0af0d-7b22-4a18-8402-015336b3ab63|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|64c0af0d-7b22-4a18-8402-015336b3ab63",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f9fa4d7c-d888-451c-8bbc-39c7c6332cde|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|f9fa4d7c-d888-451c-8bbc-39c7c6332cde",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|c50dfb31-945c-48a8-9957-f26be4b925bd|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|c50dfb31-945c-48a8-9957-f26be4b925bd",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d2895b9f-8625-4c77-b841-94e71668c365|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|d2895b9f-8625-4c77-b841-94e71668c365",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1a5baa6f-a49a-4a7a-948a-fc9fe18be612|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|1a5baa6f-a49a-4a7a-948a-fc9fe18be612",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b3f3727a-8e59-4cda-bcd8-d64c006aa744|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -37
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|b3f3727a-8e59-4cda-bcd8-d64c006aa744",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|16b238e2-6e01-4b65-a2d2-2f421f3783c2|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|16b238e2-6e01-4b65-a2d2-2f421f3783c2",
+      "status": "active"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|17e5d7c6-f479-4a6e-a3e9-84082907c11d|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|17e5d7c6-f479-4a6e-a3e9-84082907c11d",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|614e6e1f-ecaa-47dd-958c-9cbf8a372bda|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|614e6e1f-ecaa-47dd-958c-9cbf8a372bda",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|5937b56a-d7ac-478e-a5d5-081eb348f3ab|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|5937b56a-d7ac-478e-a5d5-081eb348f3ab",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b0994607-eca8-4ce1-9288-b36f840ae91e|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|b0994607-eca8-4ce1-9288-b36f840ae91e",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|afcce985-4b13-46cb-bc6d-14f9ef51deae|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -31
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|afcce985-4b13-46cb-bc6d-14f9ef51deae",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|acd4e7ce-8b26-4b45-8b00-60f3c1f9fd8e|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|acd4e7ce-8b26-4b45-8b00-60f3c1f9fd8e",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|dc43c108-889b-4220-a82d-1e9bb186295c|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "unmanaged",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|dc43c108-889b-4220-a82d-1e9bb186295c",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|4e283bc9-b76a-4b37-bf91-173b673c8cea|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "unmanaged",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|4e283bc9-b76a-4b37-bf91-173b673c8cea",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|807139b5-2471-435f-b5fa-aac7ee783b6c|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|807139b5-2471-435f-b5fa-aac7ee783b6c",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|f47161d7-76ab-4d64-9844-9475ba3d830f|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -2
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|f47161d7-76ab-4d64-9844-9475ba3d830f",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d0109be6-1562-4eaa-88eb-54d8957054df|HOUSE|vertia_temporal|BUCKET|bucket_do_7",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "unmanaged",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_7",
+      "pk": "LOAN|d0109be6-1562-4eaa-88eb-54d8957054df",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|2e72b9d6-789e-4462-a117-7c75af08bc10|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|2e72b9d6-789e-4462-a117-7c75af08bc10",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1db80c52-524b-4709-800c-9f2f1b48d4f8|HOUSE|vertia_temporal|BUCKET|bucket_do_8",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 3503
+      },
+      "assignment_status": "unmanaged",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_8",
+      "pk": "LOAN|1db80c52-524b-4709-800c-9f2f1b48d4f8",
+      "status": "active"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|320050c6-d2df-48aa-8e1e-94950e91729a|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -1
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|320050c6-d2df-48aa-8e1e-94950e91729a",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|690c315b-f2ee-47ae-988a-e48bfe47cdd2|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|690c315b-f2ee-47ae-988a-e48bfe47cdd2",
+      "status": "active"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|2cb852a0-e63b-443f-854d-e0567aa79653|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -6
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|2cb852a0-e63b-443f-854d-e0567aa79653",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|63d4aceb-db49-40ff-ad0a-620d9214fbb0|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -1
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|63d4aceb-db49-40ff-ad0a-620d9214fbb0",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|6fd4356f-c0e0-4fdb-8335-8368bae09f73|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|6fd4356f-c0e0-4fdb-8335-8368bae09f73",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|e1edd795-3dce-494f-9fbd-ce3271e3adbc|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -1
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|e1edd795-3dce-494f-9fbd-ce3271e3adbc",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d8daded3-f171-4e27-8db4-4f9c148546f9|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "unmanaged",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|d8daded3-f171-4e27-8db4-4f9c148546f9",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|aafa281b-86a3-4fa3-8fc1-2582841817bb|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -1
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|aafa281b-86a3-4fa3-8fc1-2582841817bb",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d2a370ec-e6e3-4366-9ca3-c64bbde19c0b|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|d2a370ec-e6e3-4366-9ca3-c64bbde19c0b",
+      "status": "active"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|5a075e9d-493e-4170-9a10-b32d21973add|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "unmanaged",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|5a075e9d-493e-4170-9a10-b32d21973add",
+      "status": "active"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|7c3d38e5-96d1-4da9-8180-ecf576014045|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -3
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|7c3d38e5-96d1-4da9-8180-ecf576014045",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|99219fce-0828-4214-8b46-7d276cf6cc49|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|99219fce-0828-4214-8b46-7d276cf6cc49",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|b246c3c4-7128-45e1-a92e-0c95340df98c|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|b246c3c4-7128-45e1-a92e-0c95340df98c",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|0446943b-ca74-4a4e-83e3-86e31f5bdc3a|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -22
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|0446943b-ca74-4a4e-83e3-86e31f5bdc3a",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|6dcc7b7b-279f-4c42-b869-e547b934e4bb|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|6dcc7b7b-279f-4c42-b869-e547b934e4bb",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1de3bbce-335f-454e-93ca-08645ceaa800|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|1de3bbce-335f-454e-93ca-08645ceaa800",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|a32f8bde-347b-40da-a892-480939d51199|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -2
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|a32f8bde-347b-40da-a892-480939d51199",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|367d4398-bf40-4a21-bdb3-43da70e7934a|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|367d4398-bf40-4a21-bdb3-43da70e7934a",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|be3590a3-80ee-4ae8-b9f0-8f148d3d0e96|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|be3590a3-80ee-4ae8-b9f0-8f148d3d0e96",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|d8d7774e-ec17-4fe4-85b9-a0e72a228b55|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -1
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|d8d7774e-ec17-4fe4-85b9-a0e72a228b55",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|1db3fdf8-471b-4acd-a766-34b1d0e6c98e|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -4
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|1db3fdf8-471b-4acd-a766-34b1d0e6c98e",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|cd7d7b67-1350-4e29-b0c2-2c91efdcc7ef|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -3
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|cd7d7b67-1350-4e29-b0c2-2c91efdcc7ef",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|3b5cc911-efbb-4a02-a8da-746a5ff82444|HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": 0
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_3",
+      "pk": "LOAN|3b5cc911-efbb-4a02-a8da-746a5ff82444",
+      "status": "partial"
+    }
+  },
+  {
+    "_index": "chr_loan_house_index",
+    "_id": "LOAN|977034b9-d022-4af3-bd77-f8a56872c7c3|HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+    "_score": 2,
+    "_source": {
+      "house_id": "vertia_temporal",
+      "loan": {
+        "due_balance": -506
+      },
+      "assignment_status": "fulfilled",
+      "sk": "HOUSE|vertia_temporal|BUCKET|bucket_do_4",
+      "pk": "LOAN|977034b9-d022-4af3-bd77-f8a56872c7c3",
+      "status": "partial"
+    }
+  }
+]

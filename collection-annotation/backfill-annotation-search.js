@@ -24,7 +24,7 @@ const listAnnotations = async (ambiente, lastKey) => {
     findParams["ExclusiveStartKey"] = lastKey;
   }
 
-  const maxItems = 1;
+  const maxItems = 5000;
   let lastEvaluatedKey;
   let items = [];
   let moreItems = true;
@@ -77,7 +77,7 @@ const updateAnnotations = async (ambiente, item) => {
 async function backfillAnnotationsSearchField(ambiente) {
   console.log("Inicio backfill annotation search field");
 
-  let lastKey = null; //{ id: "ef1548a0-010b-4002-8f58-3636cf14e209" };
+  let lastKey = { id: "402822c4-2452-4503-a378-3d4cb056600a" };
   let count = 0;
   let counterUpdate = 0;
   while (count < 1) {
@@ -100,7 +100,7 @@ async function backfillAnnotationsSearchField(ambiente) {
           id: item.id,
           search: `SOURCE|vana|USER|${item.user_id}`,
         };
-        return 1;//updateAnnotations(ambiente, obj);
+        return updateAnnotations(ambiente, obj);
       })
     );
     console.log("Cantidad actualizados:" + counterUpdate);
